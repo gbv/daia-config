@@ -1,0 +1,340 @@
+################################################################################ 
+# Diese Datei leigt die Bedeutung des Ausleihindikators (Kategorie 209A $d /   #
+# 701x in Pica3) fest. Für jeden möglichen Wert muss angegeben werden, welche  #
+# DAIA-Dienste jeweils standardmäßig verfügbar bzw. nicht verfügbar sind.      #
+#                                                                              #
+# Auf der Kommandozeile kann YAML folgendermaßen nach JSON umgewandelt werden: #
+# perl -MYAML -MJSON -E 'say JSON->new->pretty->encode(Load(join("",<>)))' < \ #
+#   ausleihindikator.yaml                                                      #
+################################################################################
+
+# GBV-Katalogisierungsrichtlinie als Standardwert, siehe
+# http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/7100.pdf
+"":
+
+    # Standardwert, falls kein Indikator angegeben
+    default: u 
+
+    # ausleihbar/Fernleihe
+    u:
+        presentation:
+            is: available
+        loan:
+            is: available
+        interloan:
+            is: available
+    
+    # verkürzt ausleihbar / Fernleihe
+    b:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "kürzere Ausleihfrist"
+        interloan:
+            is: available
+
+    # mit Zustimmung ausleihbar / Fernleihe
+    d:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "mit Zustimmung"
+        interloan:
+            is: available
+
+
+    # mit Zustimmung ausleihbar / Fernleihe nur Kopie
+    s:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "mit Zustimmung"
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+    
+    # ausleihbar / keine Fernleihe
+    c:
+        presentation:
+            is: available
+        loan:
+            is: available
+        interloan:
+            is: unavailable
+
+    # Lesesaalausleihe / keine Fernleihe
+    i:
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    # für Ausleihe gesperrt / keine Fernleihe
+    g:
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    # Lesesaalausleihe / nur Kopie in die Fernleihe
+    f:
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+    # bestellt
+    a:
+        presentation:
+            is: unavailable
+            expected: unknown
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
+
+    # bestellt, Verlust, keine Angabe, unbekanter Indikator
+    "":
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
+
+# hier einzelne Bibliotheken, abweichend vom GBV...
+
+"opac-de-luen4":
+
+    # verkürzt ausleihbar / Fernleihe / Bsp-PPN 509536719
+    b:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Kurzausleihe"
+        interloan:
+            is: available
+
+   # mit Zustimmung ausleihbar / Fernleihe / Bsp-PPN 332638626
+    d:
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    # mit Zustimmung ausleihbar / Fernleihe nur Kopie / Bsp-PPN 119256371
+    s:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Kurzausleihe"
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+    # ausleihbar / keine Fernleihe
+    c:
+        presentation:
+            is: available
+        loan:
+            is: available
+        interloan:
+            is: unavailable
+
+    # Lesesaalausleihe / keine Fernleihe / Bsp-PPN 610597310
+    i:
+        presentation:
+            is: available
+            limitation: "sekretiert - bitte nachfragen"
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    # für Ausleihe gesperrt / keine Fernleihe
+    g:
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    # Lesesaalausleihe / nur Kopie in die Fernleihe
+    f:
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+    # bestellt / keine Fernleihe / Bsp-PPN 689529023
+    a:
+        message: "bestellt / in Bearbeitung"
+        presentation:
+            is: unavailable
+            expected: unknown
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
+
+    # keine Angabe / keine Fernleihe / Bsp-PPN 558459870
+    z:
+        message: "vermisst / Verlust"
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
+
+    # Standardwert, falls kein Indikator gesetzt
+    default: u 
+
+    # bestellt, Verlust, keine Angabe, unbekanter Indikator
+    "":
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
+
+"opac-de-hil2":
+   
+    # verkürzt ausleihbar / Fernleihe
+    b:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "kürzere Ausleihfrist"
+        interloan:
+            is: available
+
+    # mit Zustimmung ausleihbar / Fernleihe
+    d:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "mit Zustimmung ausleihbar"
+        interloan:
+            is: available
+
+
+    # Lesesaalausleihe / Fernleihe nur Kopie
+    s:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "nur Lesesaalbenutzung"
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+    
+    # ausleihbar / keine Fernleihe
+    c:
+        presentation:
+            is: available
+        loan:
+            is: available
+        interloan:
+            is: unavailable
+
+    # Lesesaalausleihe / keine Fernleihe
+    i:
+        presentation:
+            is: available
+            limitation: "nur vor Ort benutzbar"
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    # für Ausleihe gesperrt / keine Fernleihe
+    g:
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    # Lesesaalausleihe / nur Kopie in die Fernleihe
+    f:
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+    # bestellt
+    a:
+        presentation:
+            is: unavailable
+            expected: unknown
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
+
+    # ausleihe nur für Universitätsangehörige / keine Fernleihe
+    o:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "nur für Universitätsangehörige"
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
+
+    # Standardwert, falls kein Indikator gesetzt
+    default: u 
+
+    # Unbekannter Indikator
+    "":
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
+
+

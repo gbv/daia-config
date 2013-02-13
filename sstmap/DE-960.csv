@@ -1,0 +1,6 @@
+sst, department, storage, storagehome
+"z", "ISIL DE-960-1"
+"bv", "ISIL DE-960-4"
+"dgs magazin.*", "ISIL DE-960-7@magazin"
+"dgs sem.-app. (.*)", "ISIL DE-960-7","Semesterapparat $1"
+"dgs.*", "ISIL DE-960-7"

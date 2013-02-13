@@ -1,0 +1,21 @@
+sst, department, storage, storagehome
+a0,@wire
+a1,@py
+e2,@py
+a4,@bmi
+cb,@cb
+kibu,@kibu,"2.UG"
+
+zfm,@zfm,"Zeitschriftenfreihandmagazin",http://www.biblio.tu-bs.de/plan/Lageplan-1.html
+ls1,@ls1,"Lesesaal 1 (1. OG)",http://www.biblio.tu-bs.de/plan/Lageplan01.html
+ls1z,@ls1,"Lesesaal 1 ZFM (1. OG)",http://www.biblio.tu-bs.de/plan/Lageplan01.html
+ls2,@ls2,"Lesesaal 2 (2. OG)",http://www.biblio.tu-bs.de/plan/Lageplan02.html
+ls2py,@ls2,"Lesesaal 2 Standort Physik (2. OG)",http://www.biblio.tu-bs.de/plan/Lageplan02.html
+ls2z,@ls2,"Lesesaal 2 ZFM (2. OG )",http://www.biblio.tu-bs.de/plan/Lageplan02.html
+ls2zp,@ls2,"Lesesaal 2 ZFM (2. OG)",http://www.biblio.tu-bs.de/plan/Lageplan02.html
+ls3,@ls3,"Lesesaal 3 (3. OG)",http://www.biblio.tu-bs.de/plan/Lageplan03.html
+ls3z,@ls3,"Lesesaal 3 ZFM (3. OG)",http://www.biblio.tu-bs.de/plan/Lageplan03.html
+
+lv,-
+lb,@lb,"Lehrbuchsammlung (Erdgeschoss)",http://www.biblio.tu-bs.de/plan/LageplanLB.html
+

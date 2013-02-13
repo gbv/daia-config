@@ -1,0 +1,10 @@
+# temporary files
+*~
+~$*
+.#*
+.*.sw?
+*.DS_Store
+[Tt]humbs.db
+
+# subversion files
+.svn
