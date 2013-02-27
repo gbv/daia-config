@@ -32,6 +32,9 @@ Derzeit gibt es folgende Konfigurationsdateien:
 * **`ausleihindikator.yaml`**: 
   Mapping von Ausleihcodes auf DAIA-Services.
 
+* **`materialcodes.yaml'**:
+  Mapping von 002@ auf Materialcode (Material-ADI)
+
 *Eine genauere Beschreibung der Konfigurationsdateien folgt noch!*
 
 ## Weitere Datenquellen
