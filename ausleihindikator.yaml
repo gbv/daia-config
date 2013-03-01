@@ -337,4 +337,24 @@
         openaccess:
             is: unavailable
 
+# UB Magdeburg
+"opac-de-ma9":
+    
+    # Präsenzexemplar, nicht ausleihbar
+    c:
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    i:
+        presentation:
+            is: available
+            limitation: "schriftliche Leseerlaubnis erforderlich"
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
 
