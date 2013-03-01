@@ -4,12 +4,12 @@ Dieses git-Repository enthält die zentrale Konfiguration des DAIA-Server der
 VZG (http://daia.gbv.de/). Die jeweils aktuelle Version wird zentral auf GitHub
 verwaltet:
 
-* SSH: <git@github.com:gbv/daia-config.git> 
+* SSH: `git@github.com:gbv/daia-config.git`
 * HTTPS: <https://github.com/gbv/daia-config.git>
 
 Der Quellcode des DAIA-Servers befindet sich in einem eigenen Repository:
 
-* SSH: <git@github.com:gbv/daia.gbv.de.git>
+* SSH: `git@github.com:gbv/daia.gbv.de.git`
 * HTTPS: <https://github.com/gbv/daia.gbv.de.git>
 
 Auf dem Server wird dieses Repository üblicherweise unter `/etc/daia/`
@@ -20,7 +20,7 @@ anderes Verzeichnis als Konfigurationsverzeichnis ausgewählt werden.
 
 Derzeit gibt es folgende Konfigurationsdateien:
 
-* **`sstmap/`**: 
+* **`sstmap`**:
   Mapping von Sonderstandorten (sst) auf Standort-URIs. Für jede 
   Bibliothek kann eine eigene CSV-Datei angelegt werden, deren
   Dateiname der ISIL entspricht (z.B. `DE-84.csv`).
@@ -32,7 +32,7 @@ Derzeit gibt es folgende Konfigurationsdateien:
 * **`ausleihindikator.yaml`**: 
   Mapping von Ausleihcodes auf DAIA-Services.
 
-* **`materialcodes.yaml'**:
+* **`materialcodes.yaml`**:
   Mapping von 002@ auf Materialcode (Material-ADI)
 
 *Eine genauere Beschreibung der Konfigurationsdateien folgt noch!*
@@ -47,7 +47,7 @@ anpassen. Zusätzlich kommen folgende Datenquellen zum Einsatz:
   abgerufen als Linked Open Data von <http://uri.gbv.de/database> bzw.
   <http://uri.gbv.de/organization>.
 
-Um Beispielsweise einen neuen Standort einzurichten, muss ggf. zunächst
+Um beispielsweise einen neuen Standort einzurichten, muss ggf. zunächst
 eine Standort-URI unter <http://uri.gbv.de/organization> eingerichtet
 werden um anschließend im DAIA-Server darauf verweisen zu können.
 
@@ -98,5 +98,5 @@ Für Änderungen an der Konfiguration wird folgendes Vorgehen empfohlen:
 
 ## Was tun wenn's brennt?
 
-...*Anleitung zur Fehlerbehebung falls DAIA-Server kaputtkonfiguriert folgt*...
+... *Anleitung zur Fehlerbehebung falls DAIA-Server kaputtkonfiguriert folgt* ...
 
