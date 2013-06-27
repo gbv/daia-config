@@ -1,24 +1,42 @@
-# Zentrale Konfiguration des DAIA-Server daia.gbv.de
+# Konfiguration des DAIA-Servers der VZG
 
 Dieses git-Repository enthält die zentrale Konfiguration des DAIA-Server der
-VZG (http://daia.gbv.de/). Die jeweils aktuelle Version wird zentral auf GitHub
-verwaltet:
+VZG unter http://daia.gbv.de/. Die jeweils aktuelle Version der Konfiguration
+wird zentral auf GitHub verwaltet:
 
 * SSH: `git@github.com:gbv/daia-config.git`
 * HTTPS: <https://github.com/gbv/daia-config.git>
 
-Der Quellcode des DAIA-Servers befindet sich in einem eigenen Repository:
+Der Quellcode des DAIA-Servers befindet sich in einem eigenen, [nicht
+öffentlichen Repository](https://github.com/gbv/daia.gbv.de).
 
-* SSH: `git@github.com:gbv/daia.gbv.de.git`
-* HTTPS: <https://github.com/gbv/daia.gbv.de.git>
-
-Auf dem Server wird dieses Repository üblicherweise unter `/etc/daia/`
+Auf dem DAIA-Server wird dieses Repository üblicherweise unter `/etc/daia/`
 ausgecheckt. Durch setzen der Umgebungsvariable `DAIA_CONF` kann auch ein
 anderes Verzeichnis als Konfigurationsverzeichnis ausgewählt werden.
 
-## Übersicht der Konfigurationsdateien
+## Datenquellen
 
-Derzeit gibt es folgende Konfigurationsdateien:
+Grundsätzlich liefert der DAIA-Server Ergebnisse basierend auf folgenden
+Datenquellen:
+
+* Die in diesem Repository verwalteten 
+  [Konfigurationsdateien](#Konfigurationsdateien)
+
+* Inhalte aus PICA-Katalogen (per [unAPI](http://www.gbv.de/wikis/cls/unAPI)
+  und [SRU](http://www.gbv.de/wikis/cls/SRU).
+
+* SRU, unAPI Basis-URLs
+
+* Namen und Homepage-URLs von Organisationen und Standorten
+  (als Linked Open Data via <http://uri.gbv.de/organization/>).
+
+* Zuordnung von Organisationen zu Datenbanken, Datenbankkürzeln,
+  PICA-Katalog-URLs und SRU-Basis-URLs (via
+  (als Linked Open Data via <http://uri.gbv.de/database/>).
+
+## Konfigurationsdateien
+
+Die Konfiguration beinhaltet folgenden Dateien:
 
 * **`sstmap`**:
   Mapping von Sonderstandorten (sst) auf Standort-URIs. Für jede 
@@ -36,20 +54,6 @@ Derzeit gibt es folgende Konfigurationsdateien:
   Mapping von 002@ auf Materialcode (Material-ADI)
 
 *Eine genauere Beschreibung der Konfigurationsdateien folgt noch!*
-
-## Weitere Datenquellen
-
-Nicht alle Aspekte des DAIA-Server lassen sich über die Konfigurationsdateien
-anpassen. Zusätzlich kommen folgende Datenquellen zum Einsatz:
-
-* Die Inhalte aus GBV-Katalogen, abgerufen via **unAPI** und **SRU**.
-* Informationen *über* Kataloge, Bibliotheken und Bibliotheksstandorte,
-  abgerufen als Linked Open Data von <http://uri.gbv.de/database> bzw.
-  <http://uri.gbv.de/organization>.
-
-Um beispielsweise einen neuen Standort einzurichten, muss ggf. zunächst
-eine Standort-URI unter <http://uri.gbv.de/organization> eingerichtet
-werden um anschließend im DAIA-Server darauf verweisen zu können.
 
 ## Vor- und Nachteile der Verwaltung in einem eigenen Repository
 
@@ -95,8 +99,4 @@ Für Änderungen an der Konfiguration wird folgendes Vorgehen empfohlen:
 5. Push an das zentrale Konfigurations-Repository
 
 6. Ggf. zusätzlicher Test am Produktivsystem
-
-## Was tun wenn's brennt?
-
-... *Anleitung zur Fehlerbehebung falls DAIA-Server kaputtkonfiguriert folgt* ...
 
