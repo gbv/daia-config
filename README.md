@@ -1,59 +1,53 @@
-# Konfiguration des DAIA-Servers der VZG
+# Konfiguration für daia.gbv.de
 
-Dieses git-Repository enthält die zentrale Konfiguration des DAIA-Server der
-VZG unter http://daia.gbv.de/. Die jeweils aktuelle Version der Konfiguration
-wird zentral auf GitHub verwaltet:
+Die Konfiguration des zentralen DAIA-Servers der VZG (http://daia.gbv.de/) wird
+zentral in diesem git-Repository verwaltet. Die jeweils aktuelle Version steht
+öffentlich auf GitHub unter <https://github.com/gbv/daia-config>.
 
-* SSH: `git@github.com:gbv/daia-config.git`
-* HTTPS: <https://github.com/gbv/daia-config.git>
+## Übersicht der Konfigurationsdateien
 
-Der Quellcode des DAIA-Servers befindet sich in einem eigenen, [nicht
-öffentlichen Repository](https://github.com/gbv/daia.gbv.de).
+Derzeit gibt es folgende Konfigurationsdateien:
 
-Auf dem DAIA-Server wird dieses Repository üblicherweise unter `/etc/daia/`
+`sstmap`
+  : Mapping von Standortcodes Sonderstandorten (sst) auf Standort-URIs. Für jede 
+    Bibliothek kann eine eigene CSV-Datei angelegt werden, deren
+    Dateiname der ISIL entspricht (z.B. `DE-84.csv`).
+
+`ilnelnmap.csv`
+  : Mapping von ELN und ILN auf ISIL, Bibliotheksnamen und Ausleihcodes 
+    (Export aus dem CBS).
+
+`ausleihindikator.yaml`
+  : Mapping von Ausleihcodes auf DAIA-Services
+
+`materialcodes.yaml`
+  : Mapping von PICA-Datensatzarten (Kategorie 002@) auf Materialcodes 
+    (aka "Material-ADIs")
+
+## Einbindung in den DAIA-Server
+
+Der Quellcode des DAIA-Servers befindet sich in einem eigenen Repository:
+
+* SSH: `git@github.com:gbv/daia.gbv.de.git`
+* HTTPS: <https://github.com/gbv/daia.gbv.de.git>
+
+Auf dem Server wird dieses Repository üblicherweise unter `/etc/daia/`
 ausgecheckt. Durch setzen der Umgebungsvariable `DAIA_CONF` kann auch ein
 anderes Verzeichnis als Konfigurationsverzeichnis ausgewählt werden.
 
-## Datenquellen
+## Weitere Datenquellen
 
-Grundsätzlich liefert der DAIA-Server Ergebnisse basierend auf folgenden
-Datenquellen:
+Nicht alle Aspekte des DAIA-Server lassen sich über die Konfigurationsdateien
+anpassen. Zusätzlich kommen folgende Datenquellen zum Einsatz:
 
-* Die in diesem Repository verwalteten 
-  [Konfigurationsdateien](#Konfigurationsdateien)
+* Die Inhalte aus GBV-Katalogen, abgerufen via **unAPI** und **SRU**.
+* Informationen *über* Kataloge, Bibliotheken und Bibliotheksstandorte,
+  abgerufen als Linked Open Data von <http://uri.gbv.de/database> bzw.
+  <http://uri.gbv.de/organization>.
 
-* Inhalte aus PICA-Katalogen (per [unAPI](http://www.gbv.de/wikis/cls/unAPI)
-  und [SRU](http://www.gbv.de/wikis/cls/SRU).
-
-* SRU, unAPI Basis-URLs
-
-* Namen und Homepage-URLs von Organisationen und Standorten
-  (als Linked Open Data via <http://uri.gbv.de/organization/>).
-
-* Zuordnung von Organisationen zu Datenbanken, Datenbankkürzeln,
-  PICA-Katalog-URLs und SRU-Basis-URLs (via
-  (als Linked Open Data via <http://uri.gbv.de/database/>).
-
-## Konfigurationsdateien
-
-Die Konfiguration beinhaltet folgenden Dateien:
-
-* **`sstmap`**:
-  Mapping von Sonderstandorten (sst) auf Standort-URIs. Für jede 
-  Bibliothek kann eine eigene CSV-Datei angelegt werden, deren
-  Dateiname der ISIL entspricht (z.B. `DE-84.csv`).
-
-* **`ilnelnmap.csv`**: 
-  Mapping von ELN und ILN auf ISIL, Bibliotheksnamen und Ausleihcodes 
-  (Export aus dem CBS).
-
-* **`ausleihindikator.yaml`**: 
-  Mapping von Ausleihcodes auf DAIA-Services.
-
-* **`materialcodes.yaml`**:
-  Mapping von 002@ auf Materialcode (Material-ADI)
-
-*Eine genauere Beschreibung der Konfigurationsdateien folgt noch!*
+Um beispielsweise einen neuen Standort einzurichten, muss ggf. zunächst
+eine Standort-URI unter <http://uri.gbv.de/organization> eingerichtet
+werden um anschließend im DAIA-Server darauf verweisen zu können.
 
 ## Vor- und Nachteile der Verwaltung in einem eigenen Repository
 
