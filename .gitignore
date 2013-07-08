@@ -8,6 +8,7 @@ lbssst.csv
 .*.sw?
 *.DS_Store
 [Tt]humbs.db
+*.bak
 
 # subversion files
 .svn
