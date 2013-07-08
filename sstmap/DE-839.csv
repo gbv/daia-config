@@ -1,34 +1,34 @@
-sst;department;storage
-aktuelle ausgabe im netz der hochschule;@;Aktuelle Ausgabe im Netz der Hochschule
-ausleihtheke;@;Ausleihtheke
-bibliothek, abteilung erwerbung;@;Bibliothek, Abteilung Erwerbung
-bibliothek, abteilung katalogisierung;@;Bibliothek, Abteilung Katalogisierung
-bibliothek, abteilung leitung;@;Bibliothek, Abteilung Leitung
-bibliotheksleitung elsfleth;ISIL DE-897-1;Bibliotheksleitung Elsfleth
-frauen-technik-regal;@;Frauen-Technik-Regal
-glaswand im lesesaal;@;Glaswand im Lesesaal
-handapparat;@;Handapparat
-im netz der hochschule;@;Im Netz der Hochschule
-labor für cad cam;@;Labor für CAD/CAM
-labor für chemie;@;Labor für Chemie
-labor für den entwurf integrierter schaltungen;@;Labor für den Entwurf integrierter Schaltungen
-labor für feinwerkkonstruktion;@;Labor für Feinwerkkonstruktion
-labor für institut für konstruktions- und produktionstechnik;@;Labor für Institut für Konstruktions- und Produktionstechnik
-labor für iwp schweisstechnik;@;Labor für IWP/Schweißtechnik
-labor für kommunikations- und digitaltechnik;@;Labor für Kommunikations- und Digitaltechnik
-labor für lernkompetenzen mathematik;@;Labor für Lernkompetenzen Mathematik
-labor für maschinenbau;@;Labor für Maschinenbau
-labor für maschinenelemente;@;Labor für Maschinenelemente
-labor für medizintechnik;@;Labor für Medizintechnik
-labor für mikrocomputertechnik;@;Labor für Mikrocomputertechnik
-labor für mikrofertigung;@;Labor für Mikrofertigung
-labor für umwelttechnik;@;Labor für Umwelttechnik
-labor für werkstofftechnik;@;Labor für Werkstofftechnik
-labor für werkzeugmaschinen;@;Labor für Werkzeugmaschinen
-lesesaal;@;Lesesaal
-magazin;@;Magazin
-medienschrank;@;Medienschrank
-semesterapparat prof. sachs, glaswand im lesesaal;@;Semesterapparat Prof. Sachs, Glaswand im Lesesaal
-semesterapparat prof. schleier, glaswand im lesesaal;@;Semesterapparat Prof. Schleier, Glaswand im Lesesaal
-zeitschriftenlesesaal;@;Zeitschriftenlesesaal
-zs-cd-fach;@;ZS-CD-Fach
+sst,department,storage
+aktuelle ausgabe im netz der hochschule,@,Aktuelle Ausgabe im Netz der Hochschule
+ausleihtheke,@,Ausleihtheke
+bibliothek, abteilung erwerbung,@,Bibliothek, Abteilung Erwerbung
+bibliothek, abteilung katalogisierung,@,Bibliothek, Abteilung Katalogisierung
+bibliothek, abteilung leitung,@,Bibliothek, Abteilung Leitung
+bibliotheksleitung elsfleth,ISIL DE-897-1,Bibliotheksleitung Elsfleth
+frauen-technik-regal,@,Frauen-Technik-Regal
+glaswand im lesesaal,@,Glaswand im Lesesaal
+handapparat,@,Handapparat
+im netz der hochschule,@,Im Netz der Hochschule
+labor fÃ¼r cad cam,@,Labor fÃ¼r CAD/CAM
+labor fÃ¼r chemie,@,Labor fÃ¼r Chemie
+labor fÃ¼r den entwurf integrierter schaltungen,@,Labor fÃ¼r den Entwurf integrierter Schaltungen
+labor fÃ¼r feinwerkkonstruktion,@,Labor fÃ¼r Feinwerkkonstruktion
+labor fÃ¼r institut fÃ¼r konstruktions- und produktionstechnik,@,Labor fÃ¼r Institut fÃ¼r Konstruktions- und Produktionstechnik
+labor fÃ¼r iwp schweisstechnik,@,Labor fÃ¼r IWP/SchweiÃ®technik
+labor fÃ¼r kommunikations- und digitaltechnik,@,Labor fÃ¼r Kommunikations- und Digitaltechnik
+labor fÃ¼r lernkompetenzen mathematik,@,Labor fÃ¼r Lernkompetenzen Mathematik
+labor fÃ¼r maschinenbau,@,Labor fÃ¼r Maschinenbau
+labor fÃ¼r maschinenelemente,@,Labor fÃ¼r Maschinenelemente
+labor fÃ¼r medizintechnik,@,Labor fÃ¼r Medizintechnik
+labor fÃ¼r mikrocomputertechnik,@,Labor fÃ¼r Mikrocomputertechnik
+labor fÃ¼r mikrofertigung,@,Labor fÃ¼r Mikrofertigung
+labor fÃ¼r umwelttechnik,@,Labor fÃ¼r Umwelttechnik
+labor fÃ¼r werkstofftechnik,@,Labor fÃ¼r Werkstofftechnik
+labor fÃ¼r werkzeugmaschinen,@,Labor fÃ¼r Werkzeugmaschinen
+lesesaal,@,Lesesaal
+magazin,@,Magazin
+medienschrank,@,Medienschrank
+semesterapparat prof. sachs, glaswand im lesesaal,@,Semesterapparat Prof. Sachs, Glaswand im Lesesaal
+semesterapparat prof. schleier, glaswand im lesesaal,@,Semesterapparat Prof. Schleier, Glaswand im Lesesaal
+zeitschriftenlesesaal,@,Zeitschriftenlesesaal
+zs-cd-fach,@,ZS-CD-Fach
