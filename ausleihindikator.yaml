@@ -358,3 +358,7 @@
         interloan:
             is: unavailable
 
+# UB Ilmenau
+"opac-de-ilm1":
+    default: g 
+
