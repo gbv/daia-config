@@ -360,5 +360,16 @@
 
 # UB Ilmenau
 "opac-de-ilm1":
+    # Standardwert, falls kein Ausleihindikator angegeben
     default: g 
+
+    # mit Zustimmung ausleihbar / Fernleihe nur Kopie / Handapparate und ZS-Einzelbaende
+    s:
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: available
+            limitation: "nur Kopie"
 
