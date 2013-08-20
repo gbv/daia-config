@@ -13,7 +13,7 @@ sst,department,storage
 192,@mag
 193,@mag
 HA(.*),@ha,Handapparat $1
-00\\.1,@ha
+00\.1,@ha
 1,@ha
 01\.[0-9],@ha
 2,@ha
@@ -23,6 +23,7 @@ HA(.*),@ha,Handapparat $1
 6,@ha
 7,@ha
 9,@ha
+72,@ha
 09\.2,@ha
 09\.3,@ha
 09\.4,@ha
