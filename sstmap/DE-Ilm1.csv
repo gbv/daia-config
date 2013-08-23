@@ -1,32 +1,32 @@
 sst,department,storage
-30,@mag
-31,@mag
-45,@mag
-80,@mag
-81,@mag
-90,@mag
-91,@mag
-93,@mag
-96,@mag
-97,@mag
-99,@mag
-192,@mag
-193,@mag
+30,@mag,
+31,@mag,
+45,@mag,
+80,@mag,
+81,@mag,
+90,@mag,
+91,@mag,
+93,@mag,
+96,@mag,
+97,@mag,
+99,@mag,
+192,@mag,
+193,@mag,
 HA(.*),@ha,Handapparat $1
-00\.1,@ha
-1,@ha
-01\.[0-9],@ha
-2,@ha
-3,@ha
-4,@ha
-5,@ha
-6,@ha
-7,@ha
-9,@ha
-72,@ha
-09\.2,@ha
-09\.3,@ha
-09\.4,@ha
+00\.1,@ha,
+1,@ha,
+01\.[0-9],@ha,
+2,@ha,
+3,@ha,
+4,@ha,
+5,@ha,
+6,@ha,
+7,@ha,
+9,@ha,
+72,@ha,
+09\.2,@ha,
+09\.3,@ha,
+09\.4,@ha,
 50,@curie,Standort 50
 51,@curie,Standort 51
 54,@curie,Standort 54
@@ -72,6 +72,6 @@ HA(.*),@ha,Handapparat $1
 101,@,Standort 101
 102,@,Standort 102
 SEM(.*),@,Semesterapparat $1
-HSB,-
-Internet,@
-Online,@
+HSB,-,
+Internet,@,
+Online,@,
