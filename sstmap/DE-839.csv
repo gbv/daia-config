@@ -1,9 +1,9 @@
 sst,department,storage
 aktuelle ausgabe im netz der hochschule,@,Aktuelle Ausgabe im Netz der Hochschule
 ausleihtheke,@,Ausleihtheke
-bibliothek, abteilung erwerbung,@,Bibliothek, Abteilung Erwerbung
-bibliothek, abteilung katalogisierung,@,Bibliothek, Abteilung Katalogisierung
-bibliothek, abteilung leitung,@,Bibliothek, Abteilung Leitung
+bibliothek, abteilung erwerbung,@,"Bibliothek, Abteilung Erwerbung"
+bibliothek, abteilung katalogisierung,@,"Bibliothek, Abteilung Katalogisierung"
+bibliothek, abteilung leitung,@,"Bibliothek, Abteilung Leitung"
 bibliotheksleitung elsfleth,ISIL DE-897-1,Bibliotheksleitung Elsfleth
 frauen-technik-regal,@,Frauen-Technik-Regal
 glaswand im lesesaal,@,Glaswand im Lesesaal
@@ -28,7 +28,7 @@ labor für werkzeugmaschinen,@,Labor für Werkzeugmaschinen
 lesesaal,@,Lesesaal
 magazin,@,Magazin
 medienschrank,@,Medienschrank
-semesterapparat prof. sachs, glaswand im lesesaal,@,Semesterapparat Prof. Sachs, Glaswand im Lesesaal
-semesterapparat prof. schleier, glaswand im lesesaal,@,Semesterapparat Prof. Schleier, Glaswand im Lesesaal
+semesterapparat prof. sachs, glaswand im lesesaal,@,"Semesterapparat Prof. Sachs, Glaswand im Lesesaal"
+semesterapparat prof. schleier, glaswand im lesesaal,@,"Semesterapparat Prof. Schleier, Glaswand im Lesesaal"
 zeitschriftenlesesaal,@,Zeitschriftenlesesaal
 zs-cd-fach,@,ZS-CD-Fach

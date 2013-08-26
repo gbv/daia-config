@@ -1,7 +1,7 @@
-sst, department, storage, storagehome
-"dhip", "@"
-"p-bestellt", "@"
+sst, department, storage
+"dhip", "@",
+"p-bestellt", "@",
 "p-lesesaal", "@","Lesesaal"
 "p-kartenschrank.*", "@magazin","Kartenschrank"
-"p-mag[1-9]","@magazin"
-"p-keller","@magazin"
+"p-mag[1-9]","@magazin",
+"p-keller","@magazin",

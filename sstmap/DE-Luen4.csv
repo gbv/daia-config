@@ -1,28 +1,28 @@
-sst, department, storage, storagehome
-aga,@agenda21
-cam,@
-elb,@elbschloss
-lbs,@lehrbuchsammlung
-math,@math
+sst, department, storage
+aga,@agenda21,
+cam,@,
+elb,@elbschloss,
+lbs,@lehrbuchsammlung,
+math,@math,
 video,@,Medienzentrum
-ost,@ost
-sdd,@sdd
-sdt,@sdt
-rot,ISIL DE-Luen4-1
-ifh,@schul
-ffb,@ffb
-fpy,@psych
-sfr,@frg
-stb,@stb
-suc,@suc
-sgr,@sgr
-vol,ISIL DE-Luen4-2
+ost,@ost,
+sdd,@sdd,
+sdt,@sdt,
+rot,ISIL DE-Luen4-1,
+ifh,@schul,
+ffb,@ffb,
+fpy,@psych,
+sfr,@frg,
+stb,@stb,
+suc,@suc,
+sgr,@sgr,
+vol,ISIL DE-Luen4-2,
 sm00([1-9]),@,Seminarapparat $1
 sm0([1-9][0-9]),@,Seminarapparat $1
 sm([1-9][0-9][0-9]),@,Seminarapparat $1
-smu,@kmu
-zefw,@fern
-zefws,@fstade
-zv,@,Zentrale Verwaltung
-vol,@,Außenmagazin
-hsb,-
+smu,@kmu,
+zefw,@fern,
+zefws,@fstade,
+zv,@,Zentrale Verwaltung,
+vol,@,Außenmagazin,
+hsb,-,

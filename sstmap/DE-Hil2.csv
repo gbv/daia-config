@@ -1,8 +1,8 @@
 sst, department, storage, storagehome
-ami,@ami
-azp,@azp
+ami,@ami,
+azp,@azp,
 arbeitsbibliothek holthusen,@,Arbeitsbibliothek Holthusen
-ha|hb,@hand
+ha|hb,@hand,
 s-mediothek|mediothek,@,Mediothek
 leselounge,@,Leselounge
 leihstelle,@,Leihstelle
