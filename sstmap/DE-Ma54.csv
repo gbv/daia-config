@@ -1,52 +1,33 @@
 sst,department,storage
 frei,@,Bibliothek Freihand
 maga,@,Magazin Keller
-n0\.06,@,Standort N0.06
-n0\.19,@,Standort N0.19
-n0\.20,@,Standort N0.20
-n1\.03,@,Standort N1.03
-n2\.02,@,Standort N2.02
-n2\.04,@,Standort N2.04
-n2\.11,@,Standort N2.11
-n3\.07,@,Standort N3.07
-n3\.10,@,Standort N3.10
+n0\.06,@,N0.06
+n0\.19,@,N0.19
+n0\.20,@,N0.20
+n1\.03,@,N1.03
+n2\.02,@,N2.02
+n2\.04,@,N2.04
+n2\.11,@,N2.11
+n3\.07,@,N3.07
+n3\.10,@,N3.10
 neue,@,Bibliothek Neuerwerbungsregal
-s1\.15,@,Standort S1.15
-s1\.16,@,Standort S1.16
-s2\.04,@,Standort S2.04
-s2\.07,@,Standort S2.07
-s2\.08,@,Standort S2.08
-s2\.15,@,Standort S2.15
-s2\.16,@,Standort S2.16
-t0\.06,@,Standort T0.06
-t1\.03,@,Standort T1.03
-t1\.05,@,Standort T1.05
-t1\.11,@,Standort T1.11
-t1\.14,@,Standort T1.14
-v1\.02,@,Standort V1.02
-v1\.04,@,Standort V1.04
-v2\.02,@,Standort V2.02
-v2\.04,@,Standort V2.04
-v2\.05,@,Standort V2.05
-v2\.06,@,Standort V2.06
-v2\.07,@,Standort V2.07
-v2\.08,@,Standort V2.08
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+s1\.15,@,S1.15
+s1\.16,@,S1.16
+s2\.04,@,S2.04
+s2\.07,@,S2.07
+s2\.08,@,S2.08
+s2\.15,@,S2.15
+s2\.16,@,S2.16
+t0\.06,@,T0.06
+t1\.03,@,T1.03
+t1\.05,@,T1.05
+t1\.11,@,T1.11
+t1\.14,@,T1.14
+v1\.02,@,V1.02
+v1\.04,@,V1.04
+v2\.02,@,V2.02
+v2\.04,@,V2.04
+v2\.05,@,V2.05
+v2\.06,@,V2.06
+v2\.07,@,V2.07
+v2\.08,@,V2.08
