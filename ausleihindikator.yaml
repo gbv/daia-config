@@ -373,3 +373,111 @@
             is: available
             limitation: "nur Kopie"
 
+# UB Potsdam
+"opac-de-517":
+    
+    # Standardwert, falls kein Indikator angegeben
+    default: u
+
+    # ausleihbar/Fernleihe
+    u:
+        presentation:
+            is: available
+        loan:
+            is: available
+        interloan:
+            is: available
+
+    # Fernleihexemplar/keine Fernleihe
+    b:
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    # Handapparat / Fernleihe
+    d:
+        #message: Dieser Bestand ist außerhalb der UB aufgestellt. Bitte wenden Sie sich an die Informationsplätze der Bereichsbibliotheken.
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "mit Zustimmung"
+        interloan:
+            is: available
+
+    # Präsenzbestand / Fernleihe nur Kopie
+    s:
+        #message: Bitte nutzen Sie diesen Bestand vor Ort.
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+    # Lehrbuchsammlung / keine Fernleihe
+    c:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Vormerken / Bestellen und Fristverlängerungen nicht möglich."
+        interloan:
+            is: unavailable
+
+    # Magazinbestand / keine Fernleihe
+    i:
+        #message: Es gelten besondere Nutzungsbedingungen. Bitte wenden Sie sich an die Informationsplätze der Bereichsbibliotheken.
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    # zur Zeit in Bearbeitung / keine Fernleihe
+    g:
+        presentation:
+            is: available
+            expected: unknown
+        loan:
+            is: unavailable
+
+        interloan:
+            is: unavailable
+
+    # Magazinbestand / nur Kopie in die Fernleihe
+    f:
+        #message: Es gelten besondere Nutzungsbedingungen. Bitte wenden Sie sich an die Informationsplätze der Bereichsbibliotheken.
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+    # Für die UB bestellt
+    a:
+        presentation:
+            is: available
+            expected: unknown
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
+
+    # Verlust / keine Fernleihe
+    z:
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
