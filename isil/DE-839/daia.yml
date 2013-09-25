@@ -1,0 +1,7 @@
+# DAIA-Konfiguration für die Bibliothek der Jade Hochschule (ISIL DE-839)
+
+extension:
+
+    # Exemplarbezogener Kommentar in 237A$a (Pica3 4801) immer als Limitation ausliefern
+    limitation_from: 237A$a
+
