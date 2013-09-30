@@ -1,21 +1,17 @@
 sst, department, storage
-magazin, @magazin,
-oer1, @lehrstuhl, Lehrstuhl Öffentliches Recht 1
-oer2, @lehrstuhl, Claussen-Simon-Stiftungslehrstuhl für Internationales Recht
-oer3, @lehrstuhl, Lehrstuhl Öffentliches Recht 3
-oer4, @lehrstuhl, Lehrstuhl Öffentliches Recht 4
-oer6, @, ???
-pr1, @lehrstuhl, Lehrstuhl Privatrecht 1
-pr2, @lehrstuhl, Lehrstuhl Privatrecht 2
-pr3, @lehrstuhl, Lehrstuhl Privatrecht 3
-pr4, @lehrstuhl, Lehrstuhl Privatrecht 4
-pr5, @lehrstuhl, Lehrstuhl Privatrecht 5
-pr6, @lehrstuhl, Lehrstuhl Privatrecht 6
-pr6-wa, @lehrstuhl, "Lehrstuhl Privatrecht, Wissenschaftl. Assistent"
-sr1, @lehrstuhl, Lehrstuhl Strafrecht 1
-sr2, @lehrstuhl, Lehrstuhl Strafrecht 2
-sr4, @, ???
-sr p, @, ???
-st, @lehrstuhl, Lehrstuhl Steuerrecht/Institut für Stiftungsrecht
-gr, @lehrstuhl, Lehrstuhl Grundlagen des Rechts
-zjl, @, ???
+magazin, @, Magazin
+oer1, @, Lehrstuhl Öffentliches Recht 1
+oer2, @, Claussen-Simon-Stiftungslehrstuhl für Internationales Recht
+oer3, @, Lehrstuhl Öffentliches Recht 3
+oer4, @, Lehrstuhl Öffentliches Recht 4
+pr1, @, Lehrstuhl Privatrecht 1
+pr2, @, Lehrstuhl Privatrecht 2
+pr3, @, Lehrstuhl Privatrecht 3
+pr4, @, Lehrstuhl Privatrecht 4
+pr5, @, Lehrstuhl Privatrecht 5
+pr6, @, Lehrstuhl Privatrecht 6
+pr6-wa, @, "Lehrstuhl Privatrecht, Wissenschaftl. Assistent"
+sr1, @, Lehrstuhl Strafrecht 1
+sr2, @, Lehrstuhl Strafrecht 2
+st, @, Lehrstuhl Steuerrecht/Institut für Stiftungsrecht
+gr, @, Lehrstuhl Grundlagen des Rechts
