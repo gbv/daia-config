@@ -1,0 +1,90 @@
+#!/usr/bin/env perl
+use strict;
+use MediaWiki::API;
+use JSON;
+use utf8;
+
+my $mw = MediaWiki::SimpleUpdate->new('mediawiki.json');
+$mw->update; # page
+$mw->upload; # file
+
+package MediaWiki::SimpleUpdate;
+use MediaWiki::API;
+use JSON;
+use Carp;
+use Encode;
+use utf8;
+
+sub new {
+    my ($class, $file) = @_;
+
+    my $self = bless 
+        decode_json(slurp($file))
+    , $class;
+
+    for (grep { !$self->{$_} } qw(wiki api username password)) {
+        croak "missing config value $_ in $file!\n";
+    }
+   
+    $self->{mw} = MediaWiki::API->new({ 
+        api_url    => $self->{api},
+        on_error   => sub { $self->error }, 
+        upload_url => $self->{wiki} . 'Special:Upload'
+    });
+
+    $self->{mw}->login({ 
+        lgname     => $self->{username}, 
+        lgpassword => $self->{password},
+    });
+
+    $self;
+}
+
+sub slurp {
+    no warnings;
+    local (@ARGV, $/) = @_; <> || croak "$_[0] not found"
+}
+
+sub error {
+    my ($self) = @_;
+    croak $self->{mw}->{error}->{code} . ': ' . $self->{mw}->{error}->{details}; 
+}
+
+sub update {
+    my ($self) = @_;
+    return unless $self->{file} and $self->{page};
+
+    my $text = join "\n", grep { $_ } (
+        $self->{prepend}, 
+        decode('utf8',slurp($self->{file})), 
+        $self->{append});
+
+    $self->{mw}->edit({ 
+        action  => 'edit', 
+        title   => $self->{page}, 
+        text    => $text,
+        comment => 'update', # TODO: selfure this
+    });
+
+    my $title = $self->{page};
+    $title =~ tr/ /_/;
+    printf "%s uploaded to %s%s\n", $self->{file}, $self->{wiki}, $title;
+}
+
+sub upload {
+    my ($self) = @_;
+    my $filename = $self->{upload} or return;
+
+    $filename =~ s{.*/}{}; # strip directory
+    $self->{mw}->edit({
+        action => 'upload',
+        filename => $filename,
+        file => [$self->{upload}],
+        # summary => "...",
+        comment => 'update',
+        ignorewarnings => 0,
+    });
+    printf "%s uploaded to %sFile:%s\n", $self->{upload}, $self->{wiki}, $filename;
+}
+
+1;
