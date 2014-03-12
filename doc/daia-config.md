@@ -6,14 +6,14 @@ Diese Dokument beschreibt die Konfiguration für diese Schnittstellen.
 
 ## Voraussetzungen
 
-Grundsätzlich kann die DAIA-Spezifikation auf beliebige Weise umgesetzt werden,
-um DAIA für einen Katalog umzusetzen. Im Idealfall unterstützt die eingesetzte
+Grundsätzlich kann die DAIA-Spezifikation auf beliebige Weise benutzt werden,
+um DAIA für einen Katalog zu implementieren. Im Idealfall unterstützt die eingesetzte
 Katalogsoftware bereits standardmäßig DAIA. Für PICA-LBS-Kataloge wurde an der
 VZG ein Wrapper entwickelt, der extern DAIA bereitstellt und intern mit dem LBS
 und anderen Systemen kommuniziert. Dazu sind zunächst folgende Voraussetzungen
 zu erfüllen:
 
-* Die Bibliothek für deren Katalog DAIA konfiguriert werden soll muss im
+* Die Bibliothek, für deren Katalog DAIA konfiguriert werden soll, muss im
   [GBV-Standortverzeichnis] eingerichtet sein. Dies beinhaltet insbesondere
   einen ISIL zur Identifizierung der Bibliothek (bspw. `DE-Luen4` für die UB
   Lüneburg). Zur Überprüfung kann die entsprechende URI aufgerufen werden,
@@ -29,7 +29,13 @@ zu erfüllen:
 
 ## Grundlagen
 
-... *TODO: Was ist und kann DAIA und was nicht?* ...
+### Wozu dient DAIA?
+
+DAIA liefert eine Schnittstelle für Anwendungen, um Informationen über die (aktuelle) Verfügbarkeit von verschiedenen Diensten für spezifizierte Medien zu erhalten. Die Anfrage geschieht über eine eindeutige ID (etwa ppn) unter Definition der Einrichtung (über ISIL, s.o.) an den jeweiligen Katalog. Es findet eine Unterteilung in die Dienste Präsentation, Ausleihe und Fernleihe (und evtl. OpenAccess) statt. Zum Zweck der Automatisierung und der Kompatibilität mit mehreren Systemen sind die übermittelten Informationen so stark wie möglich standardisiert. Weitere Unterscheidungen, etwa nach physischer Form, finden nicht statt. Je nach der Kombination der Verfügbarkeiten für einzelne Dienste wird ein Ausleihindikator übergeben. Eine Übersicht über die Standardindikatoren folgt in [Teil 2.2]. Eine Einleitung in die technischen Aspekte der DAIA-Schnittstelle findet sich im Wiki des GBV unter <http://www.gbv.de/wikis/cls/Verf%C3%BCgbarkeitsrecherche_mit_DAIA>.
+
+[Teil 2.2]: <#Ausleihindikator>
+
+### Welche Daten wertet der GBV-DAIA-Server aus?
 
 Die aktuelle Verfügbarkeit von Exemplaren wird im Wesentlichen aus der
 [PICA-Kategorie 701x (Pica3) bzw. 209A (PICA+)](http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/7100.pdf)
@@ -52,8 +58,7 @@ mit folgenden Unterfeldern herangezogen:
 
 Die Pseudo-Kategorien `201@ $u` und `$v` werden *nicht* ausgewertet, da es sich
 nicht um Datenfelder sondern um Textnachrichten handelt, die zudem von jeder
-Bibliothek anders formuliert werden können. Diese Lösung hätte deshalb die
-gleichen Probleme wie Screenscraping.
+Bibliothek anders formuliert werden können. Eine Übertragung dieser Daten würde Probleme für die Automatisierung verursachen.
 
 Bislang werden nur Monografien und unselbständige Werke (j-Sätze) ausgewertet,
 d.h. bei elektronischen Publikationen, Zeitschriften, Reihen etc. kann die
@@ -61,22 +66,65 @@ DAIA-Antwort ggf. falsch sein.
 
 # Konfiguration
 
-Zur Konfiguration der DAIA-Schnittstelle einer Bibliothek, muss die Bibliothek
+Zur Konfiguration der DAIA-Schnittstelle einer Bibliothek muss die Bibliothek
 Informationen zur Belegung der Unterfelder `209A $d` (Ausleihindikator) und
 `209A $f` (Sonderstandort) bereitstellen.
 
 ## Standort
 
-Die Kategorie `209A $f` bestimmt den Standort eines Exemplars. 
+Die Kategorie `209A $f` bestimmt den Standort eines Exemplars. Allgemeine Details zur Standortverwaltung befinden sich unter <http://www.gbv.de/wikis/cls/Standortverwaltung>. 
 
-Weitere Details siehe unter
-<http://www.gbv.de/wikis/cls/Standortverwaltung>
+Um die Exemplarsätze mit Sonderstandorten (SST) zu verknüpfen, wird ein Mapping der Standorte in Form einer CSV-Datei benötigt. In dieser werden die Standortcodes mit Standortkürzeln und eventuellen Aufstellungsorten (z.B. Lehrbuchsammlung) verknüpft. Exemplarsätze ohne SST-Eintrag werden standardmäßigauf den Hauptstandort abgebildet.
+
+Die CSV-Datei hat demnach drei Spalten:
+
+* *sst:*
+
+	Der SST-Eintrag wird als regulärer Ausdruck (Perl-Syntax) interpretiert. So können ähnliche Standorte (z.B. mit fortlaufender Nummer) kompakt definiert werden.
+
+* *department:*
+
+	Ein freies Standortkürzel beginnt mit einem '@', alternativ kann hier auch eine ISIL oder eine ISIL plus Standortkürzel angegeben werden, z.B. für Teilbibliotheken mit ISIL. Einträge beginnend mit "-" sind Pseudo-Exemplare, die später herausgefiltert werden.
+
+* *storage (optional):*
+
+	Hier kann ein Aufstellungsstandort als Zeichenkette angegeben werden. Die Werte "$1" bis "$9" verweisen auf die jeweiligen regulären Ausdrücke im zugehörigen SST-Feld (siehe Bsp. 5).
+
+
+**Beispiele:**
+
+| sst | department | storage |
+|-----|------------|---------|
+| lehrb | @ | Lehrbuchsammlung |
+| magalt | @ | Magazin |
+| hb | @hand | |
+| rot | DE-Luen4-1 | |
+| sm([0-9]+) | @ | Seminarapparat $1 |
+| hsb | - | |
+| dgs magazin.* | DE-960-7@mag | |
+
+<br><br>
 
 ## Ausleihindikator
 
+Die Rückgaben für die einzelnen Dienste sind binär codiert (available oder unavailable) und lassen außerdem eine Einschränkung (limitation)  bzw. Zusatzinformation (expected) zu, die als Zeichenkette geliefert wird. Auf dieser Grundlage kann anschließend das LBS für den aktuellen Status angefragt werden.
 Die Standardkonfiguration für den Ausleihindikator entspricht den
 GBV-Katalogisierungsrichtlinien und sieht folgendermaßen aus:
 
+| Indikator | presentation | loan | interloan | (openaccess) |
+|---|---|---|---|---|
+| a | unavailable (+expected) | unavailable | unavailable | unavailable|
+| b | available | available (+limitation) | available ||
+| c | available | available | unavailable ||
+| d | available | available (+limitation) | available ||
+| f | available | unavailable | available (+limitation) | |
+| g | unavailable | unavailable | unavailable | |
+| i | available | unavailable | unavailable | |
+| s | available | available (+limitation) | available (+limitation) | |
+| u (Standard) | available | available | available | |
+| z | unavailable | unavailable | unavailable | |
+
+<br><br>
 ~~~
     # Standardwert, falls kein Indikator angegeben
     default: u
