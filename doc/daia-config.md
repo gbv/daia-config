@@ -64,6 +64,14 @@ Bislang werden nur Monografien und unselbständige Werke (j-Sätze) ausgewertet,
 d.h. bei elektronischen Publikationen, Zeitschriften, Reihen etc. kann die
 DAIA-Antwort ggf. falsch sein.
 
+Bei elektronischen Publikationen (erkennbar daran, dass Unterfeld `002@$0` mit
+`O` beginnt) werden zusätzlich die Kategorien `209R` (Lokale Angaben zum
+Zugriff auf Online-Ressourcen, Pica3: ???) und `009P` (Elektronische Adresse
+und ergänzende Angaben zum Zugriff, Pica3: 4081-4088) ausgewertet, um ggf.
+direkte Hyperlinks auf elektronische Dokumente mitzuliefern und der
+DAIA-Service "openaccess" zu setzen.
+
+
 # Konfiguration
 
 Zur Konfiguration der DAIA-Schnittstelle einer Bibliothek muss die Bibliothek
