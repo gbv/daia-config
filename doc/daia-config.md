@@ -116,21 +116,17 @@ Die CSV-Datei hat demnach drei Spalten:
 Die Rückgaben für die einzelnen Dienste sind binär codiert (available/unavailable) und lassen außerdem eine Einschränkung (limitation) bzw. Zusatzinformation (expected) zu, die als Zeichenkette geliefert werden. Der Term "expected" wird bei bestellten Medien mit der erwarteten Verfügbarkeitszeit besetzt. Auf dieser Grundlage kann anschließend das LBS für den aktuellen Status angefragt werden.
 Es wird zwischen vier verschiedenen Diensten unterschieden:
 
-* *presentation:*
+**presentation**
+	: Der Zugriff von innerhalb der Einrichtung ist möglich.
 
-	Der Zugriff von innerhalb der Einrichtung ist möglich.
+**loan**
+	:	Das Medium kann ausgeliehen werden.
 
-* *loan*:
+**interloan**
+	:	Das Medium ist zur Fernleihe zugelassen.
 
-	Das Medium kann augeliehen werden.
-
-* *interloan*:
-
-	Das Medium ist zur Fernleihe zugelassen.
-
-* *openaccess:*
-
-	Falls ein elektronisches Medium vorliegt, wird der Status des Dienstes generiert und übergeben.
+**openaccess**
+	:	Falls ein elektronisches Medium vorliegt, wird der Status des Dienstes generiert und übergeben. (s. Punkt 1.2.2, "Welche Daten wertet der GBV-DAIA-Server aus?")
 
 <br>
 
