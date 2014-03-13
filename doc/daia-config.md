@@ -31,7 +31,7 @@ zu erfüllen:
 
 ### Wozu dient DAIA?
 
-DAIA liefert eine Schnittstelle für Anwendungen, um Informationen über die (aktuelle) Verfügbarkeit von verschiedenen Diensten für spezifizierte Medien zu erhalten. Die Anfrage geschieht über eine eindeutige ID (etwa ppn) unter Definition der Einrichtung (über ISIL, s.o.) an den jeweiligen Katalog. Es findet eine Unterteilung in die Dienste Präsentation, Ausleihe und Fernleihe (und evtl. OpenAccess) statt. Zum Zweck der Automatisierung und der Kompatibilität mit mehreren Systemen sind die übermittelten Informationen so stark wie möglich standardisiert. Weitere Unterscheidungen, etwa nach physischer Form, finden nicht statt. Je nach der Kombination der Verfügbarkeiten für einzelne Dienste wird ein Ausleihindikator übergeben. Eine Übersicht über die Standardindikatoren folgt in [Teil 2.2]. Eine Einleitung in die technischen Aspekte der DAIA-Schnittstelle findet sich im Wiki des GBV unter <http://www.gbv.de/wikis/cls/Verf%C3%BCgbarkeitsrecherche_mit_DAIA>.
+DAIA liefert eine Schnittstelle für Anwendungen, um Informationen über die (aktuelle) Verfügbarkeit von verschiedenen Diensten für spezifizierte Medien zu erhalten. Die Anfrage geschieht über eine eindeutige ID (etwa ppn) unter Definition der Einrichtung (über ISIL, s.o.) an das jeweilige LBS. Es findet eine Unterteilung in die Dienste Präsentation, Ausleihe, Fernleihe und Open Access (s.u.) statt. Zum Zweck der Automatisierung und der Kompatibilität mit mehreren Systemen sind die übermittelten Informationen so stark wie möglich standardisiert. Eine Übersicht über die Verarbeitung der Standardindikatoren folgt in [Teil 2.2]. Eine Einleitung in die Anwendung der DAIA-Schnittstelle findet sich im Wiki des GBV unter <http://www.gbv.de/wikis/cls/Verf%C3%BCgbarkeitsrecherche_mit_DAIA>.
 
 [Teil 2.2]: <#Ausleihindikator>
 
@@ -61,15 +61,15 @@ nicht um Datenfelder sondern um Textnachrichten handelt, die zudem von jeder
 Bibliothek anders formuliert werden können. Eine Übertragung dieser Daten würde Probleme für die Automatisierung verursachen.
 
 Bislang werden nur Monografien und unselbständige Werke (j-Sätze) ausgewertet,
-d.h. bei elektronischen Publikationen, Zeitschriften, Reihen etc. kann die
+d.h. bei Zeitschriften, Reihen etc. kann die
 DAIA-Antwort ggf. falsch sein.
 
 Bei elektronischen Publikationen (erkennbar daran, dass Unterfeld `002@$0` mit
 `O` beginnt) werden zusätzlich die Kategorien `209R` (Lokale Angaben zum
-Zugriff auf Online-Ressourcen, Pica3: ???) und `009P` (Elektronische Adresse
+Zugriff auf Online-Ressourcen, Pica3: 7133) und `009P` (Elektronische Adresse
 und ergänzende Angaben zum Zugriff, Pica3: 4081-4088) ausgewertet, um ggf.
-direkte Hyperlinks auf elektronische Dokumente mitzuliefern und der
-DAIA-Service "openaccess" zu setzen.
+direkte Hyperlinks auf elektronische Dokumente mitzuliefern und den
+DAIA-Service "openaccess" zu setzen. Zur Zeit beschränkt sich die Auswahl auf die erste vorhandene URL, eine Überprüfung auf den Inhalt wird nicht vorgenommen.
 
 
 # Konfiguration
@@ -82,22 +82,20 @@ Informationen zur Belegung der Unterfelder `209A $d` (Ausleihindikator) und
 
 Die Kategorie `209A $f` bestimmt den Standort eines Exemplars. Allgemeine Details zur Standortverwaltung befinden sich unter <http://www.gbv.de/wikis/cls/Standortverwaltung>. 
 
-Um die Exemplarsätze mit Sonderstandorten (SST) zu verknüpfen, wird ein Mapping der Standorte in Form einer CSV-Datei benötigt. In dieser werden die Standortcodes mit Standortkürzeln und eventuellen Aufstellungsorten (z.B. Lehrbuchsammlung) verknüpft. Exemplarsätze ohne SST-Eintrag werden standardmäßigauf den Hauptstandort abgebildet.
+Um die Exemplarsätze mit Sonderstandorten (SST) zu verknüpfen, wird ein Mapping der Standorte in Form einer CSV-Datei benötigt. In dieser werden die Standortcodes mit Standortkürzeln und eventuellen Aufstellungsorten (z.B. Lehrbuchsammlung) verknüpft. Exemplarsätze ohne SST-Eintrag werden standardmäßig auf den Hauptstandort abgebildet.
 
 Die CSV-Datei hat demnach drei Spalten:
 
-* *sst:*
+**sst**
+	:	Der SST-Eintrag wird als regulärer Ausdruck (Perl-Syntax) interpretiert. So können ähnliche Standorte (z.B. mit fortlaufender Nummer) kompakt definiert werden.
 
-	Der SST-Eintrag wird als regulärer Ausdruck (Perl-Syntax) interpretiert. So können ähnliche Standorte (z.B. mit fortlaufender Nummer) kompakt definiert werden.
+**department**
+	:	Ein freies Standortkürzel beginnt mit einem '@', alternativ kann hier auch eine ISIL oder eine ISIL plus Standortkürzel angegeben werden, z.B. für Teilbibliotheken mit ISIL. Einträge beginnend mit "-" sind Pseudo-Exemplare, die später herausgefiltert werden.
 
-* *department:*
+**storage (optional)**
+	:	Hier kann ein Aufstellungsstandort als Zeichenkette angegeben werden. Die Werte "$1" bis "$9" verweisen auf die jeweiligen regulären Ausdrücke im zugehörigen SST-Feld (siehe Bsp. 5).
 
-	Ein freies Standortkürzel beginnt mit einem '@', alternativ kann hier auch eine ISIL oder eine ISIL plus Standortkürzel angegeben werden, z.B. für Teilbibliotheken mit ISIL. Einträge beginnend mit "-" sind Pseudo-Exemplare, die später herausgefiltert werden.
-
-* *storage (optional):*
-
-	Hier kann ein Aufstellungsstandort als Zeichenkette angegeben werden. Die Werte "$1" bis "$9" verweisen auf die jeweiligen regulären Ausdrücke im zugehörigen SST-Feld (siehe Bsp. 5).
-
+<br>
 
 **Beispiele:**
 
@@ -115,24 +113,59 @@ Die CSV-Datei hat demnach drei Spalten:
 
 ## Ausleihindikator
 
-Die Rückgaben für die einzelnen Dienste sind binär codiert (available oder unavailable) und lassen außerdem eine Einschränkung (limitation)  bzw. Zusatzinformation (expected) zu, die als Zeichenkette geliefert wird. Auf dieser Grundlage kann anschließend das LBS für den aktuellen Status angefragt werden.
+Die Rückgaben für die einzelnen Dienste sind binär codiert (available/unavailable) und lassen außerdem eine Einschränkung (limitation) bzw. Zusatzinformation (expected) zu, die als Zeichenkette geliefert werden. Der Term "expected" wird bei bestellten Medien mit der erwarteten Verfügbarkeitszeit besetzt. Auf dieser Grundlage kann anschließend das LBS für den aktuellen Status angefragt werden.
+Es wird zwischen vier verschiedenen Diensten unterschieden:
+
+* *presentation:*
+
+	Der Zugriff von innerhalb der Einrichtung ist möglich.
+
+* *loan*:
+
+	Das Medium kann augeliehen werden.
+
+* *interloan*:
+
+	Das Medium ist zur Fernleihe zugelassen.
+
+* *openaccess:*
+
+	Falls ein elektronisches Medium vorliegt, wird der Status des Dienstes generiert und übergeben.
+
+<br>
+
 Die Standardkonfiguration für den Ausleihindikator entspricht den
 GBV-Katalogisierungsrichtlinien und sieht folgendermaßen aus:
 
-| Indikator | presentation | loan | interloan | (openaccess) |
-|---|---|---|---|---|
+| Indikator | presentation | loan | interloan | openaccess |
+| --- | --- | --- | --- |:---:|
 | a | unavailable (+expected) | unavailable | unavailable | unavailable|
-| b | available | available (+limitation) | available ||
-| c | available | available | unavailable ||
-| d | available | available (+limitation) | available ||
-| f | available | unavailable | available (+limitation) | |
-| g | unavailable | unavailable | unavailable | |
-| i | available | unavailable | unavailable | |
-| s | available | available (+limitation) | available (+limitation) | |
-| u (Standard) | available | available | available | |
-| z | unavailable | unavailable | unavailable | |
+| b | available | available (+limitation) | available | - |
+| c | available | available | unavailable | - |
+| d | available | available (+limitation) | available | - |
+| f | available | unavailable | available (+limitation) | - |
+| g | unavailable | unavailable | unavailable | - |
+| i | available | unavailable | unavailable | - |
+| s | available | available (+limitation) | available (+limitation) | - |
+| u | available | available | available | - |
+| z | unavailable | unavailable | unavailable | - |
 
-<br><br>
+<br>
+
+In der Standardkonfiguration lauten die Limitationen wie folgt:
+
+* b: "kürzere Ausleihfrist"
+
+* d: "mit Zustimmung"
+
+* f: "nur Kopie"
+
+* s: "mit Zustimmung", "nur Kopie"
+
+<br>
+
+Es besteht die Möglichkeit, für einzelne Einrichtungen alternative Konfigurationen der Indikatoren einzurichten. Die Einstellungen werden in der Datei *ausleihindikator.yaml* im Repository der Konfiguration unter <https://github.com/gbv/daia-config> vorgenommen. Es folgt ein Ausschnitt aus dieser Datei mit einigen Standardindikatoren:
+
 ~~~
     # Standardwert, falls kein Indikator angegeben
     default: u
@@ -156,16 +189,6 @@ GBV-Katalogisierungsrichtlinien und sieht folgendermaßen aus:
         interloan:
             is: available
 
-    # mit Zustimmung ausleihbar / Fernleihe
-    d:
-        presentation:
-            is: available
-        loan:
-            is: available
-            limitation: "mit Zustimmung"
-        interloan:
-            is: available
-
     # mit Zustimmung ausleihbar / Fernleihe nur Kopie
     s:
         presentation:
@@ -173,42 +196,6 @@ GBV-Katalogisierungsrichtlinien und sieht folgendermaßen aus:
         loan:
             is: available
             limitation: "mit Zustimmung"
-        interloan:
-            is: available
-            limitation: "nur Kopie"
-    # ausleihbar / keine Fernleihe
-    c:
-        presentation:
-            is: available
-        loan:
-            is: available
-        interloan:
-            is: unavailable
-
-    # Lesesaalausleihe / keine Fernleihe
-    i:
-        presentation:
-            is: available
-        loan:
-            is: unavailable
-        interloan:
-            is: unavailable
-
-    # für Ausleihe gesperrt / keine Fernleihe
-    g:
-        presentation:
-            is: available
-        loan:
-            is: unavailable
-        interloan:
-            is: unavailable
-
-    # Lesesaalausleihe / nur Kopie in die Fernleihe
-    f:
-        presentation:
-            is: available
-        loan:
-            is: unavailable
         interloan:
             is: available
             limitation: "nur Kopie"
@@ -224,15 +211,9 @@ GBV-Katalogisierungsrichtlinien und sieht folgendermaßen aus:
             is: unavailable
         openaccess:
             is: unavailable
-
-    # bestellt, Verlust, keine Angabe, unbekanter Indikator
-    "":
-        presentation:
-            is: unavailable
-        loan:
-            is: unavailable
-        interloan:
 ~~~
+
+<br>
 
 # Weitere Informationen
 
