@@ -44,11 +44,12 @@ ermittelt. Es werden ausschließlich folgende Unterfelder ausgewertet:
 * **`209A $a`** : Signatur
 * **`209A $d`** : Ausleihindikator
 * **`209A $f`** : Sonderstandort
+
 Der Konvolutindikator (`209A $c`) und der Hinweis auf Mehrfachexemplare (`209A $e`)
 wird noch nicht berücksichtigt.
 
-Zusätzlich wird zur Bestimmung der aktuellen Verfügbarkeit und für einen Link
-auf das Ausleihsystem für Bestellungen bzw. Vormerkungen die Kategorie `201@`
+Zusätzlich werden zur Bestimmung der aktuellen Verfügbarkeit und für einen Link
+auf das Ausleihsystem für Bestellungen bzw. Vormerkungen die Kategorien `101@` und `201@`
 mit folgenden Unterfeldern herangezogen:
 
 * **`101@ $a`** : ILN, Interne Bibliotheks-ID, nur im Verbundkatalog relevant
@@ -65,8 +66,11 @@ d.h. bei Zeitschriften, Reihen etc. kann die
 DAIA-Antwort ggf. falsch sein.
 
 Bei elektronischen Publikationen (erkennbar daran, dass Unterfeld `002@$0` mit
-"O" beginnt) werden zusätzlich die Kategorien `209R` [PICA3: 7133] (http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/7133.pdf) und `009P` [PICA3: 408x] (http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/708x.pdf) in den Unterfeldern `$a`,`$S` und `$4` ausgewertet, um ggf. direkte Hyperlinks auf elektronische Dokumente mitzuliefern und den
+"O" beginnt) werden zusätzlich die Kategorien `209R` ([PICA3: 7133]) und `009P` ([PICA3: 408x]) in den Unterfeldern `$a`,`$S` und `$4` ausgewertet, um ggf. direkte Hyperlinks auf elektronische Dokumente mitzuliefern und den
 DAIA-Service "openaccess" zu setzen. Zur Zeit beschränkt sich die Auswahl auf die erste vorhandene URL, eine Überprüfung auf den Inhalt wird nicht vorgenommen.
+
+[PICA3: 7133]: http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/7133.pdf
+[PICA3: 408x]: http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/408x.pdf
 
 Ausgewertete Felder:
 
@@ -102,7 +106,6 @@ Die CSV-Datei hat demnach drei Spalten:
 	:	Hier kann ein Aufstellungsstandort als Zeichenkette angegeben werden. Die Werte "$1" bis "$9" verweisen auf die jeweiligen regulären Ausdrücke im zugehörigen SST-Feld (siehe Bsp. 5).
 
 <br>
-
 **Beispiele:**
 
 | sst | department | storage |
@@ -153,7 +156,6 @@ GBV-Katalogisierungsrichtlinien und sieht folgendermaßen aus:
 | z | unavailable | unavailable | unavailable | - |
 
 <br>
-
 In der Standardkonfiguration lauten die Limitationen wie folgt:
 
 * b: "kürzere Ausleihfrist"
