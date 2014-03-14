@@ -139,7 +139,7 @@ Es wird zwischen vier verschiedenen Diensten unterschieden:
 
 <br>
 
-Die Standardkonfiguration für den Ausleihind408x/009P\ikator entspricht den
+Die Standardkonfiguration für den Ausleihindikator entspricht den
 GBV-Katalogisierungsrichtlinien und sieht folgendermaßen aus:
 
 | Indikator | presentation | loan | interloan | openaccess |
@@ -221,17 +221,19 @@ Es besteht die Möglichkeit, für einzelne Einrichtungen alternative Konfigurati
 
 # Weitere Informationen
 <p>
-* GBV-Katalogisierungsrichtlinien für verwendete Kategorien:
-	* 7100/209A: <http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/7100.pdf>
-	* 7133/209R: <http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/7133.pdf>
-	* 408x/009P: <http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/408x.pdf>
+GBV-Katalogisierungsrichtlinien für verwendete Kategorien:
+
+* 7100/209A: <http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/7100.pdf>
+* 7133/209R: <http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/7133.pdf>
+* 408x/009P: <http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/408x.pdf>
+</p>
+
+<p>
+Wiki der GBV-Standortverwaltung:\
+<http://www.gbv.de/wikis/cls/Standortverwaltung>
 </p>
 <p>
-* Wiki der GBV-Standortverwaltung
-	* <http://www.gbv.de/wikis/cls/Standortverwaltung>
-</p>
-<p>
-* Wiki zur Einführung in die DAIA-Schnittstelle
-	* <http://www.gbv.de/wikis/cls/Verf%C3%BCgbarkeitsrecherche_mit_DAIA>
+Wiki zur Einführung in die DAIA-Schnittstelle:\
+<http://www.gbv.de/wikis/cls/Verf%C3%BCgbarkeitsrecherche_mit_DAIA>
 </p>
 
