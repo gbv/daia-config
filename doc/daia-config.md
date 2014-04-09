@@ -149,7 +149,7 @@ GBV-Katalogisierungsrichtlinien und sieht folgendermaßen aus:
 | c | available | available | unavailable | - |
 | d | available | available (+limitation) | available | - |
 | f | available | unavailable | available (+limitation) | - |
-| g | unavailable | unavailable | unavailable | - |
+| g | available | unavailable | unavailable | - |
 | i | available | unavailable | unavailable | - |
 | s | available | available (+limitation) | available (+limitation) | - |
 | u | available | available | available | - |
@@ -220,20 +220,22 @@ Es besteht die Möglichkeit, für einzelne Einrichtungen alternative Konfigurati
 <br>
 
 # Weitere Informationen
-<p>
+
 GBV-Katalogisierungsrichtlinien für verwendete Kategorien:
 
 * 7100/209A: <http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/7100.pdf>
-* 7133/209R: <http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/7133.pdf>
-* 408x/009P: <http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/408x.pdf>
-</p>
 
-<p>
-Wiki der GBV-Standortverwaltung:\
+* 7133/209R: <http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/7133.pdf>
+
+* 408x/009P: <http://www.gbv.de/vgm/info/mitglieder/02Verbund/01Erschliessung/02Richtlinien/01KatRicht/408x.pdf>
+
+Wiki der GBV-Standortverwaltung:
+
 <http://www.gbv.de/wikis/cls/Standortverwaltung>
-</p>
-<p>
-Wiki zur Einführung in die DAIA-Schnittstelle:\
+
+
+Wiki zur Einführung in die DAIA-Schnittstelle:
+
 <http://www.gbv.de/wikis/cls/Verf%C3%BCgbarkeitsrecherche_mit_DAIA>
-</p>
+
 
