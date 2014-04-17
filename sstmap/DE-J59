@@ -1,14 +1,14 @@
-sst,	department,	storage
-BZ,	@bz,	
+sst, department, storage
+BZ, @bz,	
 EZ,	@ez,	
-LS,	@ls,	Ebene -1
-LS/N,	@lsn,	Ebene -1
+LS, @ls, Ebene -1
+LS/N,	@lsn, Ebene -1
 LS/Z,	@lsz,	Ebene 1
 Mag1,	@mag1,	
 Mag2,	@mag2,	
-Sem,	@sem,	Ebene -1
-SPIE,	@spie,	Ebene -1
-Stpl,	@stpl,	Ebene 0
-Thek,	@thek,	Ebene 0
-UZ,	@uz,	Ebene -1
-VDI,	@vdi,	Ebene 0
+Sem, @sem, Ebene -1
+SPIE,	@spie, Ebene -1
+Stpl,	@stpl, Ebene 0
+Thek,	@thek, Ebene 0
+UZ,	@uz, Ebene -1
+VDI, @vdi, Ebene 0
