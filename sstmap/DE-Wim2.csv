@@ -1,60 +1,60 @@
 sst, department, storage
-LBS,	DE-Wim2@LBS,	Lehrbuchsammlung, Ebene -1, Steubenstraße 6
-F+1, 	DE-Wim2@,	Ebene +1, Neubau, Steubenstraße 6
-F+2, 	DE-Wim2@,	Ebene +2, Neubau, Steubenstraße 6
-A-0, 	DE-Wim2@Limona,	Ebene 0, Limona, Steubenstraße 8
-A+1, 	DE-Wim2@Limona,	Empore, Limona, Steubenstraße 8
-A+2, 	DE-Wim2@Limona,	Ebene +2, Limona, Steubenstraße 8
-Median,	DE-Wim2@Limona,	Multimediathek, Ebene +2, Limona, Steubenstraße 8
-thekeA0, 	DE-Wim2@Limona,	Info-Theke, Ebene 0, Limona, Steubenstraße 8
-thekeA2, 	DE-Wim2@Limona,	Info-Theke, Ebene +2, Limona, Steubenstraße 8
-thekeF1, 	DE-Wim2@,	Info-Theke, Ebene +1, Neubau, Steubenstraße 6
-thekeF2, 	DE-Wim2@,	Info-Theke, Ebene +2, Neubau, Steubenstraße 6
-SemArch	DE-Wim2@,	Semesterapparat Architektur, Ebene +1, Neubau, Steubenstraße 6
-SemGest, 	DE-Wim2@Limona,	Semesterapparat Gestaltung, Empore, Limona, Steubenstraße 8
-SemMed,	DE-Wim2@Limona,	Semesterapparat Medien, Empore, Limona, Steubenstraße 8
-SemF+2, 	DE-Wim2@,	Literaturempfehlungen, Ebene +2, Neubau, Steubenstraße 6
-Mag,	DE-Wim2@,	Magazin, Steubenstraße 6
-Mag2, 	DE-Wim2@,	Magazin, Steubenstraße 6
-Bst, 	DE-Wim2@BST,	Zweigbibliothek Baustoffe/Naturwissenschaften, Coudraystraße 7
-SemBst, 	DE-Wim2@BST,	Semesterapparat Baustoffe/Naturwissenschaften, Zweigbibliothek Coudraystraße 7
+LBS,	DE-Wim2@LBS,	Lehrbuchsammlung  Ebene -1  Steubenstraße 6
+F+1, 	DE-Wim2@,	Ebene +1  Neubau  Steubenstraße 6
+F+2, 	DE-Wim2@,	Ebene +2  Neubau  Steubenstraße 6
+A-0, 	DE-Wim2@Limona,	Ebene 0  Limona  Steubenstraße 8
+A+1, 	DE-Wim2@Limona,	Empore  Limona  Steubenstraße 8
+A+2, 	DE-Wim2@Limona,	Ebene +2  Limona  Steubenstraße 8
+Median,	DE-Wim2@Limona,	Multimediathek  Ebene +2  Limona  Steubenstraße 8
+thekeA0, 	DE-Wim2@Limona,	Info-Theke  Ebene 0  Limona  Steubenstraße 8
+thekeA2, 	DE-Wim2@Limona,	Info-Theke  Ebene +2  Limona  Steubenstraße 8
+thekeF1, 	DE-Wim2@,	Info-Theke  Ebene +1  Neubau  Steubenstraße 6
+thekeF2, 	DE-Wim2@,	Info-Theke  Ebene +2  Neubau  Steubenstraße 6
+SemArch	DE-Wim2@,	Semesterapparat Architektur  Ebene +1  Neubau  Steubenstraße 6
+SemGest, 	DE-Wim2@Limona,	Semesterapparat Gestaltung  Empore  Limona  Steubenstraße 8
+SemMed,	DE-Wim2@Limona,	Semesterapparat Medien  Empore  Limona  Steubenstraße 8
+SemF+2, 	DE-Wim2@,	Literaturempfehlungen  Ebene +2  Neubau  Steubenstraße 6
+Mag,	DE-Wim2@,	Magazin  Steubenstraße 6
+Mag2, 	DE-Wim2@,	Magazin  Steubenstraße 6
+Bst, 	DE-Wim2@BST,	Zweigbibliothek Baustoffe/Naturwissenschaften  Coudraystraße 7
+SemBst, 	DE-Wim2@BST,	Semesterapparat Baustoffe/Naturwissenschaften  Zweigbibliothek Coudraystraße 7
 W/Gest, 	DE-Wim2@Ha,	Werkstätten Gestaltung
-Spr,	DE-Wim2@Ha,	Sprachlehrzentrum, Coudraystraße 13
-Sport, 	DE-Wim2@Ha,	Sportzentrum, Belvederer Allee 25
-U-Archiv,	DE-Wim2@Ha,	Universitätsarchiv, Steubenstraße 8
-ArchivMo,	DE-Wim2@Ha,	Archiv der Moderne, Bauhausstraße 7b, Haus C, EG
-SoMag,	DE-Wim2@SoMag,	Sondermagazin, Steubenstraße 6
+Spr,	DE-Wim2@Ha,	Sprachlehrzentrum  Coudraystraße 13
+Sport, 	DE-Wim2@Ha,	Sportzentrum  Belvederer Allee 25
+U-Archiv,	DE-Wim2@Ha,	Universitätsarchiv  Steubenstraße 8
+ArchivMo,	DE-Wim2@Ha,	Archiv der Moderne  Bauhausstraße 7b  Haus C  EG
+SoMag,	DE-Wim2@SoMag,	Sondermagazin  Steubenstraße 6
 BIng(Hy), 	DE-Wim2@Ha,	Hydrolabor Schleusingen
 BIng(FA), 	DE-Wim2@Ha,	Forschungsapparate Fakultät Bauingenieurwesen
 Mat, (Ha), 	DE-Wim2@Ha,	Handbibliothek Informatik/Mathematik
 Arch(Ha), 	DE-Wim2@Ha,	Handbibliothek Fakultät Architektur
 BIng(Ha), 	DE-Wim2@Ha,	Handbibliothek Fakultät Bauingenieurwesen
-BIng(HaG), 	DE-Wim2@Ha,	Graduiertenkolleg 1462 - Modellqualitäten, Berkaerstraße 9
+BIng(HaG), 	DE-Wim2@Ha,	Graduiertenkolleg 1462 - Modellqualitäten  Berkaerstraße 9
 Ku(Ha), 	DE-Wim2@Ha,	Handbibliothek Fakultät Gestaltung
 M(Ha), 	DE-Wim2@Ha,	Handbibliothek Fakultät Medien
-M(HaG), 	DE-Wim2@Ha,	Graduiertenkolleg Mediale Historiographien, Berkaer straße 11
+M(HaG), 	DE-Wim2@Ha,	Graduiertenkolleg Mediale Historiographien  Berkaer straße 11
 Bst, (Ha), 	DE-Wim2@Ha,	Handbibliothek Fakultät Bauingenieurwesen
-Habi(Erw), 	DE-Wim2@Ha,	Handbibliothek Medienbearbeitung/Erwerbung, Steubenstraße 6
-Habi(TA), 	DE-Wim2@Ha,	Handbibliothek Medienbearbeitung/Katalogisierung, Steubenstraße 6
-Habi(F), 	DE-Wim2@Ha,	Handbibliothek Abt. Benutzung/Fernleihe, Steubenstraße 6
-Habi(Syk), 	DE-Wim2@Ha,	Handbibliothek Systematischer Katalog, Steubenstraße 6
-Habi(EDV), 	DE-Wim2@Ha,	Handbibliothek Bibliotheksadministration, Steubenstraße 2
-Habi(Dir), 	DE-Wim2@Ha,	Handbibliothek Bibliotheksdirektor, Steubenstraße 6
-Habi(Sekr), 	DE-Wim2@Ha,	Handbibliothek Sekretariat, Steubenstraße 6
-Habi(Z), 	DE-Wim2@Ha,	Handbibliothek Medienbearbeitung/Zeitschriften, Steubenstraße 6
-Kanz,	DE-Wim2@Ha,	Kanzleramt, Belvederer Allee 6
-DP,	DE-Wim2@Ha,	Dezernat Personalwesen, Belvederer Allee 6
-SL,	DE-Wim2@Ha,	Dezernat Planung und Bau, Belvederer Allee 6
-Just, 	DE-Wim2@Ha,	Justitiar, Belvederer Allee 6
-SL,	DE-Wim2@Ha,	Servicezentrum Liegenschaften, Coudraystraße 7
-SI,	DE-Wim2@Ha,	Sicherheitsingenieur, Belvedererallee 6
-STAA,	DE-Wim2@Ha,	Dezernat für Studium und Lehre, Geschwister-Scholl-Straße 15
-PR,	DE-Wim2@Ha,	Personalrat, Coudraystraße 7
-Schw,	DE-Wim2@Ha,	Schwerbehindertenvertretung, Bauhausstraße 7 b
-Glei,	DE-Wim2@Ha,	Gleichstellungsbeauftragte, Coudraystraße 7
-SCC,	DE-Wim2@Ha,	Servicezentrum f. Computersysteme u. -Komm., Steubenstraße 6 a
-Red,	DE-Wim2@Ha,	Universitätsverlag, Marienstraße 5
-Rektor,	DE-Wim2@Ha,	Rektoramt, Geschwister-Scholl-straße 8
+Habi(Erw), 	DE-Wim2@Ha,	Handbibliothek Medienbearbeitung/Erwerbung  Steubenstraße 6
+Habi(TA), 	DE-Wim2@Ha,	Handbibliothek Medienbearbeitung/Katalogisierung  Steubenstraße 6
+Habi(F), 	DE-Wim2@Ha,	Handbibliothek Abt. Benutzung/Fernleihe  Steubenstraße 6
+Habi(Syk), 	DE-Wim2@Ha,	Handbibliothek Systematischer Katalog  Steubenstraße 6
+Habi(EDV), 	DE-Wim2@Ha,	Handbibliothek Bibliotheksadministration  Steubenstraße 2
+Habi(Dir), 	DE-Wim2@Ha,	Handbibliothek Bibliotheksdirektor  Steubenstraße 6
+Habi(Sekr), 	DE-Wim2@Ha,	Handbibliothek Sekretariat  Steubenstraße 6
+Habi(Z), 	DE-Wim2@Ha,	Handbibliothek Medienbearbeitung/Zeitschriften  Steubenstraße 6
+Kanz,	DE-Wim2@Ha,	Kanzleramt  Belvederer Allee 6
+DP,	DE-Wim2@Ha,	Dezernat Personalwesen  Belvederer Allee 6
+SL,	DE-Wim2@Ha,	Dezernat Planung und Bau  Belvederer Allee 6
+Just, 	DE-Wim2@Ha,	Justitiar  Belvederer Allee 6
+SL,	DE-Wim2@Ha,	Servicezentrum Liegenschaften  Coudraystraße 7
+SI,	DE-Wim2@Ha,	Sicherheitsingenieur  Belvedererallee 6
+STAA,	DE-Wim2@Ha,	Dezernat für Studium und Lehre  Geschwister-Scholl-Straße 15
+PR,	DE-Wim2@Ha,	Personalrat  Coudraystraße 7
+Schw,	DE-Wim2@Ha,	Schwerbehindertenvertretung  Bauhausstraße 7 b
+Glei,	DE-Wim2@Ha,	Gleichstellungsbeauftragte  Coudraystraße 7
+SCC,	DE-Wim2@Ha,	Servicezentrum f. Computersysteme u. -Komm.  Steubenstraße 6 a
+Red,	DE-Wim2@Ha,	Universitätsverlag  Marienstraße 5
+Rektor,	DE-Wim2@Ha,	Rektoramt  Geschwister-Scholl-straße 8
 Habi(FRA), 	DE-Wim2@Ha,	Handbibliothek Fachreferat Architektur
 Habi(FRG), 	DE-Wim2@Ha,	Handbibliothek Fachreferat Gestaltung
 Habi(FRM), 	DE-Wim2@Ha,	Handbibliothek Fachreferat Medien
@@ -62,26 +62,28 @@ Habi(FRI), 	DE-Wim2@Ha,	Handbibliothek Fachreferat Informatik/Bauingenieurwesen
 Habi(FRB), 	DE-Wim2@Ha,	Handbibliothek Fachreferat Baustoffe/Naturwissenschaften
 Habi(H), 	DE-Wim2@Ha,	Handbibliothek Haushalt
 Kanz(IR), 	DE-Wim2@Ha,	Innenrevision
-IKKM,	DE-Wim2@Ha,	Internationales Kolleg für Kulturtechnikforschung und Medienphilosophie, Steubenstraße 6
-AA,	DE-Wim2@Ha,	Dezernat Internationale Beziehungen, Geschwister-Scholl-Str. 15
-Ausleihe,	DE-Wim2@Ha,	Ausleihtheke, Neubau, Ebene 0, Steubenstraße 6
-FIB,	DE-Wim2@Ha,	F. A. Finger-Institut für Baustoffkunde, Coudraystraße 11
-neudeli,	DE-Wim2@Ha,	Gründerwerkstatt neudeli, Helmholtzstraße 15
-Rektor(UK), 	DE-Wim2@Ha,	Universitätskommunikation, Marienstraße 9
-SCC(SoBi), 	DE-Wim2@Ha,	Servicezentrum f. Computersysteme u. -Komm., Software-Bibliothek, Steubenstraße 6 a
-Kanz,	DE-Wim2@Ha,	Kanzleramt, Kanzleramtsleiter, Belvederer Allee 6
-Kanz(IR), 	DE-Wim2@Ha,	Kanzleramt, Innenrevision, Belvederer Allee 6
-DSL,	DE-Wim2@Ha,	Dezernat für Studium und Lehre, Ref. Wiss. Weiterbildung, Coudraystraße 7
-DF,	DE-Wim2@Ha,	Dezernat Finanzen, Coudraystraße 7
-DFO,	DE-Wim2@Ha,	Dezernat Forschung, Coudraystraße 7
-BIng(TS), 	DE-Wim2@Ha,	Fakultät Bauingenieurwesen, Technischer Service, Coudraystraße 13d
-Habi(Info), 	DE-Wim2@Ha,	Universitätsbibliothek, Handapparat öffentlichkeitsarbeit, Steubenstraße 6
-Habi(T), 	DE-Wim2@Ha,	Universitätsbibliothek, Handbibliothek Tausch, Steubenstraße 6
-STAA(CS), 	DE-Wim2@Ha,	Dezernat für Studium und Lehre, Career Service, Geschwister-Scholl-Straße 15
+IKKM,	DE-Wim2@Ha,	Internationales Kolleg für Kulturtechnikforschung und Medienphilosophie  Steubenstraße 6
+AA,	DE-Wim2@Ha,	Dezernat Internationale Beziehungen  Geschwister-Scholl-Str. 15
+Ausleihe,	DE-Wim2@Ha,	Ausleihtheke  Neubau  Ebene 0  Steubenstraße 6
+FIB,	DE-Wim2@Ha,	F. A. Finger-Institut für Baustoffkunde  Coudraystraße 11
+neudeli,	DE-Wim2@Ha,	Gründerwerkstatt neudeli  Helmholtzstraße 15
+Rektor(UK), 	DE-Wim2@Ha,	Universitätskommunikation  Marienstraße 9
+SCC(SoBi), 	DE-Wim2@Ha,	Servicezentrum f. Computersysteme u. -Komm.  Software-Bibliothek  Steubenstraße 6 a
+Kanz,	DE-Wim2@Ha,	Kanzleramt  Kanzleramtsleiter  Belvederer Allee 6
+Kanz(IR), 	DE-Wim2@Ha,	Kanzleramt  Innenrevision  Belvederer Allee 6
+DSL,	DE-Wim2@Ha,	Dezernat für Studium und Lehre  Ref. Wiss. Weiterbildung  Coudraystraße 7
+DF,	DE-Wim2@Ha,	Dezernat Finanzen  Coudraystraße 7
+DFO,	DE-Wim2@Ha,	Dezernat Forschung  Coudraystraße 7
+BIng(TS), 	DE-Wim2@Ha,	Fakultät Bauingenieurwesen  Technischer Service  Coudraystraße 13d
+Habi(Info), 	DE-Wim2@Ha,	Universitätsbibliothek  Handapparat öffentlichkeitsarbeit  Steubenstraße 6
+Habi(T), 	DE-Wim2@Ha,	Universitätsbibliothek  Handbibliothek Tausch  Steubenstraße 6
+STAA(CS), 	DE-Wim2@Ha,	Dezernat für Studium und Lehre  Career Service  Geschwister-Scholl-Straße 15
 WV/Gest, 	DE-Wim2@Ha,	Werkstätten Video Gestaltung
-thekeBst, 	DE-Wim2@Ha,	Info-Theke, Zweigbibliothek Baustoffe und Naturwiss., Coudraystraße 7
-UE,	DE-Wim2@Ha,	Zentrum für Universitätsentwicklung, Amalienstraße 13
-UK,	DE-Wim2@Ha,	Universitätskommunikation, Marienstrße 9
-DIB,	DE-Wim2@Ha,	Dezernat Internationale Beziehungen, Geschwister-Scholl-Str. 15
-BRS,	DE-Wim2@Ha,	Bauhaus Research School, Berkaer Str. 9
-Mag(Fa), 	DE-Wim2@Ha,	Magazin, Steubenstraße 6
+thekeBst, 	DE-Wim2@Ha,	Info-Theke  Zweigbibliothek Baustoffe und Naturwiss.  Coudraystraße 7
+UE,	DE-Wim2@Ha,	Zentrum für Universitätsentwicklung  Amalienstraße 13
+UK,	DE-Wim2@Ha,	Universitätskommunikation  Marienstrße 9
+DIB,	DE-Wim2@Ha,	Dezernat Internationale Beziehungen  Geschwister-Scholl-Str. 15
+BRS,	DE-Wim2@Ha,	Bauhaus Research School  Berkaer Str. 9
+Mag(Fa), 	DE-Wim2@Ha,	Magazin  Steubenstraße 6
+LabBche,	DE-Wim2@Ha,	Labor Bauchemie  Fakultät Bauingenieurwesen
+LabREM,	DE-Wim2@Ha,	Labor Rasterelektronenmikroskopie  Fakultät Bauingenieurwesen
