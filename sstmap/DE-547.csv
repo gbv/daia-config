@@ -9,7 +9,7 @@ fbg smag,	ISIL DE-39,	FB Gotha: Sondermagazin,	bestellen
 fbg so,	ISIL DE-39,	FB Gotha: Sondermagazin,	Bitten wenden Sie sich an die Theke
 dpl (.*),	@,	UB Erfurt: Dienstplatz $1,	Bitte wenden Sie sich an die Theke
 ha (.*),	@,	UB Erfurt: Handapparat $1,	Bitte wenden Sie sich an die Theke
-info 01,	@,	UB Erfurt: Allgemeine Auskunft\, EG,	Bitte selbst am Standort Informationstheke entnehmen
+info 01,	@,	UB Erfurt: Allgemeine Auskunft"\," EG,	Bitte selbst am Standort Informationstheke entnehmen
 info 02,	@,	UB Erfurt: Informationszentrum\, EG,	Bitte selbst am Standort Informationstheke entnehmen
 info 21,	@,	UB Erfurt: Lesesaalinformation\, 2.OG,	Bitte selbst am Standort Informationstheke entnehmen
 kart,	@,	UB Erfurt: Kartenraum\, 2. OG,	Bitte selbst am Standort Lesesaal 2. OG entnehmen
