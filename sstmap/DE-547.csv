@@ -9,19 +9,19 @@ fbg smag,	ISIL DE-39,	FB Gotha: Sondermagazin,	bestellen
 fbg so,	ISIL DE-39,	FB Gotha: Sondermagazin,	Bitten wenden Sie sich an die Theke
 dpl (.*),	@,	UB Erfurt: Dienstplatz $1,	Bitte wenden Sie sich an die Theke
 ha (.*),	@,	UB Erfurt: Handapparat $1,	Bitte wenden Sie sich an die Theke
-info 01,	@,	UB Erfurt: Allgemeine Auskunft"," EG,	Bitte selbst am Standort Informationstheke entnehmen
-info 02,	@,	UB Erfurt: Informationszentrum\, EG,	Bitte selbst am Standort Informationstheke entnehmen
-info 21,	@,	UB Erfurt: Lesesaalinformation\, 2.OG,	Bitte selbst am Standort Informationstheke entnehmen
-kart,	@,	UB Erfurt: Kartenraum\, 2. OG,	Bitte selbst am Standort Lesesaal 2. OG entnehmen
+info 01,	@,	UB Erfurt: Allgemeine Auskunft EG,	Bitte selbst am Standort Informationstheke entnehmen
+info 02,	@,	UB Erfurt: Informationszentrum EG,	Bitte selbst am Standort Informationstheke entnehmen
+info 21,	@,	UB Erfurt: Lesesaalinformation 2.OG,	Bitte selbst am Standort Informationstheke entnehmen
+kart,	@,	UB Erfurt: Kartenraum 2. OG,	Bitte selbst am Standort Lesesaal 2. OG entnehmen
 lbs,	@,	UB Erfurt: Lehrbuchsammlung,	Ausleihbar nur fuer Angehoerige der Universitaet Erfurt
 mag,	@,	UB Erfurt: Magazin,	bestellen
 medio,	@,	UB Erfurt: Mediothek,	Bitte selbst am Standort Mediothek entnehmen
 netz,	@,	NETZ,	[Bitte wenden Sie sich an die Theke]
-sem 0(.*),	@,	UB Erfurt: Semesterapparat\, EG: 0$1,	Bitte selbst am Standort Semesterapparat entnehmen
-sem 1(.*),	@,	UB Erfurt: Semesterapparat\, 1.OG: 1$1,	Bitte selbst am Standort Semesterapparat entnehmen
-sem 2(.*),	@,	UB Erfurt: Semesterapparat\, 2.OG: 2$1,	Bitte selbst am Standort Semesterapparat entnehmen
-sls,	@,	UB Erfurt: Sonderlesesaal\, 2.OG,	Bitte selbst am Standort Sonderlesesaal 2. OG entnehmen
-slz,	@,	UB Erfurt: Selbstlernzentrum\, LG1,	Bitte selbst am Standort Campus Erfurt entnehmen
+sem 0(.*),	@,	UB Erfurt: Semesterapparat EG: 0$1,	Bitte selbst am Standort Semesterapparat entnehmen
+sem 1(.*),	@,	UB Erfurt: Semesterapparat 1.OG: 1$1,	Bitte selbst am Standort Semesterapparat entnehmen
+sem 2(.*),	@,	UB Erfurt: Semesterapparat 2.OG: 2$1,	Bitte selbst am Standort Semesterapparat entnehmen
+sls,	@,	UB Erfurt: Sonderlesesaal 2.OG,	Bitte selbst am Standort Sonderlesesaal 2. OG entnehmen
+slz,	@,	UB Erfurt: Selbstlernzentrum LG1,	Bitte selbst am Standort Campus Erfurt entnehmen
 smag,	@,	UB Erfurt: Sondermagazin,	bestellen
 sor,	@,	UB Erfurt: Sonderstandort Recht LG1,	Bitte wenden Sie sich an die Theke
 tr,	@,	UB Erfurt: Sondermagazin,	Bitte wenden Sie sich an die Theke Sonderlesesaal
