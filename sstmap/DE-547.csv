@@ -17,10 +17,10 @@ lbs,	@,	UB Erfurt: Lehrbuchsammlung,	Ausleihbar nur fuer Angehoerige der Univers
 mag,	@,	UB Erfurt: Magazin,	bestellen
 medio,	@,	UB Erfurt: Mediothek,	Bitte selbst am Standort Mediothek entnehmen
 netz,	@,	NETZ,	[Bitte wenden Sie sich an die Theke]
-sem 0(.*),	@,	"UB Erfurt: Semesterapparat, EG: 0$1",	Bitte selbst am Standort Semesterapparat entnehmen
-sem 1(.*),	@,	"UB Erfurt: Semesterapparat, 1.OG: 1$1",	Bitte selbst am Standort Semesterapparat entnehmen
-sem 2(.*),	@,	"UB Erfurt: Semesterapparat, 2.OG: 2$1",	Bitte selbst am Standort Semesterapparat entnehmen
-sls,	@,	"UB Erfurt: Sonderlesesaal, 2.OG",	Bitte selbst am Standort Sonderlesesaal 2. OG entnehmen
+sem 0(.*),	@,"UB Erfurt: Semesterapparat, EG: 0$1",	Bitte selbst am Standort Semesterapparat entnehmen
+sem 1(.*),	@,"UB Erfurt: Semesterapparat, 1.OG: 1$1",	Bitte selbst am Standort Semesterapparat entnehmen
+sem 2(.*),	@,"UB Erfurt: Semesterapparat, 2.OG: 2$1",	Bitte selbst am Standort Semesterapparat entnehmen
+sls,	@,"UB Erfurt: Sonderlesesaal, 2.OG",	Bitte selbst am Standort Sonderlesesaal 2. OG entnehmen
 slz,	@,	UB Erfurt: Selbstlernzentrum LG1,	Bitte selbst am Standort Campus Erfurt entnehmen
 smag,	@,	UB Erfurt: Sondermagazin,	bestellen
 sor,	@,	UB Erfurt: Sonderstandort Recht LG1,	Bitte wenden Sie sich an die Theke
