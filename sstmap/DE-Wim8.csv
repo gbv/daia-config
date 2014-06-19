@@ -1,21 +1,21 @@
 SST,	Standortcode,	Aufstellungsort
-MW,	@MW,	Teilbibliothek Musikwissenschaft hochschulzentrum am horn
-HSAHa,	@HSA,	Hochschularchiv | Thüringisches Landesmusikarchiv hochschulzentrum am horn
-JAZZ,	@JAZZ,	Lippmann+Rau-Musikarchiv Eisenach
-ALTB,	@,	Altbestand im Container Hauptbibliothek Platz der Demokratie 2
-ASAHa,	@HA,	Handapparat ASA Platz der Demokratie 3
-FBHa,	@HA,	Handapparate der Fakultäten Dienstexemplar
-G,	@,	Großformat im Magazin Hauptbibliothek Platz der Demokratie 2
-PAHa,	@HA,	Handapparat Personalangelegenheiten Platz der Demokratie 3
-HHHa,	@HA,	Handapparat Haushalt Platz der Demokratie 3
-HSBHaLtr,@HA,	Handapparat Leitung Hauptbibliothek Platz der Demokratie 2
-HSBHaKat,	@HA,	Handapparat Katalogisierung Hauptbibliothek Platz der Demokratie 2
-KAHa,	@HA,	Handapparat Kanzleramt Platz der Demokratie 3
-LS,	@,	Lesesaal Hauptbibliothek Platz der Demokratie 2
-MAG,	@,	Magazin Hauptbibliothek Platz der Demokratie 2
-PAL,	@HA,	Schulmusik Am Palais 4
-RAHa,	@HA,	Handapparat Rektoramt Platz der Demokratie 2
-RRHa,	@HA,	Handapparat Referat im Rektoramt Platz der Demokratie 3
-TEHa,	@HA,	Handapparat Technik
-TH,	@,	Theke Hauptbibliothek Platz der Demokratie 2
-TSHa,	@HA,	Handapparat Tonstudio Platz der Demokratie 2
+mw,	@MW,	Teilbibliothek Musikwissenschaft hochschulzentrum am horn
+hsaha,	@HSA,	Hochschularchiv | Thüringisches Landesmusikarchiv hochschulzentrum am horn
+jazz,	@JAZZ,	Lippmann+Rau-Musikarchiv Eisenach
+altb,	@,	Altbestand im Container Hauptbibliothek Platz der Demokratie 2
+asaha,	@HA,	Handapparat ASA Platz der Demokratie 3
+fbha,	@HA,	Handapparate der Fakultäten Dienstexemplar
+g,	@,	Großformat im Magazin Hauptbibliothek Platz der Demokratie 2
+paha,	@HA,	Handapparat Personalangelegenheiten Platz der Demokratie 3
+hhha,	@HA,	Handapparat Haushalt Platz der Demokratie 3
+hsbhaltr,@HA,	Handapparat Leitung Hauptbibliothek Platz der Demokratie 2
+hsbhakat,	@HA,	Handapparat Katalogisierung Hauptbibliothek Platz der Demokratie 2
+kaha,	@HA,	Handapparat Kanzleramt Platz der Demokratie 3
+ls,	@,	Lesesaal Hauptbibliothek Platz der Demokratie 2
+mag,	@,	Magazin Hauptbibliothek Platz der Demokratie 2
+pal,	@HA,	Schulmusik Am Palais 4
+raha,	@HA,	Handapparat Rektoramt Platz der Demokratie 2
+rrha,	@HA,	Handapparat Referat im Rektoramt Platz der Demokratie 3
+teha,	@HA,	Handapparat Technik
+th,	@,	Theke Hauptbibliothek Platz der Demokratie 2
+tsha,	@HA,	Handapparat Tonstudio Platz der Demokratie 2
