@@ -36,15 +36,14 @@ J 16,@phy,
 J 16 (.+),@phyha,
 J 160,@gei,Ebene 3
 J 161,@gei,Ebene 1
-J 161  BW,@geiha, Ebene 1
-J 161 KW,@geiha, Ebene 1
-J 161 MW,@geiha, Ebene 1
+J 161  (.+),@geiha, Ebene 1
 J 19,@ast,
 J 20,@nat,
+J 20 WEI,@ha,
 J 20 (.+),@naha,
 J 21,@gei,Ebene 4
-J 21 (.+),@gei,Ebene 4
-J 21 KU2,@geha,Ebene 4
+J 21 V,@gei,Ebene 4
+J 21 (.+),@geiha,Ebene 4
 J 22,@gei,Ebene 2
 J 22 (.+),@geiha,Ebene 2
 J 22 OR,@gei,Ebene 2
@@ -90,7 +89,7 @@ J 47,@häck,
 J 47 (.+),@naha,
 J 48,@vor,
 J 49,@gei,Ebene 2
-J 49 (.+),@geiha2,
+J 49 (.+),@geiha, Ebene 2
 J 5,@med,
 J 5 (.+),@medha,
 J 50,@nat,
@@ -129,4 +128,3 @@ MAG4,@mag4,
 MLS,@mls,Ebene 1
 NP,@gei,Ebene 3
 SOST,@ha,
-
