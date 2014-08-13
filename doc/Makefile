@@ -9,5 +9,5 @@ include vzgspec/Makefile
 wiki: $(NAME).wiki
 
 $(NAME).wiki: $(NAME).md
-	@$(PANDOC) $< -t mediawiki -o $@
+	@$(PANDOC) $< -t mediawiki | sed 's/^{|/{| class="wikitable"/' > $@
 

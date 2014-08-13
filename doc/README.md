@@ -7,3 +7,7 @@ KOMA-script und einige andere LaTeX-pakete benötigt:
 Außerdem muss das git-Submodule `vzgspec` vorhanden sein:
 
     git submodule update --init
+
+Zum Aktualisieren der MediaWiki-Version der Dokumentation kann das Script
+`../bin/mediawiki-upload` verwendet werden, dass eine Konfigurationsdatei
+`mediawiki.json` voraussetzt.
