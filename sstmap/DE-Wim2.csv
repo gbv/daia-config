@@ -1,89 +1,89 @@
 sst, department, storage
-LBS,	@LBS,	Lehrbuchsammlung  Ebene -1  Steubenstraße 6
+LBS,	@,	Lehrbuchsammlung  Ebene -1  Steubenstraße 6
 F+1, 	@,	Ebene +1  Neubau  Steubenstraße 6
 F+2, 	@,	Ebene +2  Neubau  Steubenstraße 6
-A-0, 	@Limona,	Ebene 0  Limona  Steubenstraße 8
-A+1, 	@Limona,	Empore  Limona  Steubenstraße 8
-A+2, 	@Limona,	Ebene +2  Limona  Steubenstraße 8
-Median,	@Limona,	Multimediathek  Ebene +2  Limona  Steubenstraße 8
-thekeA0, @Limona,	Info-Theke  Ebene 0  Limona  Steubenstraße 8
-thekeA2, 	@Limona,	Info-Theke  Ebene +2  Limona  Steubenstraße 8
+A-0, 	@,	Ebene 0  Limona  Steubenstraße 8
+A+1, 	@,	Empore  Limona  Steubenstraße 8
+A+2, 	@,	Ebene +2  Limona  Steubenstraße 8
+Media,	@,	Multimediathek  Ebene +2  Limona  Steubenstraße 8
+thekeA0, @,	Info-Theke  Ebene 0  Limona  Steubenstraße 8
+thekeA2, 	@,	Info-Theke  Ebene +2  Limona  Steubenstraße 8
 thekeF1, 	@,	Info-Theke  Ebene +1  Neubau  Steubenstraße 6
 thekeF2, 	@,	Info-Theke  Ebene +2  Neubau  Steubenstraße 6
 SemArch,	@,	Semesterapparat Architektur  Ebene +1  Neubau  Steubenstraße 6
-SemGest, 	@Limona,	Semesterapparat Gestaltung  Empore  Limona  Steubenstraße 8
-SemMed,	@Limona,	Semesterapparat Medien  Empore  Limona  Steubenstraße 8
+SemGest, 	@,	Semesterapparat Gestaltung  Empore  Limona  Steubenstraße 8
+SemMed,	@,	Semesterapparat Medien  Empore  Limona  Steubenstraße 8
 SemF+2, @,	Literaturempfehlungen  Ebene +2  Neubau  Steubenstraße 6
 Mag,	@,	Magazin  Steubenstraße 6
 Mag2, 	@,	Magazin  Steubenstraße 6
 Bst, 	@BST,	Zweigbibliothek Baustoffe/Naturwissenschaften  Coudraystraße 7
 SemBst, 	@BST,	Semesterapparat Baustoffe/Naturwissenschaften  Zweigbibliothek Coudraystraße 7
-W/Gest, 	@Ha,	Werkstätten Gestaltung
-Spr,	@Ha,	Sprachlehrzentrum  Coudraystraße 13
-Sport, 	@Ha,	Sportzentrum  Belvederer Allee 25
-U-Archiv,	@Ha,	Universitätsarchiv  Steubenstraße 8
-ArchivMo,	@Ha,	Archiv der Moderne  Bauhausstraße 7b  Haus C  EG
-SoMag,	@SoMag,	Sondermagazin  Steubenstraße 6
-BIng(Hy), 	@Ha,	Hydrolabor Schleusingen
-BIng(FA), 	@Ha,	Forschungsapparate Fakultät Bauingenieurwesen
-Mat(Ha), 	@Ha,	Handbibliothek Informatik/Mathematik
-Arch(Ha), 	@Ha,	Handbibliothek Fakultät Architektur
-BIng(Ha), 	@Ha,	Handbibliothek Fakultät Bauingenieurwesen
-BIng(HaG), 	@Ha,	Graduiertenkolleg 1462 - Modellqualitäten  Berkaerstraße 9
-Ku(Ha), 	@Ha,	Handbibliothek Fakultät Gestaltung
-M(Ha), 	@Ha,	Handbibliothek Fakultät Medien
-M(HaG), 	@Ha,	Graduiertenkolleg Mediale Historiographien  Berkaer straße 11
-Bst(Ha), 	@Ha,	Handbibliothek Fakultät Bauingenieurwesen
-Habi(Erw), 	@Ha,	Handbibliothek Medienbearbeitung/Erwerbung  Steubenstraße 6
-Habi(TA), 	@Ha,	Handbibliothek Medienbearbeitung/Katalogisierung  Steubenstraße 6
-Habi(F), 	@Ha,	Handbibliothek Abt. Benutzung/Fernleihe  Steubenstraße 6
-Habi(Syk), 	@Ha,	Handbibliothek Systematischer Katalog  Steubenstraße 6
-Habi(EDV), 	@Ha,	Handbibliothek Bibliotheksadministration  Steubenstraße 2
-Habi(Dir), 	@Ha,	Handbibliothek Bibliotheksdirektor  Steubenstraße 6
-Habi(Sekr), 	@Ha,	Handbibliothek Sekretariat  Steubenstraße 6
-Habi(Z), 	@Ha,	Handbibliothek Medienbearbeitung/Zeitschriften  Steubenstraße 6
-Kanz,	@Ha,	Kanzleramt  Belvederer Allee 6
-DP,	@Ha,	Dezernat Personalwesen  Belvederer Allee 6
-SL,	@Ha,	Dezernat Planung und Bau  Belvederer Allee 6
-Just, 	@Ha,	Justitiar  Belvederer Allee 6
-SL,	@Ha,	Servicezentrum Liegenschaften  Coudraystraße 7
-SI,	@Ha,	Sicherheitsingenieur  Belvedererallee 6
-STAA,	@Ha,	Dezernat für Studium und Lehre  Geschwister-Scholl-Straße 15
-PR,	@Ha,	Personalrat  Coudraystraße 7
-Schw,	@Ha,	Schwerbehindertenvertretung  Bauhausstraße 7 b
-Glei,	@Ha,	Gleichstellungsbeauftragte  Coudraystraße 7
-SCC,	@Ha,	Servicezentrum f. Computersysteme u. -Komm.  Steubenstraße 6 a
-Red,	@Ha,	Universitätsverlag  Marienstraße 5
-Rektor,	@Ha,	Rektoramt  Geschwister-Scholl-straße 8
-Habi(FRA), 	@Ha,	Handbibliothek Fachreferat Architektur
-Habi(FRG), 	@Ha,	Handbibliothek Fachreferat Gestaltung
-Habi(FRM), 	@Ha,	Handbibliothek Fachreferat Medien
-Habi(FRI), 	@Ha,	Handbibliothek Fachreferat Informatik/Bauingenieurwesen
-Habi(FRB), 	@Ha,	Handbibliothek Fachreferat Baustoffe/Naturwissenschaften
-Habi(H), 	@Ha,	Handbibliothek Haushalt
-Kanz(IR), 	@Ha,	Innenrevision
-IKKM,	@Ha,	Internationales Kolleg für Kulturtechnikforschung und Medienphilosophie  Steubenstraße 6
-AA,	@Ha,	Dezernat Internationale Beziehungen  Geschwister-Scholl-Str. 15
-Ausleihe,	@Ha,	Ausleihtheke  Neubau  Ebene 0  Steubenstraße 6
-FIB,@Ha,	F. A. Finger-Institut für Baustoffkunde  Coudraystraße 11
-neudeli,	@Ha,	Gründerwerkstatt neudeli  Helmholtzstraße 15
-Rektor(UK), 	@Ha,	Universitätskommunikation  Marienstraße 9
-SCC(SoBi), 	@Ha,	Servicezentrum f. Computersysteme u. -Komm.  Software-Bibliothek  Steubenstraße 6 a
-Kanz,	@Ha,	Kanzleramt  Kanzleramtsleiter  Belvederer Allee 6
-Kanz(IR), @Ha,	Kanzleramt  Innenrevision  Belvederer Allee 6
-DSL,	@Ha,	Dezernat für Studium und Lehre  Ref. Wiss. Weiterbildung  Coudraystraße 7
-DF,	@Ha,	Dezernat Finanzen  Coudraystraße 7
-DFO,	@Ha,	Dezernat Forschung  Coudraystraße 7
-BIng(TS), 	@Ha,	Fakultät Bauingenieurwesen  Technischer Service  Coudraystraße 13d
-Habi(Info), 	@Ha,	Universitätsbibliothek  Handapparat öffentlichkeitsarbeit  Steubenstraße 6
-Habi(T), 	@Ha,	Universitätsbibliothek  Handbibliothek Tausch  Steubenstraße 6
-STAA(CS), 	@Ha,	Dezernat für Studium und Lehre  Career Service  Geschwister-Scholl-Straße 15
-WV/Gest, 	@Ha,	Werkstätten Video Gestaltung
-thekeBst, 	@Ha,	Info-Theke  Zweigbibliothek Baustoffe und Naturwiss.  Coudraystraße 7
-UE,	@Ha,	Zentrum für Universitätsentwicklung  Amalienstraße 13
-UK,	@Ha,	Universitätskommunikation  Marienstrße 9
-DIB,	@Ha,	Dezernat Internationale Beziehungen  Geschwister-Scholl-Str. 15
-BRS,	@Ha,	Bauhaus Research School  Berkaer Str. 9
-Mag(Fa), 	@Ha,	Magazin  Steubenstraße 6
-LabBche,	@Ha,	Labor Bauchemie  Fakultät Bauingenieurwesen
-LabREM,	@Ha,	Labor Rasterelektronenmikroskopie  Fakultät Bauingenieurwesen
+W/Gest, 	@,	Werkstätten Gestaltung
+Spr,	@,	Sprachlehrzentrum  Coudraystraße 13
+Sport, 	@,	Sportzentrum  Belvederer Allee 25
+U-Archiv,	@,	Universitätsarchiv  Steubenstraße 8
+ArchivMo,	@,	Archiv der Moderne  Bauhausstraße 7b  Haus C  EG
+SoMag,	@,	Sondermagazin  Steubenstraße 6
+BIng(Hy), 	@,	Hydrolabor Schleusingen
+BIng(FA), 	@,	Forschungsapparate Fakultät Bauingenieurwesen
+Mat(Ha), 	@,	Handbibliothek Informatik/Mathematik
+Arch(Ha), 	@,	Handbibliothek Fakultät Architektur
+BIng(Ha), 	@,	Handbibliothek Fakultät Bauingenieurwesen
+BIng(HaG), 	@,	Graduiertenkolleg 1462 - Modellqualitäten  Berkaerstraße 9
+Ku(Ha), 	@,	Handbibliothek Fakultät Gestaltung
+M(Ha), 	@,	Handbibliothek Fakultät Medien
+M(HaG), 	@,	Graduiertenkolleg Mediale Historiographien  Berkaerstraße 11
+Bst(Ha), 	@,	Handbibliothek Fakultät Bauingenieurwesen
+Habi(Erw), 	@,	Handbibliothek Medienbearbeitung/Erwerbung  Steubenstraße 6
+Habi(TA), 	@,	Handbibliothek Medienbearbeitung/Katalogisierung  Steubenstraße 6
+Habi(F), 	@,	Handbibliothek Abt. Benutzung/Fernleihe  Steubenstraße 6
+Habi(Syk), 	@,	Handbibliothek Systematischer Katalog  Steubenstraße 6
+Habi(EDV), 	@,	Handbibliothek Bibliotheksadministration  Steubenstraße 2
+Habi(Dir), 	@,	Handbibliothek Bibliotheksdirektor  Steubenstraße 6
+Habi(Sekr), 	@,	Handbibliothek Sekretariat  Steubenstraße 6
+Habi(Z), 	@,	Handbibliothek Medienbearbeitung/Zeitschriften  Steubenstraße 6
+Kanz,	@,	Kanzleramt  Belvederer Allee 6
+DP,	@,	Dezernat Personalwesen  Belvederer Allee 6
+SL,	@,	Dezernat Planung und Bau  Belvederer Allee 6
+Just, 	@,	Justitiar  Belvederer Allee 6
+SL,	@,	Servicezentrum Liegenschaften  Coudraystraße 7
+SI,	@,	Sicherheitsingenieur  Belvedererallee 6
+STAA,	@,	Dezernat für Studium und Lehre  Geschwister-Scholl-Straße 15
+PR,	@,	Personalrat  Coudraystraße 7
+Schw,	@,	Schwerbehindertenvertretung  Bauhausstraße 7 b
+Glei,	@,	Gleichstellungsbeauftragte  Coudraystraße 7
+SCC,	@,	Servicezentrum f. Computersysteme u. -Komm.  Steubenstraße 6 a
+Red,	@,	Universitätsverlag  Marienstraße 5
+Rektor,	@,	Rektoramt  Geschwister-Scholl-Straße 8
+Habi(FRA), 	@,	Handbibliothek Fachreferat Architektur
+Habi(FRG), 	@,	Handbibliothek Fachreferat Gestaltung
+Habi(FRM), 	@,	Handbibliothek Fachreferat Medien
+Habi(FRI), 	@,	Handbibliothek Fachreferat Informatik/Bauingenieurwesen
+Habi(FRB), 	@,	Handbibliothek Fachreferat Baustoffe/Naturwissenschaften
+Habi(H), 	@,	Handbibliothek Haushalt
+Kanz(IR), 	@,	Innenrevision
+IKKM,	@,	Internationales Kolleg für Kulturtechnikforschung und Medienphilosophie  Steubenstraße 6
+AA,	@,	Dezernat Internationale Beziehungen  Geschwister-Scholl-Str. 15
+Ausleihe,	@,	Ausleihtheke  Neubau  Ebene 0  Steubenstraße 6
+FIB,@,	F. A. Finger-Institut für Baustoffkunde  Coudraystraße 11
+neudeli,	@,	Gründerwerkstatt neudeli  Helmholtzstraße 15
+Rektor(UK), 	@,	Universitätskommunikation  Marienstraße 9
+SCC(SoBi), 	@,	Servicezentrum f. Computersysteme u. -Komm.  Software-Bibliothek  Steubenstraße 6 a
+Kanz,	@,	Kanzleramt  Kanzleramtsleiter  Belvederer Allee 6
+Kanz(IR), @,	Kanzleramt  Innenrevision  Belvederer Allee 6
+DSL,	@,	Dezernat für Studium und Lehre  Ref. Wiss. Weiterbildung  Coudraystraße 7
+DF,	@,	Dezernat Finanzen  Coudraystraße 7
+DFO,	@,	Dezernat Forschung  Coudraystraße 7
+BIng(TS), 	@,	Fakultät Bauingenieurwesen  Technischer Service  Coudraystraße 13d
+Habi(Info), 	@,	Universitätsbibliothek  Handapparat öffentlichkeitsarbeit  Steubenstraße 6
+Habi(T), 	@,	Universitätsbibliothek  Handbibliothek Tausch  Steubenstraße 6
+STAA(CS), 	@,	Dezernat für Studium und Lehre  Career Service  Geschwister-Scholl-Straße 15
+WV/Gest, 	@,	Werkstätten Video Gestaltung
+thekeBst, 	@,	Info-Theke  Zweigbibliothek Baustoffe und Naturwiss.  Coudraystraße 7
+UE,	@,	Zentrum für Universitätsentwicklung  Amalienstraße 13
+UK,	@,	Universitätskommunikation  Marienstrße 9
+DIB,	@,	Dezernat Internationale Beziehungen  Geschwister-Scholl-Str. 15
+BRS,	@,	Bauhaus Research School  Berkaer Str. 9
+Mag(Fa), 	@,	Magazin  Steubenstraße 6
+LabBche,	@,	Labor Bauchemie  Fakultät Bauingenieurwesen
+LabREM,	@,	Labor Rasterelektronenmikroskopie  Fakultät Bauingenieurwesen
