@@ -399,20 +399,20 @@
 
     # Handapparat / Fernleihe
     d:
-        #message: Dieser Bestand ist außerhalb der UB aufgestellt. Bitte wenden Sie sich an die Informationsplätze der Bereichsbibliotheken.
         presentation:
             is: available
+            limitation: "Bestand ist außerhalb der UB aufgestellt. Bitte wenden Sie sich an die Informationsplätze der UB."
         loan:
             is: available
-            limitation: "mit Zustimmung"
+            limitation: "Vormerken nicht möglich"
         interloan:
             is: available
 
     # Präsenzbestand / Fernleihe nur Kopie
     s:
-        #message: Bitte nutzen Sie diesen Bestand vor Ort.
         presentation:
             is: available
+            limitation: "Bitte nutzen Sie diesen Bestand vor Ort."
         loan:
             is: unavailable
         interloan:
@@ -423,17 +423,18 @@
     c:
         presentation:
             is: available
+            limitation: "Vormerken / Bestellen und Fristverlängerungen nicht möglich."
         loan:
             is: available
-            limitation: "Vormerken / Bestellen und Fristverlängerungen nicht möglich."
+            limitation: "Vormerken nicht möglich"
         interloan:
             is: unavailable
 
     # Magazinbestand / keine Fernleihe
     i:
-        #message: Es gelten besondere Nutzungsbedingungen. Bitte wenden Sie sich an die Informationsplätze der Bereichsbibliotheken.
         presentation:
             is: available
+            limitation: "Besondere Nutzungsbedingungen. Bitte wenden Sie sich an die Informationsplätze der UB."
         loan:
             is: unavailable
         interloan:
@@ -452,9 +453,9 @@
 
     # Magazinbestand / nur Kopie in die Fernleihe
     f:
-        #message: Es gelten besondere Nutzungsbedingungen. Bitte wenden Sie sich an die Informationsplätze der Bereichsbibliotheken.
         presentation:
             is: available
+            limitation: "Besondere Nutzungsbedingungen. Bitte wenden Sie sich an die Informationsplätze der UB."
         loan:
             is: unavailable
         interloan:
@@ -481,3 +482,4 @@
             is: unavailable
         interloan:
             is: unavailable
+
