@@ -1,55 +1,95 @@
 sst,department,storage
 AJ,@hss,Ebene -1
 EIB1,@ha,
-HA (.+),@ha,
+HA ABE,@ha,
+HA AKZ,@ha,
+HA ANGL,@ha,
 HA ARCHIV,@haua,Ebene -1
+HA ASTR,@ha,
+HA AUSB,@ha,
+HA AUSK,@ha,
+HA AUSL,@ha,
+HA Bibl,@ha,
+HA BIO,@ha,
+HA CHEM,@ha,
+HA DD,@ha,
+HA DZ,@ha,
+HA EDV,@ha,
+HA GEO,@ha,
+HA Germ,@ha,
+HA KMW,@ha,
+HA LAB,@ha,
+HA MATH,@ha,
+HA MED,@ha,
+HA MUS,@ha,
+HA NATW,@ha,
+HA OEC,@ha,
+HA P,@ha,
+HA PAED,@ha,
+HA PHILOL,@ha,
+HA PHILOS,@ha,
+HA PHYS,@ha,
+HA POLIT,@ha,
+HA RESTAU,@ha,
+HA ROM,@ha,
+HA SD,@ha,
+HA SEKR,@ha,
+HA SLAW,@ha,
+HA SOZIOL,@ha,
+HA SPORT,@ha,
+HA TA,@ha,
+HA TAUSCH,@ha,
+HA TB,@ha,
+HA TECH,@ha,
+HA THEOL,@ha,
+HA TZK,@ha,
+HA UMW,@ha,
+HA VERW,@ha,
+HA VKD,@ha,
+HA WISS,@ha,
+HA WF,@ha,
+HA WJ,@ha,
+HA WSK,@ha,
+HA ZS,@ha,
 HZ,@hss,Ebene -1
 HZ (.+),@hss,Ebene -1
 J 1,@gei,Ebene 3
 J 1 (.+),@geiha, Ebene 3
-J 105,@mst,
+J 5,@med,
+J 5 (.+),@medha,
+J 6,@psy,
+J 6N,@med,
+J 8,@med,
+J 9,@vor,
 J 11,@med,
-J 116,@beu,
-J 117,@vor,
 J 12,@nat,
 J 12 (.+),@naha,
 J 13,@herb,
-J 135,@gei, Ebene 3
-J 135 (.+),@geiha, Ebene 3
-J 135 K,@gei, Ebene 3
-J 135 M,@gei, Ebene 4
-J 135 IS,@gei, Ebene 3
-J 136,@mst,
-J 138,@rewiuno,
 J 14,@che,
 J 14 (.+),@cheha,
 J 14 LS,@che,
-J 142,@rewi,
-J 142 (.+),@rewiha,
-J 144,@nat,
-J 144 (.+),@naha,
-J 145,@ha,
-J 146,@mst,
-J 151,@rewiedz,
-J 151 M2,@rewiedzm,
 J 16,@phy,
 J 16 (.+),@phyha,
-J 160,@gei,Ebene 3
-J 161,@gei,Ebene 1
-J 161  (.+),@geiha, Ebene 1
 J 19,@ast,
 J 20,@nat,
 J 20 WEI,@ha,
-J 20 (.+),@naha,
 J 21,@gei,Ebene 4
 J 21 V,@gei,Ebene 4
-J 21 (.+),@geiha,Ebene 4
+J 21 KU2,@geiha,
 J 22,@gei,Ebene 2
-J 22 (.+),@geiha,Ebene 2
 J 22 OR,@gei,Ebene 2
+J 22 AO1,@geiha,
+J 22 AO2,@geiha,
+J 22 GSP,@geiha,
+J 22 ISL,@geiha,
+J 22 LAT,@geiha,
+J 22 MNL,@geiha,
+J 22 OMJ,@geiha,
+J 22 SEM,@geiha,
 J 23,@gei,Ebene 2
-J 23 (.+),@geiha, Ebene 2
 J 23 VKD,@gei,Ebene 2
+J 23 AG,@geiha,
+J 23 V,@geiha,
 J 24,@nat,
 J 24 (.+),@naha,
 J 25,@gei,Ebene 3
@@ -62,13 +102,39 @@ J 28 GL,@gei,Ebene 3
 J 28 GR,@gei,Ebene 3
 J 28 S,@gei,Ebene 3
 J 28 W,@gei,Ebene 3
-J 29,@mst,
+J 28 DRS,@geiha,
+J 28 FIL,@geiha,
+J 28 FIS,@geiha,
+J 28 FKS,@geiha,
+J 28 RSL,@geiha,
+J 28 SFL,@geiha,
+J 28 SPS,@geiha,
+J 29,@vor,
 J 30,@gei,Ebene 1
 J 30 (.+),@geiha,
 J 32,@med,
 J 33,@rewi,
-J 33 (.+),@rewiha,
-J 33 M2,@rewimag,
+J 33 BAS,@rewiha,
+J 33 BGV,@rewiha,
+J 33 BHI,@rewiha,
+J 33 BIS,@rewiha,
+J 33 BRA,@rewiha,
+J 33 BRÃ–,@rewiha,
+J 33 BZH,@rewiha,
+J 33 HGR,@rewiha,
+J 33 INR,@rewiha,
+J 33 M2,@rewi,Magazin
+J 33 Ã–PS,@rewiha,
+J 33 Ã–RP,@rewiha,
+J 33 Ã–RB,@rewiha,
+J 33 Ã–SR,@rewiha,
+J 33 SRA,@rewiha,
+J 33 SRG,@rewiha,
+J 33 SRP,@rewiha,
+J 33 SRZ,@rewiha,
+J 33 SVW,@rewiha,
+J 33 VR,@rewiha,
+J 33 VRE,@rewiha,
 J 35,@gei,Ebene 1
 J 35 (.+),@geiha, Ebene 1
 J 36,@nat,
@@ -78,49 +144,73 @@ J 37 (.+),@geiha, Ebene 1
 J 39,@med,
 J 40,@frau,
 J 40 (.+),@frauha,
-J 41,@mst,
-J 41 (.+),@mstha,
+J 41,@vor,
+J 41 (.+),@vorha,
 J 42,@tll,
 J 43,@med,
 J 43 (.+),@medha,
 J 44,@vor,
 J 44K,@med,
-J 47,@häck,
+J 47,@haeck,
 J 47 (.+),@naha,
 J 48,@vor,
 J 49,@gei,Ebene 2
 J 49 (.+),@geiha, Ebene 2
-J 5,@med,
-J 5 (.+),@medha,
 J 50,@nat,
 J 50 (.+),@naha,
 J 53,@gei,Ebene 3
 J 53 (.+),@geiha, Ebene 3
-J 6,@psy,
 J 64,@rewi,
-J 64 (.+),@rewiha,
-J 64 M2,@rewimag,
+J 64 ATS,@rewiha,
+J 64 ESF,@rewiha,
+J 64 GES,@rewiha,
+J 64 GSV,@rewiha,
+J 64 MELA,@rewiha,
+J 64 M2,@rewi,Magazin
+J 64 PD,@rewiha,
 J 66,@spo,
-J 66 (.+),@spoha,
-J 66 M,@spoma,
-J 6N,@med,
+J 66 DAU,@spoha,
+J 66 M,@spo,Magazin
+J 66 SPP,@spoha,
 J 71,@nat,
 J 71 (.+),@naha,
 J 73,@med,
 J 76,@vor,
 J 76 (.+),@vorha,
-J 8,@med,
 J 84,@gei,Ebene 2
 J 85,@geiha, Ebene 3
 J 87,@med,
 J 89,@ls,Ebene 0
-J 9,@vor,
+J 105,@vor,
+J 116,@beu,
+J 117,@vor,
+J 135,@gei,Ebene 3
+J 135 K,@gei,Ebene 3
+J 135 M,@gei,Ebene 4
+J 135 FKA,@geiha,
+J 135 IS,@gei,Ebene 3
+J 135 K,@gei,Ebene 3
+J 135 LIN,@geiha,
+J 136,@vor,
+J 138,@rewi,UNO-Depositarbibliothek
+J 142,@rewi,
+J 142 (.+),@rewiha,
+J 144,@nat,
+J 144 (.+),@naha,
+J 145,@ha,
+J 146,@vor,
+J 151,@rewi,EDZ
+J 151 M2,@rewi,EDZ / Magazin
+J 160,@gei,Ebene 3
+J 161,@gei,Ebene 1
+J 161 (.+),@geiha, Ebene 1
 LBS,@lbs,Ebene 0
-LBS J 142,@rewilbs,
-LBS J 26,@natlbs,
-LBS J 33,@rewilbs,
-LBS J 43,@medlbs,
-LBS J 64,@rewilbs,
+LBS J 26,@nat,Lehrbuchsammlung
+LBS J 33,@rewi,Lehrbuchsammlung
+LBS J 43,@med,Lehrbuchsammlung
+LBS J 64,@rewi,Lehrbuchsammlung
+LBS J 76,@vor,Lehrbuchsammlung
+LBS J 142,@rewi,Lehrbuchsammlung
 LS,@ls,Ebene 0
 MAG,@mag,
 MAG3,@mag3,
