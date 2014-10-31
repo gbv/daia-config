@@ -14,3 +14,10 @@ info 02,@,"Informationszentrum, EG. Bitte selbst am Standort entnehmen."
 info 21,	@,"Lesesaalinformation, 2.OG.	Bitte selbst am Standort entnehmen."
 kart,	@,"Kartenraum, 2. OG. Bitte selbst am Standort entnehmen."
 lbs,	@,	Lehrbuchsammlung. Bitte selbst am Standort entnehmen.
+mag,	@,	Magazin
+medio,	@,	Mediothek. Bitte selbst am Standort entnehmen.
+netz,	@,	NETZ.	Bitte wenden Sie sich an die Theke.
+sem 0(.*),	@,"Semesterapparat, EG: 0$1. Bitte selbst am Standort entnehmen."
+sem 1(.*),	@,"Semesterapparat, 1.OG: 1$1. Bitte selbst am Standort entnehmen."
+sem 2(.*),	@,"Semesterapparat, 2.OG: 2$1. Bitte selbst am Standort entnehmen."
+sls,	@,  "Sonderlesesaal, 2.OG. Bitte selbst am Standort entnehmen."
