@@ -5,3 +5,12 @@ fbg hek,	ISIL DE-39,	Herzog-Ernst-Kabinett
 fbg ls,	ISIL DE-39,	Lesesaal.	Bitte selbst am Standort entnehmen.
 fbg mag,	ISIL DE-39,	Magazin
 fbg r,	ISIL DE-39,	Sondermagazin. Bitte wenden Sie sich an die Theke.
+fbg smag,	ISIL DE-39,	Sondermagazin. Bitte wenden Sie sich an die Theke.
+fbg so,	ISIL DE-39,	Sondermagazin. Bitte wenden Sie sich an die Theke.
+dpl (.*),	@,	Dienstplatz $1.	Bitte wenden Sie sich an die Theke.
+ha (.*),	@,	Handapparat $1.	Bitte wenden Sie sich an die Theke.
+info 01,@,"Allgemeine Auskunft, EG. Bitte selbst am Standort entnehmen."
+info 02,@,"Informationszentrum, EG. Bitte selbst am Standort entnehmen."
+info 21,	@,"Lesesaalinformation, 2.OG.	Bitte selbst am Standort entnehmen."
+kart,	@,"Kartenraum, 2. OG. Bitte selbst am Standort entnehmen."
+lbs,	@,	Lehrbuchsammlung. Bitte selbst am Standort entnehmen.
