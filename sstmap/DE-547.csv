@@ -1,28 +1,28 @@
-sst,department,storage,limitation
-fbg dpl (.*),	ISIL DE-39,	Dienstplatz $1,	Bitte wenden Sie sich an die Theke
-fbg ha (.*),	ISIL DE-39,	Handapparat $1,	Bitte wenden Sie sich an die Theke
-fbg hek,	ISIL DE-39,	Herzog-Ernst-Kabinett,	bestellen
-fbg ls,	ISIL DE-39,	Lesesaal,	Bitte selbst am Standort Lesesaal FBG entnehmen
-fbg mag,	ISIL DE-39,	Magazin,	bestellen
-fbg r,	ISIL DE-39,	Sondermagazin,	bestellen
-fbg smag,	ISIL DE-39,	Sondermagazin,	bestellen
-fbg so,	ISIL DE-39,	Sondermagazin,	Bitten wenden Sie sich an die Theke
-dpl (.*),	@,	Dienstplatz $1,	Bitte wenden Sie sich an die Theke
-ha (.*),	@,	Handapparat $1,	Bitte wenden Sie sich an die Theke
-info 01,@,"Allgemeine Auskunft, EG",Bitte selbst am Standort Informationstheke entnehmen
-info 02,@,"Informationszentrum, EG",Bitte selbst am Standort Informationstheke entnehmen
-info 21,	@,"Lesesaalinformation, 2.OG",	Bitte selbst am Standort Informationstheke entnehmen
-kart,	@,"Kartenraum, 2. OG",Bitte selbst am Standort Lesesaal 2. OG entnehmen
-lbs,	@,	Lehrbuchsammlung,	Ausleihbar nur fuer Angehoerige der Universitaet Erfurt
-mag,	@,	Magazin,	bestellen
-medio,	@,	Mediothek,	Bitte selbst am Standort Mediothek entnehmen
-netz,	@,	NETZ,	[Bitte wenden Sie sich an die Theke]
-sem 0(.*),	@,"Semesterapparat, EG: 0$1",	Bitte selbst am Standort Semesterapparat entnehmen
-sem 1(.*),	@,"Semesterapparat, 1.OG: 1$1",	Bitte selbst am Standort Semesterapparat entnehmen
-sem 2(.*),	@,"Semesterapparat, 2.OG: 2$1",	Bitte selbst am Standort Semesterapparat entnehmen
-sls,	@,"Sonderlesesaal, 2.OG",	Bitte selbst am Standort Sonderlesesaal 2. OG entnehmen
-slz,	@,	Selbstlernzentrum LG1,	Bitte selbst am Standort Campus Erfurt entnehmen
-smag,	@,	Sondermagazin,	bestellen
-sor,	@,	Sonderstandort Recht LG1,	Bitte wenden Sie sich an die Theke
-tr,	@,	Sondermagazin,	Bitte wenden Sie sich an die Theke Sonderlesesaal
-ls, @, Lesesaal, "Bitte selbst am Standort Lesesaal (EG, 1.OG, 2.OG, 3.OG) entnehmen"
+sst,department,storage
+fbg dpl (.*),	ISIL DE-39,	Dienstplatz $1. Bitte wenden Sie sich an die Theke.
+fbg ha (.*),	ISIL DE-39,	Handapparat $1.	Bitte wenden Sie sich an die Theke.
+fbg hek,	ISIL DE-39,	Herzog-Ernst-Kabinett
+fbg ls,	ISIL DE-39,	Lesesaal.	Bitte selbst am Standort entnehmen.
+fbg mag,	ISIL DE-39,	Magazin
+fbg r,	ISIL DE-39,	Sondermagazin. Bitte wenden Sie sich an die Theke.
+fbg smag,	ISIL DE-39,	Sondermagazin. Bitte wenden Sie sich an die Theke.
+fbg so,	ISIL DE-39,	Sondermagazin. Bitte wenden Sie sich an die Theke.
+dpl (.*),	@,	Dienstplatz $1.	Bitte wenden Sie sich an die Theke.
+ha (.*),	@,	Handapparat $1.	Bitte wenden Sie sich an die Theke.
+info 01,@,"Allgemeine Auskunft, EG. Bitte selbst am Standort entnehmen."
+info 02,@,"Informationszentrum, EG. Bitte selbst am Standort entnehmen."
+info 21,	@,"Lesesaalinformation, 2.OG.	Bitte selbst am Standort entnehmen."
+kart,	@,"Kartenraum, 2. OG. Bitte selbst am Standort entnehmen."
+lbs,	@,	Lehrbuchsammlung. Bitte selbst am Standort entnehmen.
+mag,	@,	Magazin
+medio,	@,	Mediothek. Bitte selbst am Standort entnehmen.
+netz,	@,	NETZ.	Bitte wenden Sie sich an die Theke.
+sem 0(.*),	@,"Semesterapparat, EG: 0$1. Bitte selbst am Standort entnehmen."
+sem 1(.*),	@,"Semesterapparat, 1.OG: 1$1. Bitte selbst am Standort entnehmen."
+sem 2(.*),	@,"Semesterapparat, 2.OG: 2$1. Bitte selbst am Standort entnehmen."
+sls,	@,  "Sonderlesesaal, 2.OG. Bitte selbst am Standort entnehmen."
+slz,	@,  "Selbstlernzentrum, LG1. Bitte selbst am Standort entnehmen."
+smag,	@,	Sondermagazin
+sor,	@,  "Sonderstandort Recht, LG1. Bitte selbst am Standort entnehmen."
+tr,	@,  "Sondermagazin. Bitte wenden Sie sich an die Theke, 2.OG."
+ls, @, "Lesesaal, Bitte selbst am Standort Lesesaal (EG, 1.OG, 2.OG, 3.OG) entnehmen."
