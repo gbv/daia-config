@@ -72,6 +72,10 @@ J 16,@phy,
 J 16 (.+),@phyha,
 J 19,@ast,
 J 20,@nat,
+J 20 AGP,@naha,	
+J 20 GPH,@naha,	
+J 20 MIN,@naha,	
+J 20 THY,@naha,	
 J 20 WEI,@ha,
 J 21,@gei,Ebene 4
 J 21 V,@gei,Ebene 4
