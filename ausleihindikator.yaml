@@ -487,25 +487,36 @@
 # ThULB Jena
 "opac-de-27":
     a:
-            message: "Im Buchhandel bestellt. Noch nicht geliefert."
-            presentation:
-                is: unavailable
-                expected: unknown
-            loan:
-                is: unavailable
-            interloan:
-                is: unavailable
-            openaccess:
-                is: unavailable
-
+        message: "Im Buchhandel bestellt. Noch nicht verfügbar."
+        presentation:
+            is: unavailable
+            expected: unknown
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
+     
+    g:
+        message: " Original nicht benutzbar "
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
+     
     z:
-            message: "vermisst"
-            presentation:
-                is: unavailable
-            loan:
-                is: unavailable
-            interloan:
-                is: unavailable
-            openaccess:
-                is: unavailable
+        message: "vermisst"
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
 
