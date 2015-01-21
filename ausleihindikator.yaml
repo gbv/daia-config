@@ -531,3 +531,15 @@
         interloan:
             is: available
             limitation: "nur Kopie"
+    # Vermisst
+    z:
+        presentation:
+            is: unavailable
+            limitation: "vermisst"
+        loan:
+            is: unavailable
+            limitation: "vermisst"            
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable    
