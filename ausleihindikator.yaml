@@ -520,3 +520,14 @@
         openaccess:
             is: unavailable
 
+"opac-de-960":
+    # verkürzte Ausleihfrist
+    f:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "verkürzte Leihfrist"
+        interloan:
+            is: available
+            limitation: "nur Kopie"
