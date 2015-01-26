@@ -486,6 +486,9 @@
 
 # ThULB Jena
 "opac-de-27":
+    # Standardwert, falls kein Indikator angegeben
+    default: u
+    
     a:
         message: "Im Buchhandel bestellt. Noch nicht verfügbar."
         presentation:
