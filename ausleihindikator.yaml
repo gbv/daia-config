@@ -43,6 +43,7 @@
             limitation: "mit Zustimmung"
         interloan:
             is: available
+            limitation: "Fernleihbeschränkungen möglich"
 
 
     # mit Zustimmung ausleihbar / Fernleihe nur Kopie
