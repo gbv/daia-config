@@ -1,2 +1,5 @@
 sst,department,storage
-*,@,
+18/64-CL,@,Außenmagazin
+18/64-LB,@,Lehrbuchsammlung
+18/64-LS,@,Infobestand
+.*,@,
