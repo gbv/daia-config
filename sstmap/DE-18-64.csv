@@ -1,2 +1,4 @@
 sst,department,storage
-.*,@,ebene1
+cl,@,Außenmagazin
+lb,@,Lehrbuchsammlung
+ls,@,Infobestand
