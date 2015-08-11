@@ -25,9 +25,11 @@ HA(.*),@ha,Handapparat $1
 07,@ha,
 09,@ha,
 72,@ha,
+09\.1,@ha,
 09\.2,@ha,
 09\.3,@ha,
 09\.4,@ha,
+09\.5,@ha,
 50,@curie,Standort 50
 51,@curie,Standort 51
 54,@curie,Standort 54
@@ -72,7 +74,9 @@ HA(.*),@ha,Handapparat $1
 100,@,Standort 100
 101,@,Standort 101
 102,@,Standort 102
+196,@ha,
 SEM(.*),@,Semesterapparat $1
 HSB,-,
 Internet,@,
 Online,@,
+LINK,@,
