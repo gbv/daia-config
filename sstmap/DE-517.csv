@@ -629,10 +629,10 @@ sst,department,storage
 3870,@ha,
 3880,@ha,
 1180,@np09,Semesterapparat
-1261,@np09,
-1302,@np09,
+1261,@golm,Lehrbuchsammlung
+1302,@golm,
 1304,@np09,Medienschrank
-1307,@np09,
+1307,@golm,
 1308,@np09,Medienschrank
 4200,@np09,
 4201,@np09,
@@ -670,7 +670,7 @@ sst,department,storage
 1205,@np11,Bestand an der Servicetheke
 1206,@np11,Mikrofiche
 1207,@np11,Bestand an der Servicetheke
-1313,@np11,
+1313,-,
 1416,@np11,Sondersammlung
 1420,@np11,Sondersammlung
 1435,@np11,Sondersammlung
