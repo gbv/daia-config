@@ -217,9 +217,10 @@ LBS J 64,@rewi,Lehrbuchsammlung
 LBS J 76,@vor,Lehrbuchsammlung
 LBS J 142,@rewi,Lehrbuchsammlung
 LS,@ls,Ebene 0
+LS2,@ls2,Ebene 0
 MAG,@mag,
 MAG3,@mag3,
 MAG4,@mag4,
-MLS,@mls,Ebene 1
+MLS,@mls,Ebene 0
 NP,@gei,Ebene 3
 SOST,@ha,
