@@ -636,16 +636,16 @@ sst,department,storage
 1308,@np09,Medienschrank
 4200,@np09,
 4201,@np09,
-4260,@np09,
+4260,@np09,Lehrbuchsammlung
 4300,@np09,
 4301,@np09,
 4360,@np09,
 4400,@np09,
 4401,@np09,
-4460,@np09,
+4460,@np09,Lehrbuchsammlung
 4500,@np09,
 4501,@np09,
-4560,@np09,
+4560,@np09,Lehrbuchsammlung
 1000,@np10,
 1001,@np10,
 1030,@np10,
@@ -660,7 +660,7 @@ sst,department,storage
 4080,@np10,Semesterapparat
 4107,@np10,Bestand an der Ausleihtheke
 4108,@np10,Bestand an der Ausleihtheke
-4160,@np10,
+4160,@np10,Lehrbuchsammlung
 1080,@np11,
 1101,@np11,
 1142,@np11,Sammlung Merve-Verlag
@@ -687,8 +687,8 @@ sst,department,storage
 4111,@np11,
 4112,@np11,Bestand an der Servicetheke
 4113,@np11,Bestand an der Servicetheke
-4161,@np11,
+4161,@np11,Lehrbuchsammlung
 4162,@np11,Medienschrank
 4600,@np11,
 4601,@np11,
-4660,@np11,
+4660,@np11,Lehrbuchsammlung
