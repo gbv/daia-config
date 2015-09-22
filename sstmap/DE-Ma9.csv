@@ -1,1 +1,7 @@
-
+sst,department,storage
+FH,@,Freihand
+FGSE-FH,@,Freihand 1. Obergeschoss
+FH-Präsenz,@,im Regal - nur in der Bibliothek nutzbar
+FGSE-Magazin,@,Magazin
+Magazin,@,Magazin
+.*,@,
