@@ -13,7 +13,7 @@ sst,department,storage
 192,@mag,
 193,@mag,
 HA(.*),@ha,Handapparat $1
-00\.1,@ha,
+00\.[0-9],@ha,
 01,@ha,
 01\.[0-9],@ha,
 01\.10,@ha,
@@ -75,6 +75,7 @@ HA(.*),@ha,Handapparat $1
 101,@,Standort 101
 102,@,Standort 102
 196,@ha,
+197,@ha,
 SEM(.*),@,Semesterapparat $1
 HSB,-,
 Internet,@,
