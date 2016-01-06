@@ -1,5 +1,5 @@
 sst,	department,	storage
 a,	@,	Ausleihbestand (A)
-a lbs,	@,	Lehrbuchsammlung
-ls,	@,	Präsenzbestand
+a lbs,	@,	Lehrbuchsammlung (A/LBS)
+ls,	@,	Präsenzbestand (LS)
 online,	@,
