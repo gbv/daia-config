@@ -74,8 +74,7 @@ HA(.*),@ha,Handapparat $1
 100,@,Standort 100
 101,@,Standort 101
 102,@,Standort 102
-196,@ha,
-197,@ha,
+196,@mag,
 SEM(.*),@,Semesterapparat $1
 HSB,-,
 Internet,@,
