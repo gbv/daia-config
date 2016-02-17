@@ -372,6 +372,16 @@
             is: unavailable
         interloan:
             is: available
+            limitation: "nur Kopie"#
+            
+    # Lesesaalausleihe / nur Kopie in die Fernleihe
+    f:
+        presentation:
+            is: available
+        loan:
+            is: available
+        interloan:
+            is: available
             limitation: "nur Kopie"
 
 # UB Potsdam
