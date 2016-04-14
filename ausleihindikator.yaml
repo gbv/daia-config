@@ -557,3 +557,16 @@
             is: unavailable
         openaccess:
             is: unavailable    
+
+# FH Schmalkalden
+"opac-de-shm2":
+
+    # mit Zustimmung ausleihbar / Fernleihe nur Kopie / Beispiel-PPN 59927025X / EPN 1582539553
+    s:
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: available
+            limitation: "nur Kopie"
