@@ -52,8 +52,9 @@ HA WF,@ha,
 HA WJ,@ha,
 HA WSK,@ha,
 HA ZS,@ha,
-HZ,@hss,Ebene -1
-HZ (.+),@hss,Ebene -1
+HZ,@hss,Magazin
+HZ (.+),@hss,Magazin
+INC,@hss,Magazin
 J 1,@gei,Ebene 3
 J 1 (.+),@geiha, Ebene 3
 J 5,@med,
@@ -128,7 +129,6 @@ J 33 BRÖ,@rewiha,
 J 33 BZH,@rewiha,
 J 33 HGR,@rewiha,
 J 33 INR,@rewiha,
-J 33 M2,@rewi,Magazin
 J 33 ÖPS,@rewiha,
 J 33 ÖRP,@rewiha,
 J 33 ÖRB,@rewiha,
@@ -171,11 +171,11 @@ J 64 ESF,@rewiha,
 J 64 GES,@rewiha,
 J 64 GSV,@rewiha,
 J 64 MELA,@rewiha,
-J 64 M2,@rewi,Magazin
 J 64 PD,@rewiha,
 J 66,@spo,
 J 66 DAU,@spoha,
 J 66 M,@spo,Magazin
+J 66 TRA,@spoha,
 J 66 SPP,@spoha,
 J 71,@nat,
 J 71 (.+),@naha,
@@ -205,7 +205,6 @@ J 144 (.+),@naha,
 J 145,@ha,
 J 146,@vor,
 J 151,@rewi,EDZ
-J 151 M2,@rewi,EDZ / Magazin
 J 160,@gei,Ebene 3
 J 161,@gei,Ebene 1
 J 161 (.+),@geiha, Ebene 1
@@ -217,6 +216,7 @@ LBS J 64,@rewi,Lehrbuchsammlung
 LBS J 76,@vor,Lehrbuchsammlung
 LBS J 142,@rewi,Lehrbuchsammlung
 LS,@ls,Ebene 0
+LS1,@hss,Ebene -1
 LS2,@ls2,Ebene 0
 MAG,@mag,
 MAG3,@mag3,
