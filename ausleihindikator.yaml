@@ -1,5 +1,5 @@
 ################################################################################ 
-# Diese Datei leigt die Bedeutung des Ausleihindikators (Kategorie 209A $d /   #
+# Diese Datei legt die Bedeutung des Ausleihindikators (Kategorie 209A $d /    #
 # 701x in Pica3) fest. Für jeden möglichen Wert muss angegeben werden, welche  #
 # DAIA-Dienste jeweils standardmäßig verfügbar bzw. nicht verfügbar sind.      #
 #                                                                              #
@@ -567,6 +567,68 @@
             is: available
         loan:
             is: unavailable
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+# UB Osnabrueck (20160617 SM)
+"opac-de-700":
+    # lesesaal-Exemplar
+    b:
+        message: "b"
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+    # Kurzausleihe, Praesenz-Exemplar
+    c:
+        message: "c"
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "verkürzte Leihfrist (Abend bis Morgen Folgetag)"
+        interloan:
+            is: unavailable
+    # Lu-Datensaetze f. Verbuchung nehmende Fernleihe
+    d:
+        message: "d"
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+    # Gesperrt (Giftschrank, Sonderstandorte, Dienstexemplare etc.)
+    g:
+        message: "g"
+        presentation:
+            is: available
+            limitation: "Zugang ggf. eingeschränkt"
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+    # Lesesaal-Ausleihe, Kopieren verboten
+    i:
+        message: "i"
+        presentation:
+            is: available
+            limitation: "Kopieren nicht erlaubt"
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+    # Praesensbestand Rechtswissenschaften
+    s:
+        message: "s"
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "mit Zustimmung"
         interloan:
             is: available
             limitation: "nur Kopie"
