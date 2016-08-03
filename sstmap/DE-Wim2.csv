@@ -2,6 +2,7 @@ sst, department, storage
 LBS,	@,	Lehrbuchsammlung  Ebene -1  Steubenstraße 6
 F+1, 	@,	Ebene +1  Neubau  Steubenstraße 6
 F+2, 	@,	Ebene +2  Neubau  Steubenstraße 6
+F-1, 	@,	Ebene -1  Neubau  Steubenstraße 6
 A-0, 	@,	Ebene 0  Limona  Steubenstraße 8
 A+1, 	@,	Empore  Limona  Steubenstraße 8
 A+2, 	@,	Ebene +2  Limona  Steubenstraße 8
