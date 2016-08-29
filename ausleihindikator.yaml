@@ -656,4 +656,122 @@
             is: available
             limitation: "nur Kopie"
 
-   
+# OPAC UB-WE (DE-WIM2)
+ "opac-de-wim2":
+    default: u 
+
+    # ausleihbar/Fernleihe
+    u:
+        presentation:
+            is: available
+        loan:
+            is: available
+        interloan:
+            is: available
+    
+    # verkürzt ausleihbar / Fernleihe
+    b:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Kurzausleihe"
+        interloan:
+            is: available
+
+    # mit Zustimmung ausleihbar / Fernleihe
+    d:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Kurzausleihe"
+        interloan:
+            is: available
+            limitation: "Fernleihbeschränkungen möglich"
+
+
+    # mit Zustimmung ausleihbar / Fernleihe nur Kopie
+    s:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Dauerleihe Forschungsapparat"
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+    
+    # ausleihbar / keine Fernleihe
+    c:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Kurzausleihe"
+        interloan:
+            is: unavailable
+
+    # Lesesaalausleihe / keine Fernleihe
+    i:
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+            limitation: "Nur in der Bibliothek zu nutzen - Ausleihe in den Lesesaal"
+        interloan:
+            is: unavailable
+
+    # für Ausleihe gesperrt / keine Fernleihe
+    g:
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    # Lesesaalausleihe / nur Kopie in die Fernleihe
+    f:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Nur in der Bibliothek zu nutzen - Ausleihe in den Lesesaal"
+        interloan:
+            is: available
+            limitation: "Kopie"
+
+    #  Verlust, ausgesondert
+    z:
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+            limitation: "Nicht mehr im Bestand"
+        interloan:
+            is: unavailable
+
+    # bestellt
+    a:
+        presentation:
+            is: unavailable
+            expected: unknown
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
+
+    # bestellt, Verlust, keine Angabe, unbekanter Indikator
+    "":
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+            limitation: "Bitte wenden Sie sich an die Info-Theke"
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
