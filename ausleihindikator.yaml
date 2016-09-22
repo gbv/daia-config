@@ -774,3 +774,94 @@
             is: unavailable
         openaccess:
             is: unavailable
+
+# Jade HS OL
+ "opac-de-897":
+
+    # ausleihbar, Fernleihe
+    u:
+        presentation:
+            is: available
+        loan:
+            is: available
+        interloan:
+            is: available
+
+    # ausleihbar, keine Fernleihe, Lehrbuecher
+    c:
+        presentation:
+            is: available
+        loan:
+            is: available
+        interloan:
+            is: unavailable
+
+    # verkuerzt ausleihbar, Fernleihe nur Kopie, Semesterapparate
+    s:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "verkürzte Leihfrist (8 Tage)"
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+    # Kurzausleihe, keine Fernleihe, Handbuecher, Praesenzexemplare, Examensarbeiten
+    i:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Präsenzbestand - Kurzausleihe möglich"
+        interloan:
+            is: unavailable
+
+    # verkuerzt ausleihbar, Fernleihe nur Kopie, Zeitschriften
+    f:
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+    # nicht ausleihbar, keine Fernleihe, Woerterbuecher, Handapparate
+    g:
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    # nicht ausleihbar, keine Fernleihe, Bestellungen
+    a:
+    message: "bestellt / in Bearbeitung"
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    # nicht ausleihbar, keine Fernleihe, Verlust
+    z:
+    message: "vermisst / Verlust"
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    # unbekannter Indikator
+    "":
+    message: "Wenden Sie sich bitte an die Info-Theke."
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
