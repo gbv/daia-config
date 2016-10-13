@@ -656,19 +656,9 @@
             is: available
             limitation: "nur Kopie"
 
-# OPAC UB-WE (DE-WIM2)
- "opac-de-wim2":
-    default: u 
+# OPAC UB-Weimar (DE-Wim2)
+"opac-de-wim2":
 
-    # ausleihbar/Fernleihe
-    u:
-        presentation:
-            is: available
-        loan:
-            is: available
-        interloan:
-            is: available
-    
     # verkürzt ausleihbar / Fernleihe
     b:
         presentation:
@@ -700,7 +690,7 @@
             limitation: "Dauerleihe Forschungsapparat"
         interloan:
             is: unavailable
-    
+ 
     # ausleihbar / keine Fernleihe
     c:
         presentation:
@@ -718,15 +708,6 @@
         loan:
             is: unavailable
             limitation: "Nur in der Bibliothek zu nutzen - Ausleihe in den Lesesaal"
-        interloan:
-            is: unavailable
-
-    # für Ausleihe gesperrt / keine Fernleihe
-    g:
-        presentation:
-            is: available
-        loan:
-            is: unavailable
         interloan:
             is: unavailable
 
@@ -751,18 +732,6 @@
         interloan:
             is: unavailable
 
-    # bestellt
-    a:
-        presentation:
-            is: unavailable
-            expected: unknown
-        loan:
-            is: unavailable
-        interloan:
-            is: unavailable
-        openaccess:
-            is: unavailable
-
     # bestellt, Verlust, keine Angabe, unbekanter Indikator
     "":
         presentation:
@@ -774,3 +743,4 @@
             is: unavailable
         openaccess:
             is: unavailable
+
