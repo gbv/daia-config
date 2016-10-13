@@ -744,3 +744,45 @@
         openaccess:
             is: unavailable
 
+
+# Jade HS OL (DE-897)
+"opac-de-897":
+
+    # verkuerzt ausleihbar, Fernleihe nur Kopie, Semesterapparate
+    s:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "verkürzte Leihfrist (8 Tage)"
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+    # Kurzausleihe, keine Fernleihe, Handbuecher, Praesenzexemplare, Examensarbeiten
+    i:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Präsenzbestand - Kurzausleihe möglich"
+        interloan:
+            is: unavailable
+
+    # nicht ausleihbar, keine Fernleihe, Bestellungen
+    a:
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    # nicht ausleihbar, keine Fernleihe, Verlust
+    z:
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
