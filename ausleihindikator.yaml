@@ -1,4 +1,4 @@
-################################################################################ 
+################################################################################
 # Diese Datei legt die Bedeutung des Ausleihindikators (Kategorie 209A $d /    #
 # 701x in Pica3) fest. Für jeden möglichen Wert muss angegeben werden, welche  #
 # DAIA-Dienste jeweils standardmäßig verfügbar bzw. nicht verfügbar sind.      #
@@ -13,7 +13,7 @@
 "":
 
     # Standardwert, falls kein Indikator angegeben
-    default: u 
+    default: u
 
     # ausleihbar/Fernleihe
     u:
@@ -23,7 +23,7 @@
             is: available
         interloan:
             is: available
-    
+
     # verkürzt ausleihbar / Fernleihe
     b:
         presentation:
@@ -56,7 +56,7 @@
         interloan:
             is: available
             limitation: "nur Kopie"
-    
+
     # ausleihbar / keine Fernleihe
     c:
         presentation:
@@ -215,7 +215,7 @@
             is: unavailable
 
     # Standardwert, falls kein Indikator gesetzt
-    default: u 
+    default: u
 
     # bestellt, Verlust, keine Angabe, unbekanter Indikator
     "":
@@ -229,7 +229,7 @@
             is: unavailable
 
 "opac-de-hil2":
-   
+
     # verkürzt ausleihbar / Fernleihe
     b:
         presentation:
@@ -261,7 +261,7 @@
         interloan:
             is: available
             limitation: "nur Kopie"
-    
+
     # ausleihbar / keine Fernleihe
     c:
         presentation:
@@ -325,7 +325,7 @@
             is: unavailable
 
     # Standardwert, falls kein Indikator gesetzt
-    default: u 
+    default: u
 
     # Unbekannter Indikator
     "":
@@ -340,7 +340,7 @@
 
 # UB Magdeburg
 "opac-de-ma9":
-    
+
     # Präsenzexemplar, nicht ausleihbar
     c:
         presentation:
@@ -362,7 +362,7 @@
 # UB Ilmenau
 "opac-de-ilm1":
     # Standardwert, falls kein Ausleihindikator angegeben
-    default: g 
+    default: g
 
     # mit Zustimmung ausleihbar / Fernleihe nur Kopie / Handapparate und ZS-Einzelbaende
     s:
@@ -373,7 +373,7 @@
         interloan:
             is: available
             limitation: "nur Kopie"#
-            
+
     # Lesesaalausleihe / nur Kopie in die Fernleihe
     f:
         presentation:
@@ -386,7 +386,7 @@
 
 # UB Potsdam
 "opac-de-517":
-    
+
     # Standardwert, falls kein Indikator angegeben
     default: u
 
@@ -499,7 +499,7 @@
 "opac-de-27":
     # Standardwert, falls kein Indikator angegeben
     default: u
-    
+
     a:
         message: "Im Buchhandel bestellt. Noch nicht verfügbar."
         presentation:
@@ -511,7 +511,7 @@
             is: unavailable
         openaccess:
             is: unavailable
-     
+
     g:
         message: " Original nicht benutzbar "
         presentation:
@@ -522,7 +522,7 @@
             is: unavailable
         openaccess:
             is: unavailable
-     
+
     z:
         message: "vermisst"
         presentation:
@@ -552,11 +552,11 @@
             limitation: "vermisst"
         loan:
             is: unavailable
-            limitation: "vermisst"            
+            limitation: "vermisst"
         interloan:
             is: unavailable
         openaccess:
-            is: unavailable    
+            is: unavailable
 
 # FH Schmalkalden
 "opac-de-shm2":
@@ -690,7 +690,7 @@
             limitation: "Dauerleihe Forschungsapparat"
         interloan:
             is: unavailable
- 
+
     # ausleihbar / keine Fernleihe
     c:
         presentation:
@@ -786,3 +786,47 @@
             is: unavailable
         interloan:
             is: unavailable
+
+# Erfurt UB (DE-547)
+"opac-de-547":
+
+     # Lehrbuchsammlung
+     c:
+         presentation:
+             is: available
+         loan:
+             is: available
+             limitation: "Ausleihbar nur für Angehörige der Universität Erfurt"
+         interloan:
+             is: unavailable
+
+     d:
+         presentation:
+             is: available
+         loan:
+             is: available
+             limitation: "Nur für den Lesesaal"
+         interloan:
+             is: available
+             limitation: "Fernleihbeschränkungen möglich"
+
+     f:
+         presentation:
+             is: available
+         loan:
+             is: available
+             limitation: "Nur für den Sonderlesesaal"
+         interloan:
+             is: available
+             limitation: "nur Kopie"
+
+     s:
+         presentation:
+             is: available
+         loan:
+             is: available
+             limitation: "Nur für den Lesesaal"
+         interloan:
+             is: available
+             limitation: "nur Kopie"
+
