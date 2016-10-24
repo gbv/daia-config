@@ -645,6 +645,16 @@
             is: available
             limitation: "nur Kopie"
 
+    # Kurzausleihe
+    i:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "short loan"
+        interloan:
+            is: unavailable
+
     # Mit Zustimmung ausleihbar / Fernleihe nur Kopie
     f:
         presentation:
