@@ -1,3 +1,4 @@
+sst,department,storage
 Ausleihe,@,Ausleihtheke
 Ausleihtheke,@,Ausleihtheke
 BfG,@,BfG
@@ -5,26 +6,26 @@ CD-ROM-Server,@,CD-ROM-Server
 DaF,@,DaF
 Deutsch/Methodik,@,Deutsch/Methodik
 Deutsch-Methodik,@,Deutsch/Methodik
-DM(.*),@,Persˆnliche Dauerleihe (DM$1)
+DM(.*),@,Pers√∂nliche Dauerleihe (DM$1)
 FGSE,@,Freihand
 FGSE-FH,@,Freihand
-FGSE-INF,@,Freihand-Pr‰senz
-FGSE-Inf\.,@,Freihand-Pr‰senz
-FGSE-Information,@,Freihand-Pr‰senz
-FGSE-LS,@,Freihand-Pr‰senz
+FGSE-INF,@,Freihand-Pr√§senz
+FGSE-Inf\.,@,Freihand-Pr√§senz
+FGSE-Information,@,Freihand-Pr√§senz
+FGSE-LS,@,Freihand-Pr√§senz
 FGSE-Magazin,@,FGSE-Magazin
-FGSE-Pr‰senz,@,Freihand-Pr‰senz
-FGSE-Pr‰senzbestand,@,Freihand-Pr‰senz
+FGSE-Pr√§senz,@,Freihand-Pr√§senz
+FGSE-Pr√§senzbestand,@,Freihand-Pr√§senz
 FGSE-Z-Magazin,@,Magazin
 FGSE-(.*),@,FGSE $1
 FH,@,Freihand
-FH-Pr‰senz,@,Freihand-Pr‰senz
+FH-Pr√§senz,@,Freihand-Pr√§senz
 FIN-Dekanat,@,FIN-Dekanat
 FMB-Dekanat,@,FMB-Dekanat
 FNW-Dekanat,@,FNW-Dekanat
 FWW,@,FWW
 FWW(.*),@,FWW$1
-GK(.*),@,Persˆnliche Dauerleihe (GK$1)
+GK(.*),@,Pers√∂nliche Dauerleihe (GK$1)
 GPR,@,GPR
 HB Germ\./Did\.,@,HB Germ./Did.
 IAUT,@,IAUT
@@ -41,7 +42,7 @@ IMS,@,IMS
 IMS-IMAT,@,IMS-IMAT
 IMUS-1,@,IMUS-1
 IMUS-2,@,IMUS-2
-Information/1\.OG,@,Freihand-Pr‰senz
+Information/1\.OG,@,Freihand-Pr√§senz
 Information/2\.OG,@,Information 2.OG
 Information/3\.OG,@,Information 3.OG
 Information/EG,@,Information EG
@@ -50,14 +51,14 @@ Inst\. f\. Weiterbildung,@,Inst. f. Weiterbildung
 IPSY-TEST,@,IPSY-TEST
 ISOZ,@,ISOZ
 IWF,@,IWF
-JP(.*),@,Persˆnliche Dauerleihe (JP$1)
+JP(.*),@,Pers√∂nliche Dauerleihe (JP$1)
 K,@,K
 K (.*),@,K $1
 K-R,@,K-R
-LS,@,Freihand-Pr‰senz
+LS,@,Freihand-Pr√§senz
 Magazin,@,Magazin
-Magazin 2,@,Auﬂenmagazin
-Magazin2/(.*),@,Auﬂenmagazin $1
+Magazin 2,@,Au√üenmagazin
+Magazin2/(.*),@,Au√üenmagazin $1
 Magazin A3,@,Magazin
 Magazin-A1,@,Magazin
 MKM,@,MKM
@@ -68,7 +69,7 @@ PRUNI,@,PR Uni
 PSB,@,PSB
 R,@,R
 R-(.*),@,R-$1
-RZ(.*),@,Persˆnliche Dauerleihe (RZ$1)
+RZ(.*),@,Pers√∂nliche Dauerleihe (RZ$1)
 SB-FH,@,Sammlung Bonar EG
 SBV,@,SBV
 SF-FH,@,Sammlung Freudenthal 2.OG PIZ
