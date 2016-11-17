@@ -58,7 +58,7 @@ K-R,@,K-R
 LS,@,Freihand-Präsenz
 Magazin,@,Magazin
 Magazin 2,@,Außenmagazin
-Magazin2/(.*),@,Außenmagazin $1
+Magazin 2/(.*),@,Außenmagazin $1
 Magazin A3,@,Magazin
 Magazin-A1,@,Magazin
 MKM,@,MKM
