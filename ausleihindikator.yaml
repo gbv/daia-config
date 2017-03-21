@@ -840,3 +840,41 @@
              is: available
              limitation: "nur Kopie"
 
+# Rostock UB (DE-28)
+"opac-de-28":
+
+    # Default	: mit Zustimmung ausleihbar / Fernleihe
+	# UBR		: Benutzung in den Bibliotheksräumen
+    d:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Benutzung in den Bibliotheksräumen"
+        interloan:
+            is: available
+            limitation: "Fernleihbeschränkungen möglich"
+
+
+    # Default	: mit Zustimmung ausleihbar / Fernleihe nur Kopie
+	# UBR		: Benutzung nur in den Bibliotheksräumen
+    s:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Benutzung nur in den Bibliotheksräumen"
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+    # Default	: Lesesaalausleihe / keine Fernleihe
+	# UBR		: loan.available / Benutzung nur in den Bibliotheksräumen
+    i:
+        presentation:
+            is: available
+        loan:
+            is: available
+			limitation: "Benutzung nur in den Bibliotheksräumen"
+        interloan:
+            is: unavailable
