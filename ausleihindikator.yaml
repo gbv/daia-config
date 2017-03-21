@@ -840,3 +840,114 @@
              is: available
              limitation: "nur Kopie"
 
+# Rostock UB (DE-28)
+"opac-de-28":
+
+    # Default	: Standardwert, falls kein Indikator angegeben
+    default: u
+
+    # Default	: ausleihbar/Fernleihe
+    u:
+        presentation:
+            is: available
+        loan:
+            is: available
+        interloan:
+            is: available
+
+    # Default	: verkürzt ausleihbar / Fernleihe
+    b:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "kürzere Ausleihfrist"
+        interloan:
+            is: available
+
+    # Default	: mit Zustimmung ausleihbar / Fernleihe
+	# UBR		: Benutzung nur in den Bibliotheksräumen
+    d:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Benutzung nur in den Bibliotheksräumen"
+        interloan:
+            is: available
+            limitation: "Fernleihbeschränkungen möglich"
+
+
+    # Default	: mit Zustimmung ausleihbar / Fernleihe nur Kopie
+	# UBR		: Benutzung nur in den Bibliotheksräumen
+    s:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Benutzung nur in den Bibliotheksräumen"
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+    # Default	: ausleihbar / keine Fernleihe
+    c:
+        presentation:
+            is: available
+        loan:
+            is: available
+        interloan:
+            is: unavailable
+
+    # Default	: Lesesaalausleihe / keine Fernleihe
+	# UBR		: loan.available / Benutzung nur in den Bibliotheksräumen
+    i:
+        presentation:
+            is: available
+        loan:
+            is: available
+			limitation: "Benutzung nur in den Bibliotheksräumen"
+        interloan:
+            is: unavailable
+
+    # Default	: für Ausleihe gesperrt / keine Fernleihe
+    g:
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    # Default	: Lesesaalausleihe / nur Kopie in die Fernleihe
+    f:
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+    # Default	: bestellt
+    a:
+        presentation:
+            is: unavailable
+            expected: unknown
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
+
+    # bestellt, Verlust, keine Angabe, unbekannter Indikator
+    "":
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
