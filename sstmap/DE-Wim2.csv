@@ -1,88 +1,87 @@
 sst, department, storage
-A-0	, @, 	Ebene 0 Limona Steubenstraße 8 
-A1	, @, 	Empore Limona Steubenstraße 8
-A2	, @, 	Ebene +2 Limona Steubenstraße 8
-Alumni	, @, 	Alumni-Büro Marienstrs. 9
-ArchHa	, @, 	Handbibliothek Fakultät Architektur
-ArchHaG	, @, 	Graduiertenkolleg 2227 - Identität und Erbe
-ArchivMo	, @, 	Archiv der Moderne Bauhausstraße 7b
-Ausleihe 	, @, 	Ausleihtheke Ebene 0 Steubenstraße 6
-BIngFA 	, @, 	Forschungsapparate Fakultät Bauingenieurwesen
-BIngHa	, @, 	Handbibliothek Fakultät Bauingenieurwesen
-BIngHaG	, @, 	Graduiertenkolleg 1462 – Modellqualitäten Berkaer Straße 9
-BIngHy	, @, 	Hydrolabor Schleusingen
-BIngTS	, @, 	Fakultät Bauingenieurwesen Technischer Service Coudraystraße 13d
-BRS	, @, 	Bauhaus Research School Berkaer Straße 9
-Bst	, @, 	Zweigbibliothek  Baustoffe/Naturwissenschaften Coudraystraße 7
-BstHa	, @, 	Handbibliothek Fakultät Bauingenieurwesen
-DB	, @, 	Datenschutzbeauftragter Coudraystraße 7
-DF	, @, 	Dezernat Finanzen Coudraystraße 7
-DFO	, @, 	Dezernat Forschung Coudraystraße 7
-DIB	, @, 	Dezernat Internationale Beziehungen 
-DP	, @, 	Dezernat Personalwesen Belvederer Allee 6
-DSL	, @, 	Dezernat für Studium und Lehre 
-DVDLBS	, @, 	Ebene -1 Neubau DVD-Regal Steubenstraße 6
-F1	, @, 	Ebene +1 Steubenstraße 6
-F-1	, @, 	Ebene -1 Steubenstraße 6
-F2	, @, 	Ebene +2 Steubenstraße 6
-Glei	, @, 	Gleichstellungsbeauftragte Coudraystraße 7
-HabiBen	, @, 	Handbibliothek Abt. Benutzung
-HabiDir	, @, 	Handbibliothek  Bibliotheksdirektor 
-HabiEDV	, @, 	Handbibliothek  Bibliotheksadministration 
-HabiErw	, @, 	UB Handbibliothek Erwerbung
-HabiF	, @, 	Handbibliothek  Abt. Benutzung/Fernleihe 
-HabiFRA	, @, 	Handbibliothek Fachreferat Architektur
-HabiFRB	, @, 	Handbibliothek Fachreferat Baustoffe/Naturwissenschaften
-HabiFRG	, @, 	Handbibliothek Fachreferat Gestaltung
-HabiFRI	, @, 	Handbibliothek Fachreferat Informatik/Bauingenieurwesen
-HabiFRM	, @, 	Handbibliothek Fachreferat Medien
-HabiH	, @, 	UB Handbibliothek Haushalt
-HabiInfo	, @, 	UB Handapp. Informationsdienstleistungen 
-HabiSekr	, @, 	UB Handbibliothek  Sekretariat 
-HabiSyk	, @, 	UB Handbibliothek  Systematischer Katalog
-HabiTA	, @, 	UB Handbibliothek  Katalogisierung 
-HabiZ	, @, 	UB Handbibliothek  Zeitschriften 
-IKKM	, @, 	Internat. Kolleg für Kulturtechnikforschung und Medienphilosophie
-Just	, @, 	Justitiar Belvederer Allee 6 
-Kanz	, @, 	Kanzler Belvederer Allee 6
-KanzIR	, @, 	Kanzleramt Innenrevision Belvederer Allee 6
-KB	, @, 	Sonderbestand (Limona)
-Kita	, @, 	Kindertagesstätte
-KuHa	, @, 	Handbibliothek Fakultät Gestaltung
-LBS	, @, 	Lehrbuchsammlung Ebene -1 Steubenstraße 6
-Mag	, @, 	Magazin Steubenstraße 6 
-Mag2	, @, 	Magazin Steubenstraße 6 
-MagFA	, @, 	Forschungsapparate Fakultät Bauingenieurwesen
-Media	, @, 	Multimediathek Ebene +2 Limona Steubenstraße 8
-MHa	, @, 	Handbibliothek Fakultät Medien
-MHaG	, @, 	Graduiertenkolleg Mediale Historiographien  
-neudeli	, @, 	Gründerwerkstatt neudeli Helmholtzstraße 15
-PR	, @, 	Personalrat Coudraystraße 7
-Red	, @, 	Universitätsverlag Marienstraße 5
-Rektor	, @, 	Rektoramt Geschwister-Scholl-Straße 8
-SCC	, @, 	Servicezentrum für Computersysteme und –Kommunikation 
-SCCSoBi	, @, 	Servicezentrum ... Software-Bibliothek Steubenstraße 6a
-Schw	, @, 	Schwerbehindertenvertretung Bauhausstraße 7b
-SemArch	, @, 	Semesterapparat Architektur Ebene +1 Steubenstraße 6
-SemBst	, @, 	Semesterapparat Baustoffe/Naturwiss. Zweigbibl. Coudraystraße 7
-SemGest	, @, 	Semesterapparat Gestaltung Empore Limona Steubenstraße 8
-SemMed	, @, 	Semesterapparat Medien Empore Limona Steubenstraße 8
-SI	, @, 	Sicherheitsingenieur Belvederer Allee 6
-SL	, @, 	Servicezentrum Liegenschaften 
-SoMag	, @, 	Sondermagazin Steubenstraße 6
-Sport	, @, 	Sportzentrum Belvederer Allee 25
-Spr	, @, 	Sprachlehrzentrum Coudraystraße 13
-STAA	, @, 	Dezernat für Studium und Lehre 
-STAACS	, @, 	Dezernat für Studium und Lehre Careers Service 
-ThekeA0	, @, 	Info-Theke Ebene 0 Limona Steubenstraße 8
-ThekeA2	, @, 	Info-Theke Ebene +2 Limona Steubenstraße 8
-ThekeBst	, @, 	Info-Theke Zweigbibl. Baustoffe/Naturwiss. Coudraystraße 7
-ThekeF1	, @, 	Info-Theke Ebene +1 Steubenstraße 6
-ThekeF2	, @, 	Info-Theke Ebene +2 Steubenstraße 6
-U-Archiv	, @, 	Universitätsarchiv Steubenstraße 8
-UE	, @, 	Zentrum für Universitätsentwicklung 
-UK	, @, 	Universitätskommunikation Marienstraße 9
-U-Netz	, @, 	Universitätsnetz 
-WGest	, @, 	Werkstätten Gestaltung
-WVGest	, @, 	Werkstätten Video Gestaltung
-
+A-0 	@ 	Ebene 0 Limona Steubenstraße 8
+A1 	@ 	Empore Limona Steubenstraße 8
+A2 	@ 	Ebene +2 Limona Steubenstraße 8
+Alumni 	@ 	Alumni-Büro Marienstrs. 9
+ArchHa 	@ 	Handbibliothek Fakultät Architektur
+ArchHaG 	@ 	Graduiertenkolleg 2227 - Identität und Erbe
+ArchivMo 	@ 	Archiv der Moderne Bauhausstraße 7b
+Ausleihe 	@ 	Ausleihtheke Ebene 0 Steubenstraße 6
+BIngFA 	@ 	Forschungsapparate Fakultät Bauingenieurwesen
+BIngHa 	@ 	Handbibliothek Fakultät Bauingenieurwesen
+BIngHaG 	@ 	Graduiertenkolleg 1462 – Modellqualitäten Berkaer Straße 9
+BIngHy 	@ 	Hydrolabor Schleusingen
+BIngTS 	@ 	Fakultät Bauingenieurwesen Technischer Service Coudraystraße 13d
+BRS 	@ 	Bauhaus Research School Berkaer Straße 9
+Bst 	@ 	Zweigbibliothek Baustoffe/Naturwissenschaften Coudraystraße 7
+BstHa 	@ 	Handbibliothek Fakultät Bauingenieurwesen
+DB 	@ 	Datenschutzbeauftragter Coudraystraße 7
+DF 	@ 	Dezernat Finanzen Coudraystraße 7
+DFO 	@ 	Dezernat Forschung Coudraystraße 7
+DIB 	@ 	Dezernat Internationale Beziehungen
+DP 	@ 	Dezernat Personalwesen Belvederer Allee 6
+DSL 	@ 	Dezernat für Studium und Lehre
+DVDLBS 	@ 	Ebene -1 Neubau DVD-Regal Steubenstraße 6
+F1 	@ 	Ebene +1 Steubenstraße 6
+F-1 	@ 	Ebene -1 Steubenstraße 6
+F2 	@ 	Ebene +2 Steubenstraße 6
+Glei 	@ 	Gleichstellungsbeauftragte Coudraystraße 7
+HabiBen 	@ 	Handbibliothek Abt. Benutzung
+HabiDir 	@ 	Handbibliothek Bibliotheksdirektor
+HabiEDV 	@ 	Handbibliothek Bibliotheksadministration
+HabiErw 	@ 	UB Handbibliothek Erwerbung
+HabiF 	@ 	Handbibliothek Abt. Benutzung/Fernleihe
+HabiFRA 	@ 	Handbibliothek Fachreferat Architektur
+HabiFRB 	@ 	Handbibliothek Fachreferat Baustoffe/Naturwissenschaften
+HabiFRG 	@ 	Handbibliothek Fachreferat Gestaltung
+HabiFRI 	@ 	Handbibliothek Fachreferat Informatik/Bauingenieurwesen
+HabiFRM 	@ 	Handbibliothek Fachreferat Medien
+HabiH 	@ 	UB Handbibliothek Haushalt
+HabiInfo 	@ 	UB Handapp. Informationsdienstleistungen
+HabiSekr 	@ 	UB Handbibliothek Sekretariat
+HabiSyk 	@ 	UB Handbibliothek Systematischer Katalog
+HabiTA 	@ 	UB Handbibliothek Katalogisierung
+HabiZ 	@ 	UB Handbibliothek Zeitschriften
+IKKM 	@ 	Internat. Kolleg für Kulturtechnikforschung und Medienphilosophie
+Just 	@ 	Justitiar Belvederer Allee 6
+Kanz 	@ 	Kanzler Belvederer Allee 6
+KanzIR 	@ 	Büro des Kanzlers Innenrevision Belvederer Allee 6
+KB 	@ 	Sonderbestand (Limona)
+Kita 	@ 	Kindertagesstätte
+KuHa 	@ 	Handbibliothek Fakultät Gestaltung
+LBS 	@ 	Lehrbuchsammlung Ebene -1 Steubenstraße 6
+Mag 	@ 	Magazin Steubenstraße 6
+Mag2 	@ 	Magazin Steubenstraße 6
+MagFA 	@ 	Forschungsapparate Fakultät Bauingenieurwesen
+Media 	@ 	Multimediathek Ebene +2 Limona Steubenstraße 8
+MHa 	@ 	Handbibliothek Fakultät Medien
+MHaG 	@ 	Graduiertenkolleg Mediale Historiographien
+neudeli 	@ 	Gründerwerkstatt neudeli Helmholtzstraße 15
+PR 	@ 	Personalrat Coudraystraße 7
+Red 	@ 	Universitätsverlag Marienstraße 5
+Rektor 	@ 	Präsident Geschwister-Scholl-Straße 8
+SCC 	@ 	Servicezentrum für Computersysteme und –Kommunikation
+SCCSoBi 	@ 	Servicezentrum ... Software-Bibliothek Steubenstraße 6a
+Schw 	@ 	Schwerbehindertenvertretung Bauhausstraße 7b
+SemArch 	@ 	Semesterapparat Architektur Ebene +1 Steubenstraße 6
+SemBst 	@ 	Semesterapparat Baustoffe/Naturwiss. Zweigbibl. Coudraystraße 7
+SemGest 	@ 	Semesterapparat Gestaltung Empore Limona Steubenstraße 8
+SemMed 	@ 	Semesterapparat Medien Empore Limona Steubenstraße 8
+SI 	@ 	Sicherheitsingenieur Belvederer Allee 6
+SL 	@ 	Servicezentrum Liegenschaften
+SoMag 	@ 	Sondermagazin Steubenstraße 6
+Sport 	@ 	Sportzentrum Belvederer Allee 25
+Spr 	@ 	Sprachlehrzentrum Coudraystraße 13
+STAA 	@ 	Dezernat für Studium und Lehre
+STAACS 	@ 	Dezernat für Studium und Lehre Careers Service
+ThekeA0 	@ 	Info-Theke Ebene 0 Limona Steubenstraße 8
+ThekeA2 	@ 	Info-Theke Ebene +2 Limona Steubenstraße 8
+ThekeBst 	@ 	Info-Theke Zweigbibl. Baustoffe/Naturwiss. Coudraystraße 7
+ThekeF1 	@ 	Info-Theke Ebene +1 Steubenstraße 6
+ThekeF2 	@ 	Info-Theke Ebene +2 Steubenstraße 6
+U-Archiv 	@ 	Universitätsarchiv Steubenstraße 8
+UE 	@ 	Zentrum für Universitätsentwicklung
+UK 	@ 	Universitätskommunikation Marienstraße 9
+U-Netz 	@ 	Universitätsnetz
+WGest 	@ 	Werkstätten Gestaltung
+WVGest 	@ 	Werkstätten Video Gestaltung
