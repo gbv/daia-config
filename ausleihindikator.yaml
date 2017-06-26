@@ -601,6 +601,19 @@
             is: unavailable
         interloan:
             is: unavailable
+            
+     # Lesesaalausleihe / nur Kopie in die Fernleihe
+    f:
+        message: "f"
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+            
     # Gesperrt (Giftschrank, Sonderstandorte, Dienstexemplare etc.)
     g:
         message: "g"
@@ -628,7 +641,6 @@
             is: available
         loan:
             is: available
-            limitation: "mit Zustimmung"
         interloan:
             is: available
             limitation: "nur Kopie"
