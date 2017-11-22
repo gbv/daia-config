@@ -1,2 +1,7 @@
 sst,department,storage
-mb,DE-959,Mediathek
+h,DE-959-1,
+h ausleihtheke,DE-959-1,Ausleihtheke
+l,DE-959-3,
+l,DE-959-3,
+w,DE-959
+w av,DE-959,Mediathek
