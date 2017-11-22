@@ -372,7 +372,7 @@
             is: unavailable
         interloan:
             is: available
-            limitation: "nur Kopie"#
+            limitation: "nur Kopie"
 
     # Lesesaalausleihe / nur Kopie in die Fernleihe
     f:
