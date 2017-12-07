@@ -338,6 +338,19 @@
         openaccess:
             is: unavailable
 
+# UB der HSU Hamburg
+"opac-de-705":
+
+    # Handapparat, nicht ausleihbar
+    c:
+        message: "Handapparat, nicht ausleihbar"
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
 # UB Magdeburg
 "opac-de-ma9":
 
