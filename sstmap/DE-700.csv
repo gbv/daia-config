@@ -21,6 +21,7 @@ b sta,@b,
 b tec,@b,
 b,@b,
 b-freihand-magazin,@b,Freihand-Magazin Bibliothek Alte Münze (UG)
+b-imis,@b,Bibliothek des Instituts für Migrationsforschung und Interkulturelle Studien (IMIS)
 b-kartenschrank,@b,Kartensammlung Bibliothek Alte Münze (3.OG)
 b-lesesaal 1,@b,Lesesaal 1. OG in der Bereichsbibliothek Philologien/Kulturwissenschaften
 b-lesesaal 2,@b,Lesesaal 2. OG in der Bereichsbibliothek Philologien/Kulturwissenschaften
@@ -35,7 +36,6 @@ bibliothek wittler,@b,Nachlass Wittler im Magazin der Bibliothek Alte Münze
 c-2,@ikfnimis,Alte Geschichte und Archäologie
 c-3,@ikfnimis,Kartensammlung Geographie
 c-4,@ikfnimis,Handbibliothek Geographie
-c-6,@ikfnimis,Bibliothek des Instituts für Migrationsforschung und Interkulturelle Studien (IMIS)
 cd-rom-server,@ikfnimis,CD-ROM-Server der Universitätsbibliothek
 cd-rom-station alte muenze,@ikfnimis,CD-ROM-Station im Lesesaal 2 OG in der Bereichsbibliothek Philologien/Kulturwissenschaften
 d,-,
