@@ -21,6 +21,7 @@ b sta,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissensc
 b tec,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B tec]
 b,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B]
 b-imis,@b,Bibliothek des Instituts für Migrationsforschung und Interkulturelle Studien (IMIS) [B-IMIS]
+b-freihand-magazin,@b,Freihand-Magazin Bibliothek Alte Münze (UG) [B-Freihand-Magazin]
 b-kartenschrank,@b,Kartensammlung Bibliothek Alte Münze (3.OG) [B-Kartenschrank]
 b-lesesaal 1,@b,Lesesaal 1. OG in der Bereichsbibliothek Philologien / Kulturwissenschaften [B-Lesesaal 1]
 b-lesesaal 2,@b,Lesesaal 2. OG in der Bereichsbibliothek Philologien / Kulturwissenschaften [B-Lesesaal 2]
