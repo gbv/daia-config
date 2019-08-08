@@ -774,3 +774,120 @@
             is: unavailable
         openaccess:
             is: unavailable
+
+# Jade Hochschule Wilhelmshaven
+ "opac-de-839":
+    default: u 
+
+    b:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Kurzausleihe möglich"
+        interloan:
+            is: available
+    
+    f:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Kurzausleihe möglich"
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+    g:
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    "":
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+            limitation: "Wenden Sie sich bitte an die Ausleihtheke."
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
+
+# Jade Hochschule Oldenburg
+ "opac-de-897":
+    default: u 
+
+    a:
+        presentation:
+            is: unavailable
+            limitation: "bestellt / in Geschäftsgang"
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+    
+    i:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Präsenzbestand - Kurzausleihe möglich"
+        interloan:
+            is: unavailable
+
+    s:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "verkürzte Leihfrist (8 Tage)"
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+    "":
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+            limitation: "Wenden Sie sich bitte an die Infotheke."
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
+
+# Jade Hochschule Elsfleth
+ "opac-de-897-1":
+    default: u 
+
+    g:
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    i:
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+            limitation: "Präsenzbestand"
+        interloan:
+            is: unavailable
+
+    "":
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+            limitation: "Wenden Sie sich bitte an die Ausleihtheke."
+        interloan:
+            is: unavailable
+        openaccess:
+            is: unavailable
