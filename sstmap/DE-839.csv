@@ -1,15 +1,17 @@
 sst,department,storage
-aktuelle ausgabe im netz der hochschule,@,Aktuelle Ausgabe im Netz der Hochschule
 ausleihtheke,@,Ausleihtheke
+"bibliothek, abteilung ausbildung",@,"Bibliothek, Abteilung Ausbildung"
+"bibliothek, abteilung Benutzungsleitung",@,"Bibliothek, Abteilung Benutzungsleitung"
+"bibliothek, abteilung bibliotheksit",@,"Bibliothek, Abteilung BibliotheksIT"
 "bibliothek, abteilung erwerbung",@,"Bibliothek, Abteilung Erwerbung"
+"bibliothek, abteilung fernleihe",@,"Bibliothek, Abteilung Fernleihe"
 "bibliothek, abteilung katalogisierung",@,"Bibliothek, Abteilung Katalogisierung"
 "bibliothek, abteilung leitung",@,"Bibliothek, Abteilung Leitung"
 bibliotheksleitung elsfleth,ISIL DE-897-1,Bibliotheksleitung Elsfleth
-frauen-technik-regal,@,Frauen-Technik-Regal
-glaswand im lesesaal,@,Glaswand im Lesesaal
+erste-hilfe-kasten,@,Erste-Hilfe-Kasten
+fachbereich ingenieurwissenschaften,@,Fachbereich Ingenieurwissenschaften
 handapparat,@,Handapparat
 im netz der hochschule,@,Im Netz der Hochschule
-labor für cad cam,@,Labor für CAD/CAM
 labor für chemie,@,Labor für Chemie
 labor für den entwurf integrierter schaltungen,@,Labor für den Entwurf integrierter Schaltungen
 labor für feinwerkkonstruktion,@,Labor für Feinwerkkonstruktion
@@ -22,13 +24,12 @@ labor für maschinenelemente,@,Labor für Maschinenelemente
 labor für medizintechnik,@,Labor für Medizintechnik
 labor für mikrocomputertechnik,@,Labor für Mikrocomputertechnik
 labor für mikrofertigung,@,Labor für Mikrofertigung
+labor für physik,@,Labor für Physik
 labor für umwelttechnik,@,Labor für Umwelttechnik
 labor für werkstofftechnik,@,Labor für Werkstofftechnik
 labor für werkzeugmaschinen,@,Labor für Werkzeugmaschinen
 lesesaal,@,Lesesaal
 magazin,@,Magazin
 medienschrank,@,Medienschrank
-"semesterapparat prof. sachs, glaswand im lesesaal",@,"Semesterapparat Prof. Sachs, Glaswand im Lesesaal"
-"semesterapparat prof. schleier, glaswand im lesesaal",@,"Semesterapparat Prof. Schleier, Glaswand im Lesesaal"
-zeitschriftenlesesaal,@,Zeitschriftenlesesaal
+semesterapparat,@,Semesterapparat
 zs-cd-fach,@,ZS-CD-Fach
