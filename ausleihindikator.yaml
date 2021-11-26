@@ -645,6 +645,20 @@
             is: available
             limitation: "nur Kopie"
 
+# UB der HSU Hamburg
+"opac-de-705":
+
+    # Handapparat, nicht ausleihbar
+    c:
+        message: "Handapparat, nicht ausleihbar"
+        presentation:
+            is: available
+            limitation: "mit Zustimmung"
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
 # KLU (DE-H376)
 "opac-de-h376":
     # Präsenzbestand / Fernleihe nur Kopie
