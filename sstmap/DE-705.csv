@@ -1,8 +1,8 @@
 sst, department, storage, storagehome
-hb,@,TB Mil (EG),https://ub.hsu-hh.de/BibMap?signatur=mil
+hb,@HB,TB Mil (EG),https://ub.hsu-hh.de/BibMap?signatur=mil
 wow,@,UB Wirtschafts- und Sozialwissenschaften (2.OG),https://ub.hsu-hh.de/BibMap?signatur=vwl
 h2,@,Magazin,
-sm,@,Sondermagazin,
+sm,@Sondermgazin,Sondermagazin,
 pae,@,UB Geistes- und Sozialwissenschaften (2.OG), https://ub.hsu-hh.de/BibMap?signatur=his
 hsb,@,Helmut-Schmidt-Bibliografie,
 jur,@,UB Jura (2.OG),https://ub.hsu-hh.de/BibMap?signatur=jur
