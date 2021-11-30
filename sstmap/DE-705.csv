@@ -12,7 +12,7 @@ netz,@,Online,
 pol,@,UB Politikwissenschaften (2.OG),https://ub.hsu-hh.de/BibMap?signatur=pol
 psy,@,UB Geistes- und Sozialwissenschaften (2.OG),https://ub.hsu-hh.de/BibMap?signatur=psy
 t([0-9]+),@,Trimesterapparat $1 (2.OG),https://ub.hsu-hh.de/trimapp/collection.php?id=$1
-([0-9]+),@,Handapparat $1,https://ub.hsu-hh.de/liste-der-handapparate/?order=num
+([0-9]+),@Handapparat,Handapparat $1,https://ub.hsu-hh.de/liste-der-handapparate/?order=num
 ub,@,Universitätsbibliografie,
 za,@,Zentrale Ausleihe (2.OG),
 zam,@,Zentrale Ausleihe Mikroformen (2.OG),
