@@ -1,19 +1,19 @@
 sst, department, storage, storagehome
-hb,@HB,TB Mil (EG),https://ub.hsu-hh.de/BibMap?signatur=mil
-wow,@,UB Wirtschafts- und Sozialwissenschaften (2.OG),https://ub.hsu-hh.de/BibMap?signatur=vwl
+hb,@hb,TB Mil (EG),https://ub.hsu-hh.de/BibMap?signatur=mil
+wow,@wow,UB Wirtschafts- und Sozialwissenschaften (2.OG),https://ub.hsu-hh.de/BibMap?signatur=vwl
 WOW,@WiSo,UB Wirtschafts- und Sozialwissenschaften (2.OG),https://ub.hsu-hh.de/BibMap?signatur=vwl
-h2,@,Magazin,
-sm,@Sondermagazin,Sondermagazin,
-pae,@,UB Geistes- und Sozialwissenschaften (2.OG), https://ub.hsu-hh.de/BibMap?signatur=his
-hsb,@,Helmut-Schmidt-Bibliografie,
-jur,@,UB Jura (2.OG),https://ub.hsu-hh.de/BibMap?signatur=jur
-lbs,@,Lehrbuchsammlung (2.OG),https://ub.hsu-hh.de/BibMap?signatur=vwl
-mb,@,UB Maschinenbau (Eingang 2.OG),https://ub.hsu-hh.de/BibMap?signatur=bwl
-netz,@,Online,
-pol,@,UB Politikwissenschaften (2.OG),https://ub.hsu-hh.de/BibMap?signatur=pol
-psy,@,UB Geistes- und Sozialwissenschaften (2.OG),https://ub.hsu-hh.de/BibMap?signatur=psy
-t([0-9]+),@,Trimesterapparat $1 (2.OG),https://ub.hsu-hh.de/trimapp/collection.php?id=$1
-([0-9]+),@Handapparat,Handapparat $1,https://ub.hsu-hh.de/liste-der-handapparate/?order=num
-ub,@,Universitätsbibliografie,
-za,@,Zentrale Ausleihe (2.OG),
-zam,@,Zentrale Ausleihe Mikroformen (2.OG),
+h2,@h2,Magazin,
+sm,@sm,Sondermagazin,
+pae,@pae,UB Geistes- und Sozialwissenschaften (2.OG), https://ub.hsu-hh.de/BibMap?signatur=his
+hsb,@hsb,Helmut-Schmidt-Bibliografie,
+jur,@jur,UB Jura (2.OG),https://ub.hsu-hh.de/BibMap?signatur=jur
+lbs,@lbs,Lehrbuchsammlung (2.OG),https://ub.hsu-hh.de/BibMap?signatur=vwl
+mb,@mb,UB Maschinenbau (Eingang 2.OG),https://ub.hsu-hh.de/BibMap?signatur=bwl
+netz,@netz,Online,
+pol,@pol,UB Politikwissenschaften (2.OG),https://ub.hsu-hh.de/BibMap?signatur=pol
+psy,@psy,UB Geistes- und Sozialwissenschaften (2.OG),https://ub.hsu-hh.de/BibMap?signatur=psy
+t([0-9]+),@ta,Trimesterapparat $1 (2.OG),https://ub.hsu-hh.de/trimapp/collection.php?id=$1
+([0-9]+),@ha,Handapparat $1,https://ub.hsu-hh.de/liste-der-handapparate/?order=num
+ub,@ub,Universitätsbibliografie,
+za,@za,Zentrale Ausleihe (2.OG),
+zam,@zam,Zentrale Ausleihe Mikroformen (2.OG),
