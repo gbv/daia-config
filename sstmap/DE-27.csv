@@ -59,7 +59,7 @@ J 1,@gei,Ebene 3
 J 1 (.+),@geiha, Ebene 3
 J 5,@med,
 J 5 (.+),@medha,
-J 6,@psy,
+J 6,@gei,Ebene 1
 J 6N,@med,
 J 8,@med,
 J 9,@vor,
@@ -147,8 +147,8 @@ J 36 (.+),@naha,
 J 37,@gei,Ebene 1
 J 37 (.+),@geiha, Ebene 1
 J 39,@med,
-J 40,@frau,
-J 40 (.+),@frauha,
+J 40,@med,
+J 40 (.+),@medha,
 J 41,@vor,
 J 41 (.+),@vorha,
 J 42,@tll,
@@ -175,7 +175,6 @@ J 64 PD,@rewiha,
 J 66,@spo,
 J 66 DAU,@spoha,
 J 66 M,@spo,Magazin
-J 66 TRA,@spoha,
 J 66 SPP,@spoha,
 J 71,@nat,
 J 71 (.+),@naha,
@@ -222,6 +221,7 @@ MAG,@mag,
 MAG3,@mag3,
 MAG4,@mag4,
 MAG5,@mag5,
+MAG6,@mag6,
 MLS,@mls,Ebene 0
 NP,@gei,Ebene 3
 SOST,@ha,

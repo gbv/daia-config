@@ -1,14 +1,14 @@
 sst, department, storage
-HA, @, Zentrale Hochschulbibliothek, Campus-Gebäude 60
-Mag, @, Magazin, Zentrale Hochschulbibliothek, Campusgebäude 60
+HA, @, "Zentrale Hochschulbibliothek, Campus-Gebäude 60"
+Mag, @, "Magazin, Zentrale Hochschulbibliothek, Campusgebäude 60"
 IMGWF,@imgwf,Institut für Medizingeschichte und Angewandte Wissenschaften
 FHL,@,Fachhochschule
-FHL_FB, @, Fachhochschule, Fachbereich 
-FHL_FB_Anw.Nat.Wiss. ,@, Fachhochschule, Fachbereich Angewandte Naturwissenschaften
-FHL_FB_Bauw., @, Fachhochschule, Fachbereich Bauwesen
-FHL_FB_Elektrot, @, Fachhochschule, Fachbereich Elektrotechnik
-FHL_FB_Masch.Bau, @, Fachhochschule, Fachbereich Maschinenbau u. Wirtschaftsingenierwesen
-FHL_Forsch.-GmbH, @, Fachhochschule, Forschungs GmbH
-FHL_ZV, @, Fachhochschule, Zentrale Verwaltung
-zv, @, Zentrale Universität Lübeck, Verwaltung
+FHL_FB, @, "Fachhochschule, Fachbereich"
+FHL_FB_Anw.Nat.Wiss. ,@, "Fachhochschule, Fachbereich Angewandte Naturwissenschaften"
+FHL_FB_Bauw., @, "Fachhochschule, Fachbereich Bauwesen"
+FHL_FB_Elektrot, @, "Fachhochschule, Fachbereich Elektrotechnik"
+FHL_FB_Masch.Bau, @, "Fachhochschule, Fachbereich Maschinenbau u. Wirtschaftsingenierwesen"
+FHL_Forsch.-GmbH, @, "Fachhochschule, Forschungs GmbH"
+FHL_ZV, @, "Fachhochschule, Zentrale Verwaltung"
+zv, @, "Zentrale Universität Lübeck, Verwaltung"
 

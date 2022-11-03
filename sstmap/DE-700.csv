@@ -1,200 +1,200 @@
 sst,department,storage
-b all,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b bub,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b clk,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b csc,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b fem,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b geo,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b his,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b hwd,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b kun,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b lit,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b mus,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b mwi,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b osn,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b pae,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b phi,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b psy,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b rel,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b spo,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b sta,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b tec,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/Kulturwissenschaften
-b,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien/ Kulturwissenschaften
-b-freihand-magazin,@b,Freihand-Magazin Bibliothek Alte Münze (UG)
-b-kartenschrank,@b,Kartensammlung Bibliothek Alte Münze (3.OG)
-b-lesesaal 1,@b,Lesesaal 1. OG in der Bereichsbibliothek Philologien/Kulturwissenschaften
-b-lesesaal 2,@b,Lesesaal 2. OG in der Bereichsbibliothek Philologien/Kulturwissenschaften
-b-lesesaal 3,@b,Lesesaal 3. OG in der Bereichsbibliothek Philologien/Kulturwissenschaften
-b-magazin,@b,Magazin Bibliothek Alte Münze
-b-mediothek,@b,Mediothek Bibliothek Alte Münze
-b-schulbuchsammlung,@b,Schulbuchsammlung Bibliothek Alte Münze (UG)
-b-testothek,@b,Testothek Bibliothek Alte Münze
-b-zimeliensaal,@b,Zimeliensaal Bibliothek Alte Münze; Altbau
-bibliothek rengstorf,@b,Nachlass Rengstorf im Magazin der Bibliothek Alte Münze
-bibliothek wittler,@b,Nachlass Wittler im Magazin der Bibliothek Alte Münze
-c-2,@ikfnimis,Alte Geschichte und Archäologie
-c-3,@ikfnimis,Kartensammlung Geographie
-c-4,@ikfnimis,Handbibliothek Geographie
-c-6,@ikfnimis,Bibliothek des Instituts für Migrationsforschung und Interkulturelle Studien (IMIS)
-cd-rom-server,@ikfnimis,CD-ROM-Server der Universitätsbibliothek
-d,-,Dienstexemplare UB
-dl-1,@,Diathek Kunstgeschichte
-e-1,@,Berufspädagogik
-e-2,@,AV-Sammlung Sport
-e-3,@,AV-Sammlung Ev. Theologie
-e-4,@,Pädagogik
-e-5,@,Sachunterricht
-e-6,@,Examensapparat Ev. Theologie
-f,@,Gleichstellungsbüro
-g all,@g,Bereichsbibliothek Sozialwissenschaften
-g bbg,@g,Bereichsbibliothek Sozialwissenschaften
-g his,@g,Bereichsbibliothek Sozialwissenschaften
-g jzs,@g,Bereichsbibliothek Sozialwissenschaften
-g sow,@g,Bereichsbibliothek Sozialwissenschaften
-g sta,@g,Bereichsbibliothek Sozialwissenschaften
-g vwl,@g,Bereichsbibliothek Sozialwissenschaften
-g,@g,Bereichsbibliothek Sozialwissenschaften
-g-freihand-magazin,@g,Freihand-Magazin der Bereichsbibliothek Sozialwissenschaften
-g-grg,@g,Forschungsprojekt Good Regional Governance
-g-ies,@g,Intensivprogramm Europäische Studien
-g-lb,@g,Lehrbuchsammlung der Bereichsbibliothek Sozialwissenschaften
-g-magazin,@g,Magazin der Bereichsbibliothek Sozialwissenschaften
-g-medienschrank,@g,Medienschrank der Bereichsbibliothek Sozialwissenschaften
-igb-referenzwerke,@b,Referenzwerke der Islamischen Gelehrtenbibliothek in der Bibliothek Alte Münze (2. OG)
-islamische gelehrtenbibliothek,@b,Islamische Gelehrtenbibliothek im Magazin der Bibliothek Alte Münze
-j all,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j arb,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j muk,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j oef,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j pri,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j rec,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j soz,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j ste,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j str,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j umw,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j voe,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j,@j,Rechtswissenschaften in der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j-1,@j,Handapparat Prof. Dr. Krack
-j-10,@j,Handapparat Prof. Dr. Hartmann
-j-11,@j,Handapparat Prof. Dr. Schmitz
-j-12,@j,Handapparat Prof. Dr. Foerste
-j-13,@j,Handapparat Prof. Dr. Sinn
-j-14,@j,Handapparat Prof. Dr. Ahrens
-j-15,@j,Handapparat Prof. Dr. Fuchs
-j-16,@j,Handapparat NN
-j-17,@j,Handapparat Prof. Dr. Groß
-j-18,@j,Handapparat Prof. Dr. Zoll
-j-19,@j,Handapparat Prof. Dr. Dörr
-j-2,@j,Handapparat Prof. Dr. Schulte-Nölke
-j-20,@,Handapparat Prof. Dr. Gesk
-j-3,@j,Handapparat NN
-j-4,@j,Handapparat Prof. Dr. von Bar
-j-5,@j,Handapparat Prof. Dr. Tappe
-j-6,@j,Handapparat Prof. Dr. Ipsen
-j-7,@j,Handapparat Prof. Dr. Cancik
-j-8,@j,Handapparat Prof. Dr. Leuschner
-j-9,@j,Handapparat Prof. Dr. Jochum
-j-cip,@j,CIP-Pool Rechtswissenschaften Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j-ed,@j,Europäisches Dokumentationszentrum in der Bibliothek des European Legal Studies Institute
-j-eu,@j,Bibliothek des European Legal Studies Institute
-j-eu-medienschrank,@j,Medienschrank in der Bibliothek des European Legal Studies Institute
-j-eu-raraschrank,@j,Raraschrank in der Bibliothek des European Legal Studies Institute
-j-freihand-magazin,@j,Freihand-Magazin Bibliothek Rechts- und Wirtschaftswissenschaften (UG)
-j-fs,@j,Institut für Finanz- und Steuerrecht
-j-fs-bibliothek schindhelm,@j,Bibliothek Schindhelm in der Institutsbibliothek Finanz- und Steuerrecht
-j-fs-magazin,@j,Magazin der Institutsbibliothek Finanz- und Steuerrecht
-j-fs-medienschrank,@j,Medienschrank im Institut für Finanz- und Steuerrecht
-j-fs-raraschrank,@j,Raraschrank im Institut für Finanz- und Steuerrecht
-j-ic,@j,Ius-Commune-Bibliothek
-j-ic-handapparat,@j,Handapparat der Ius-Commune-Bibliothek
-j-kr,@j,Institut für Kommunalrecht
-j-kr-raraschrank,@j,Raraschrank im Institut für Kommunalrecht
-j-lb,@j,Lehrbuchsammlung Rechtswissenschaften in der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j-magazin,@j,Magazin Rechtswissenschaften in der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j-medienschrank,@j,Medienschrank der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j-raraschrank,@j,Raraschränke der Rechtswissenschaften in der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-j-vr,@j,Institut für Verfahrensrecht
-j-vr-raraschrank,@j,Raraschrank im Institut für Verfahrensrecht
-j-wr,@j,Institut für Handels- und Wirtschaftsrecht
-j-wr-magazin,@j,Magazin der Institutsbibliothek Handels- und Wirtschaftsrecht
-j-ws,@j,Institut für Wirtschaftsstrafrecht
-konrad-liebmann-stiftung,@j,Ausstellungsbestand Konrad-Liebmann-Stiftung
-l,@n,Apparat Biologie
-l-6,@n,Botanischer Garten
-l-8,@n,Chemie
-m-1,@n,FB Physik: Elekronikwerkstatt
-m-10,@n,Nanowissenschaften
-m-11,@n,Stochastische Prozesse und Anwendungen
-m-12,@n,Handapparat Angewandte Analysis
-m-2,@n,Handbibliothek  Physik
-m-4,@n,Handbibliothek Labor mit Schulversuchen
-m-5,@n,Informatik
-m-6,@n,FB Physik: Feinmechanische Werkstatt
-m-7,@n,Algebraische Topologie und Mathematische Fachinformation
-m-8,@n,Angewandte Systemwissenschaft
-m-9,@n,Handapparat Institut für Kognitive Mathematik
-n agr,@n,Bereichsbibliothek Naturwissenschaften/Mathematik
-n bio,@n,Bereichsbibliothek Naturwissenschaften/Mathematik
-n che,@n,Bereichsbibliothek Naturwissenschaften/Mathematik
-n clk,@n,Bereichsbibliothek Naturwissenschaften/Mathematik
-n csc,@n,Bereichsbibliothek Naturwissenschaften/Mathematik
-n geo,@n,Bereichsbibliothek Naturwissenschaften/Mathematik
-n inf,@n,Bereichsbibliothek Naturwissenschaften/Mathematik
-n ing,@n,Bereichsbibliothek Naturwissenschaften/Mathematik
-n mat,@n,Bereichsbibliothek Naturwissenschaften/Mathematik
-n med,@n,Bereichsbibliothek Naturwissenschaften/Mathematik
-n nat,@n,Bereichsbibliothek Naturwissenschaften/Mathematik
-n pae,@n,Bereichsbibliothek Naturwissenschaften/Mathematik
-n phy,@n,Bereichsbibliothek Naturwissenschaften/Mathematik
-n psy,@n,Bereichsbibliothek Naturwissenschaften/Mathematik
-n vwl,@n,Bereichsbibliothek Naturwissenschaften/Mathematik
-n,@n,Bereichsbibliothek Naturwissenschaften/Mathematik
-n-hochschulschriften-magazin,@n,Hochschulschriften-Magazin der Bereichsbibliothek Naturwissenschaften/Mathematik
-n-lb,@n,Lehrbuchsammlung der Bereichsbibliothek Naturwissenschaften/Mathematik
-n-magazin,@n,Magazin in der Bereichsbibliothek Naturwissenschaften/Mathematik
-n-medienschrank,@n,Medienschrank in der Bereichsbibliothek Naturwissenschaften/Mathematik
-n-mediothek,@n,Mediothek in der Bereichsbibliothek Naturwissenschaften/Mathematik
-p-3,@,Kunstdrucke
-p-6,@,Mediothek Musik: Tonträger; Medien
-p-7,@,Mediothek Musik: Partituren
-q-1,@,Gesundheitswissenschaften
-q-2,@,Dermatologie; Umweltmedizin und Gesundheitstheorie
-s-1,@,Mediothek des Fachbereichs Sprach- und Literaturwissenschaft
-s-4,@,Bibliothek des Interdisziplinären Instituts für Kulturgeschichte der Frühen Neuzeit (IKFN)
-s-6,@,Erich Maria Remarque-Archiv/Forschungsstelle Krieg und Literatur
-s-7,@,Institut für Kognitionswissenschaft (IKW)
-u-1,@,AV-Sammlung Katholische Theologie
-u-3,@,DFG-Projekt Pentateuch / Judaistik
-u-4,@,Studienapparat Eder
-v,@,Universitätsverwaltung
-w all,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-w bwl,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-w inf,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-w sta,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-w vwl,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-w,@j,Wirtschaftswissenschaften in der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-w-1,@j,Handapparat Prof. Dr. Thomas
-w-10,@j,Handapparat Prof. Dr. Wosnitza
-w-11,@j,Handapparat Prof. Dr. Braulke
-w-12,@j,Handapparat Prof. Dr. Grundke
-w-13,@j,Handapparat Prof. Dr. Knüppel
-w-14,@j,Handapparat Prof. Dr. Rieger
-w-15,@j,Handapparat  Prof. Dr. Scholze
-w-16,@j,Handapparat  Prof. Dr. Teuteberg
-w-17,@j,Handapparat Prof. Dr. Künzel
-w-18,@j,Handapparat Prof. Dr. Gillenkirch
-w-19,@,Handapparat Prof. Dr. Hausberg
-w-2,@j,Handapparat Prof. Dr. Baumgartner
-w-3,@j,Handapparat Prof. Dr. Hoppe
-w-4,@j,Handapparat Prof. Dr. Ossadnik
-w-5,@j,Handapparat Prof. Humphrey; Ph. D.
-w-6,@j,Handapparat Prof. Dr. Meyer
-w-7,@j,Handapparat Prof. Dr. Westermann
-w-8,@j,Handapparat Prof. Dr. Gaube
-w-9,@j,Handapparat Prof. Dr. Wilde
-w-lb,@j,Lehrbuchsammlung Wirtschaftswissenschaften in der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-w-magazin,@j,Magazin Wirtschaftswissenschaften in der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-w-medienschrank,@j,Medienschrank der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften
-x,@,VirtUOS. Zentrum zur Unterstützung virtueller Lehre der Universität Osnabrück
-y,@,Zentrale Studienberatungsstelle (ZSB); StudiOS
-z,@,Zentrum für Lehrerbildung (ZLB); StudiOS
+b all,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B all]
+b bub,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B bub]
+b clk,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B clk]
+b csc,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B csc]
+b fem,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B fem]
+b geo,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B geo]
+b his,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B his]
+b hwd,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B hwd]
+b kun,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B kun]
+b lit,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B lit]
+b mus,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B mus]
+b mwi,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B mwi]
+b osn,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B osn]
+b pae,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B pae]
+b phi,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B phi]
+b psy,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B psy]
+b rel,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B rel]
+b spo,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B spo]
+b sta,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B sta]
+b tec,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B tec]
+b,@b,Bibliothek Alte Münze; Bereichsbibliothek Philologien / Kulturwissenschaften [B]
+b-igb-referenzwerke,@b,Referenzwerke der Islamischen Gelehrtenbibliothek in der Bibliothek Alte Münze (2. OG) [B-IGB-Referenzwerke]
+b-ikfn,@b,Bibliothek des Interdisziplinären Instituts für Kulturgeschichte der Frühen Neuzeit (IKFN) [B-IKFN]
+b-ikfn-altdrucke,@b,B-IKFN-Altdrucke [B-IKFN-Altdrucke]
+b-imis,@b,Bibliothek des Instituts für Migrationsforschung und Interkulturelle Studien (IMIS) [B-IMIS]
+b-freihand-magazin,@b,Freihand-Magazin Bibliothek Alte Münze (UG) [B-Freihand-Magazin]
+b-kartenschrank,@b,Kartensammlung Bibliothek Alte Münze (3.OG) [B-Kartenschrank]
+b-lesesaal 1,@b,Lesesaal 1. OG in der Bereichsbibliothek Philologien / Kulturwissenschaften [B-Lesesaal 1]
+b-lesesaal 2,@b,Lesesaal 2. OG in der Bereichsbibliothek Philologien / Kulturwissenschaften [B-Lesesaal 2]
+b-lesesaal 3,@b,Lesesaal 3. OG in der Bereichsbibliothek Philologien / Kulturwissenschaften [B-Lesesaal 3]
+b-magazin,@b,Magazin Bibliothek Alte Münze [B-Magazin]
+b-mediothek,@b,Mediothek Bibliothek Alte Münze [B-Mediothek]
+b-schulbuchsammlung,@b,Schulbuchsammlung Bibliothek Alte Münze (UG) [B-Schulbuchsammlung]
+b-testothek,@b,Testothek Bibliothek Alte Münze [B-Testothek]
+b-zimeliensaal,@b,Zimeliensaal Bibliothek Alte Münze; Altbau [B-Zimeliensaal]
+bibliothek rengstorf,@b,Nachlass Rengstorf im Magazin der Bibliothek Alte Münze [Bibliothek Rengstorf]
+bibliothek wittler,@b,Nachlass Wittler im Magazin der Bibliothek Alte Münze [Bibliothek Wittler]
+c-2,@b,Alte Geschichte und Archäologie [C-2]
+c-3,@b,Kartensammlung Geographie [C-3]
+c-4,@b,Handbibliothek Geographie [C-4]
+d,@,Dienstexemplare UB [D]
+dl-1,@,Diathek Kunstgeschichte [DL-1]
+e-1,@,Berufspädagogik [E-1]
+e-2,@,AV-Sammlung Sport [E-2]
+e-3,@,AV-Sammlung Ev. Theologie [E-3]
+e-4,@,Pädagogik [E-4]
+e-5,@,Sachunterricht [E-5]
+e-6,@,Examensapparat Ev. Theologie [E-6]
+f,@,Gleichstellungsbüro [F]
+g all,@g,Bereichsbibliothek Sozialwissenschaften [G all]
+g bbg,@g,Bereichsbibliothek Sozialwissenschaften [G bbg]
+g his,@g,Bereichsbibliothek Sozialwissenschaften [G his]
+g jzs,@g,Bereichsbibliothek Sozialwissenschaften [G jzs]
+g sow,@g,Bereichsbibliothek Sozialwissenschaften [G sow]
+g sta,@g,Bereichsbibliothek Sozialwissenschaften [G sta]
+g vwl,@g,Bereichsbibliothek Sozialwissenschaften [G vwl]
+g,@g,Bereichsbibliothek Sozialwissenschaften [G]
+g-freihand-magazin,@g,Freihand-Magazin der Bereichsbibliothek Sozialwissenschaften [G-Freihand-Magazin]
+g-lb,@g,Lehrbuchsammlung der Bereichsbibliothek Sozialwissenschaften [G-LB]
+g-magazin,@g,Magazin der Bereichsbibliothek Sozialwissenschaften [G-Magazin]
+g-medienschrank,@g,Medienschrank der Bereichsbibliothek Sozialwissenschaften [G-Medienschrank]
+g-raraschrank,@g,Raraschrank der Bereichsbibliothek Sozialwissenschaften [G-Raraschrank]
+igb-referenzwerke,@b,Referenzwerke der Islamischen Gelehrtenbibliothek in der Bibliothek Alte Münze (2. OG) [IGB-Referenzwerke]
+islamische gelehrtenbibliothek,@b,Islamische Gelehrtenbibliothek im Magazin der Bibliothek Alte Münze [Islamische Gelehrtenbibliothek]
+j all,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J all]
+j arb,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J arb]
+j muk,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J muk]
+j oef,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J oef]
+j pri,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J pri]
+j rec,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J rec]
+j soz,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J soz]
+j soz,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J soz]
+j str,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J str]
+j umw,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J umw]
+j voe,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J voe]
+j,@j,Rechtswissenschaften in der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J]
+j-1,@j,Handapparat Prof. Dr. Krack [J-1]
+j-10,@j,Handapparat Prof. Dr. Hartmann [J-10]
+j-11,@j,Handapparat Prof. Dr. Schmitz [J-11]
+j-12,@j,Handapparat Prof. Dr. Foerste [J-12]
+j-13,@j,Handapparat Prof. Dr. Sinn [J-13]
+j-14,@j,Handapparat Prof. Dr. McGuire [J-14]
+j-15,@j,Handapparat Prof. Dr. Fuchs [J-15]
+j-16,@j,Handapparat Prof. Dr. Zoll [J-16]
+j-17,@j,Handapparat Prof. Dr. Groß [J-17]
+j-18,@j,Handapparat Prof. Dr. Busch [J-18]
+j-19,@j,Handapparat Prof. Dr. Dörr [J-19]
+j-2,@j,Handapparat Prof. Dr. Schulte-Nölke [J-2]
+j-20,@j,Handapparat Prof. Dr. Gesk [J-20]
+j-3,@j,Handapparat Prof. Dr. Bieder [J-3]
+j-4,@j,Handapparat Prof. Dr. von Bar [J-4]
+j-5,@j,Handapparat Prof. Dr. Tappe [J-5]
+j-6,@j,Handapparat Prof. Dr. Ipsen [J-6]
+j-7,@j,Handapparat Prof. Dr. Cancik [J-7]
+j-8,@j,Handapparat Prof. Dr. Leuschner [J-8]
+j-9,@j,Handapparat Prof. Dr. Jochum [J-9]
+j-cip,@j,CIP-Pool Rechtswissenschaften Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J-CIP]
+j-ed,@j,Europäisches Dokumentationszentrum in der Bibliothek des European Legal Studies Institute [J-ED]
+j-eu all,@j,Bibliothek des European Legal Studies Institute [J-EU all]
+j-eu oef,@j,Bibliothek des European Legal Studies Institute [J-EU oef]
+j-eu pri,@j,Bibliothek des European Legal Studies Institute [J-EU pri]
+j-eu rec,@j,Bibliothek des European Legal Studies Institute [J-EU rec]
+j-eu str,@j,Bibliothek des European Legal Studies Institute [J-EU str]
+j-eu,@j,Bibliothek des European Legal Studies Institute [J-EU]
+j-eu-medienschrank,@j,Medienschrank in der Bibliothek des European Legal Studies Institute [J-EU-Medienschrank]
+j-eu-raraschrank,@j,Raraschrank in der Bibliothek des European Legal Studies Institute [J-EU-Raraschrank]
+j-freihand-magazin,@j,Freihand-Magazin Bibliothek Rechts- und Wirtschaftswissenschaften (UG) [J-Freihand-Magazin]
+j-fs,@j,Institut für Finanz- und Steuerrecht [J-FS]
+j-fs-bibliothek schindhelm,@j,Bibliothek Schindhelm in der Institutsbibliothek Finanz- und Steuerrecht [J-FS-Bibliothek Schindhelm]
+j-fs-magazin,@j,Magazin der Institutsbibliothek Finanz- und Steuerrecht [J-FS-Magazin]
+j-fs-medienschrank,@j,Medienschrank im Institut für Finanz- und Steuerrecht [J-FS-Medienschrank]
+j-fs-raraschrank,@j,Raraschrank im Institut für Finanz- und Steuerrecht [J-FS-Raraschrank]
+j-ic,@j,Ius-Commune-Bibliothek [J-IC]
+j-ic-handapparat,@j,Handapparat der Ius-Commune-Bibliothek [J-IC-Handapparat]
+j-kr,@j,Institut für Kommunalrecht [J-KR]
+j-kr-raraschrank,@j,Raraschrank im Institut für Kommunalrecht [J-KR-Raraschrank]
+j-lb,@j,Lehrbuchsammlung Rechtswissenschaften in der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J-LB]
+j-magazin,@j,Magazin Rechtswissenschaften in der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J-Magazin]
+j-medienschrank,@j,Medienschrank der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J-Medienschrank]
+j-raraschrank,@j,Raraschränke der Rechtswissenschaften in der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [J-Raraschrank]
+j-vr,@j,Institut für Verfahrensrecht [J-VR]
+j-vr-raraschrank,@j,Raraschrank im Institut für Verfahrensrecht [J-VR-Raraschrank]
+j-wr,@j,Institut für Handels- und Wirtschaftsrecht [J-WR]
+j-ws,@j,Institut für Wirtschaftsstrafrecht [J-WS]
+konrad-liebmann-stiftung,@b,Ausstellungsbestand Konrad-Liebmann-Stiftung [Konrad-Liebmann-Stiftung]
+l,@n,Apparat Biologie [L]
+l-6,@n,Botanischer Garten [L-6]
+l-8,@n,Chemie [L-8]
+m-1,@n,FB Physik: Elekronikwerkstatt [M-1]
+m-10,@n,Nanowissenschaften [M-10]
+m-11,@n,Stochastische Prozesse und Anwendungen [M-11]
+m-12,@n,Handapparat Angewandte Analysis [M-12]
+m-2,@n,Handbibliothek  Physik [M-2]
+m-4,@n,Handbibliothek Labor mit Schulversuchen [M-4]
+m-5,@,Informatik [M-5]
+m-6,@n,FB Physik: Feinmechanische Werkstatt [M-6]
+m-7,@n,Algebraische Topologie [M-7]
+m-8,@n,Angewandte Systemwissenschaft [M-8]
+m-9,@n,Handapparat Institut für Kognitive Mathematik [M-9]
+n agr,@n,Bereichsbibliothek Naturwissenschaften / Mathematik [N agr]
+n bio,@n,Bereichsbibliothek Naturwissenschaften / Mathematik [N bio]
+n che,@n,Bereichsbibliothek Naturwissenschaften / Mathematik [N che]
+n clk,@n,Bereichsbibliothek Naturwissenschaften / Mathematik [N clk]
+n csc,@n,Bereichsbibliothek Naturwissenschaften / Mathematik [N csc]
+n geo,@n,Bereichsbibliothek Naturwissenschaften / Mathematik [N geo]
+n inf,@n,Bereichsbibliothek Naturwissenschaften / Mathematik [N inf]
+n ing,@n,Bereichsbibliothek Naturwissenschaften / Mathematik [N ing]
+n mat,@n,Bereichsbibliothek Naturwissenschaften / Mathematik [N mat]
+n med,@n,Bereichsbibliothek Naturwissenschaften / Mathematik [N med]
+n nat,@n,Bereichsbibliothek Naturwissenschaften / Mathematik [N nat]
+n pae,@n,Bereichsbibliothek Naturwissenschaften / Mathematik [N pae]
+n phy,@n,Bereichsbibliothek Naturwissenschaften / Mathematik [N phy]
+n psy,@n,Bereichsbibliothek Naturwissenschaften / Mathematik [N psy]
+n vwl,@n,Bereichsbibliothek Naturwissenschaften / Mathematik [N vwl]
+n,@n,Bereichsbibliothek Naturwissenschaften / Mathematik [N]
+n-hochschulschriften-magazin,@n,Hochschulschriften-Magazin der Bereichsbibliothek Naturwissenschaften / Mathematik [N-Hochschulschriften-Magazin]
+n-lb,@n,Lehrbuchsammlung der Bereichsbibliothek Naturwissenschaften / Mathematik [N-LB]
+n-magazin,@n,Magazin in der Bereichsbibliothek Naturwissenschaften / Mathematik [N-Magazin]
+n-medienschrank,@n,Medienschrank in der Bereichsbibliothek Naturwissenschaften / Mathematik [N-Medienschrank]
+p-3,@g,Kunstdrucke [P-3]
+p-6,@,Mediothek Musik: Tonträger; Medien [P-6]
+p-7,@,Mediothek Musik: Partituren [P-7]
+q-1,@,Gesundheitswissenschaften [Q-1]
+q-2,@,Dermatologie; Umweltmedizin und Gesundheitstheorie [Q-2]
+s-1,@,Mediothek des Fachbereichs Sprach- und Literaturwissenschaft [S-1]
+s-4,@b,Bibliothek des Interdisziplinären Instituts für Kulturgeschichte der Frühen Neuzeit (IKFN) [S-4]
+s-6,@,Erich Maria Remarque-Archiv / Forschungsstelle Krieg und Literatur [S-6]
+s-7,@,Institut für Kognitionswissenschaft (IKW) [S-7]
+u-1,@,AV-Sammlung Katholische Theologie [U-1]
+u-3,@,DFG-Projekt Pentateuch / Judaistik [U-3]
+u-4,@,Studienapparat Eder [U-4]
+v,@,Universitätsverwaltung [V]
+w bwl,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [W bwl]
+w vwl,@j,Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [W vwl]
+w,@j,Wirtschaftswissenschaften in der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [W]
+w-1,@j,Handapparat Prof. Dr. Thomas [W-1]
+w-10,@j,Handapparat Prof. Dr. Wosnitza [W-10]
+w-11,@j,Handapparat Prof. Dr. Braulke [W-11]
+w-12,@j,Handapparat Prof. Dr. Grundke [W-12]
+w-13,@j,Handapparat Prof. Dr. Knüppel [W-13]
+w-14,@j,Handapparat Prof. Dr. Rieger [W-14]
+w-15,@j,Handapparat  Prof. Dr. Scholze [W-15]
+w-16,@j,Handapparat  Prof. Dr. Teuteberg [W-16]
+w-18,@j,Handapparat Prof. Dr. Gillenkirch [W-18]
+w-19,@j,Handapparat Prof. Dr. Hausberg [W-19]
+w-2,@j,Handapparat Prof. Dr. Baumgartner [W-2]
+w-3,@j,Handapparat Prof. Dr. Hoppe [W-3]
+w-4,@j,Handapparat Prof. Dr. Ossadnik [W-4]
+w-5,@j,Handapparat Prof. Humphrey; Ph. D. [W-5]
+w-6,@j,Handapparat Prof. Dr. Dinger [W-6]
+w-7,@j,Handapparat Prof. Dr. Westermann [W-7]
+w-8,@j,Handapparat Prof. Dr. Gaube [W-8]
+w-9,@j,Handapparat Prof. Dr. Wilde [W-9]
+w-lb,@j,Lehrbuchsammlung Wirtschaftswissenschaften in der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [W-LB]
+w-magazin,@j,Magazin Wirtschaftswissenschaften in der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [W-Magazin]
+w-medienschrank,@j,Medienschrank der Bereichsbibliothek Rechts- und Wirtschaftswissenschaften [W-Medienschrank]
+x,@,VirtUOS Zentrum für Informationsmanagement und virtuelle Lehre [X]
+y,@,Zentrale Studienberatungsstelle (ZSB); StudiOS [Y]
+z,@,Zentrum für Lehrerbildung (ZLB) [Z]

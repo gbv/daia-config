@@ -4,6 +4,7 @@ sst,department,storage
 45,@mag,
 80,@mag,
 81,@mag,
+85,@mag,
 90,@mag,
 91,@mag,
 93,@mag,
@@ -30,10 +31,10 @@ HA(.*),@ha,Handapparat $1
 09\.3,@ha,
 09\.4,@ha,
 09\.5,@ha,
-50,@curie,Standort 50
-51,@curie,Standort 51
-54,@curie,Standort 54
-55,@curie,Standort 55
+50,@,Standort 50
+51,@,Standort 51
+54,@,Standort 54
+55,@,Standort 55
 10,@,Standort 10
 11,@,Standort 11
 20,@,Standort 20

@@ -1,28 +1,31 @@
 sst,department,storage
-fbg dpl (.*),	ISIL DE-39,	Dienstplatz $1. Bitte wenden Sie sich an die Theke.
-fbg ha (.*),	ISIL DE-39,	Handapparat $1.	Bitte wenden Sie sich an die Theke.
-fbg hek,	ISIL DE-39,	Herzog-Ernst-Kabinett
-fbg ls,	ISIL DE-39,	Lesesaal.	Bitte selbst am Standort entnehmen.
-fbg mag,	ISIL DE-39,	Magazin
-fbg r,	ISIL DE-39,	Sondermagazin. Bitte wenden Sie sich an die Theke.
-fbg smag,	ISIL DE-39,	Sondermagazin. Bitte wenden Sie sich an die Theke.
-fbg so,	ISIL DE-39,	Sondermagazin. Bitte wenden Sie sich an die Theke.
-dpl (.*),	@,	Dienstplatz $1.	Bitte wenden Sie sich an die Theke.
-ha (.*),	@,	Handapparat $1.	Bitte wenden Sie sich an die Theke.
-info 01,@,"Allgemeine Auskunft, EG. Bitte selbst am Standort entnehmen."
-info 02,@,"Informationszentrum, EG. Bitte selbst am Standort entnehmen."
-info 21,	@,"Lesesaalinformation, 2.OG.	Bitte selbst am Standort entnehmen."
-kart,	@,"Kartenraum, 2. OG. Bitte selbst am Standort entnehmen."
-lbs,	@,	Lehrbuchsammlung. Bitte selbst am Standort entnehmen.
-mag,	@,	Magazin
-medio,	@,	Mediothek. Bitte selbst am Standort entnehmen.
-netz,	@,	NETZ.	Bitte wenden Sie sich an die Theke.
-sem 0(.*),	@,"Semesterapparat, EG: 0$1. Bitte selbst am Standort entnehmen."
-sem 1(.*),	@,"Semesterapparat, 1.OG: 1$1. Bitte selbst am Standort entnehmen."
-sem 2(.*),	@,"Semesterapparat, 2.OG: 2$1. Bitte selbst am Standort entnehmen."
-sls,	@,  "Sonderlesesaal, 2.OG. Bitte selbst am Standort entnehmen."
-slz,	@,  "Selbstlernzentrum, LG1. Bitte selbst am Standort entnehmen."
-smag,	@,	Sondermagazin
-sor,	@,  "Sonderstandort Recht, LG1. Bitte selbst am Standort entnehmen."
-tr,	@,  "Sondermagazin. Bitte wenden Sie sich an die Theke, 2.OG."
-ls, @, "Lesesaal, Bitte selbst am Standort Lesesaal (EG, 1.OG, 2.OG, 3.OG) entnehmen."
+fbg dpl (.*),ISIL DE-39,FB Gotha: Dienstplatz $1
+fbg ha (.*),ISIL DE-39,FB Gotha: Handapparat $1
+fbg hek,ISIL DE-39,FB Gotha: Herzog-Ernst-Kabinett
+fbg ls,ISIL DE-39,FB Gotha: Lesesaal
+fbg kmag,ISIL DE-39,FB Gotha: Perthesforum
+fbg mag,ISIL DE-39,FB Gotha: Magazin
+fbg pmag,ISIL DE-39,FB Gotha: Perthesforum
+fbg pls,ISIL DE-39,FB Gotha: Lesesaal Perthesforum
+fbg r,ISIL DE-39,FB Gotha: Sondermagazin
+fbg smag,ISIL DE-39,FB Gotha: Sondermagazin Perthesforum
+dpl (.*),@,UB Erfurt: Dienstplatz $1
+ha (.*),@,UB Erfurt: Handapparat $1
+info 01,@,"UB Erfurt: Informationstheke 1, EG"
+info 02,@,"UB Erfurt: Informationstheke 2, EG"
+info 21,@,"UB Erfurt: Informationstheke Lesesaal, 2.OG"
+kart,@,"UB Erfurt: Kartenraum, 2. OG"
+lbs,@,UB Erfurt: Lehrbuchsammlung
+a1mag,@,UB Erfurt: Außenmagazin
+mag,@,UB Erfurt: Magazin
+medio,@,UB Erfurt: Mediothek
+netz,@,UB Erfurt: CD/DVD-Server im Campusnetz
+sem 0(.*),@,"UB Erfurt: Semesterapparat, EG: 0$1"
+sem 1(.*),@,"UB Erfurt: Semesterapparat, 1.OG: 1$1"
+sem 2(.*),@,"UB Erfurt: Semesterapparat, 2.OG: 2$1"
+sls,@,"UB Erfurt: Sonderlesesaal, 2.OG"
+slz,@,"UB Erfurt: Selbstlernzentrum, LG1"
+smag,@,UB Erfurt: Sondermagazin
+sor,@,"UB Erfurt: Sonderstandort Recht, LG1"
+tr,@,UB Erfurt: Sondermagazin
+ls,@,UB Erfurt: Lesesaal

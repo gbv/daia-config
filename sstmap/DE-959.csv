@@ -1,0 +1,25 @@
+sst,department,storage
+h,DE-959-1,
+h av,DE-959-1,AV-Medien
+h handapparat,DE-959-1,Handapparat
+h lesezone,DE-959-1,Lesezone
+h magazin,DE-959-1,Magazin
+h magazin sf,DE-959-1,Magazin Sonderformat
+h magazin übergrösse,DE-959-1,Magazin Sonderformat
+h sf,DE-959-1,Sonderformat
+h übergrösse,DE-959-1,Sonderformat
+k,DE-959,
+l,DE-959-3,
+l av,DE-959-3,Mediathek
+l handapparat,DE-959-3,Handapparat
+testothek,DE-959,Testothek
+w,DE-959,
+w av,DE-959,Mediathek
+w sf,DE-959,Sonderformat
+w grossformat,DE-959,Sonderformat
+w handapparat,DE-959,Handapparat
+w magazin,DE-959,Magazin
+w magazin tp,DE-959,Magazin Theaterpädagogik
+wb,DE-959,Mediathek
+wn,DE-959,Notenbestand
+wt,DE-959,Mediathek

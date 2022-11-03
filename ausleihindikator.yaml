@@ -1,4 +1,4 @@
-################################################################################ 
+################################################################################
 # Diese Datei legt die Bedeutung des Ausleihindikators (Kategorie 209A $d /    #
 # 701x in Pica3) fest. Für jeden möglichen Wert muss angegeben werden, welche  #
 # DAIA-Dienste jeweils standardmäßig verfügbar bzw. nicht verfügbar sind.      #
@@ -13,7 +13,7 @@
 "":
 
     # Standardwert, falls kein Indikator angegeben
-    default: u 
+    default: u
 
     # ausleihbar/Fernleihe
     u:
@@ -23,7 +23,7 @@
             is: available
         interloan:
             is: available
-    
+
     # verkürzt ausleihbar / Fernleihe
     b:
         presentation:
@@ -56,7 +56,7 @@
         interloan:
             is: available
             limitation: "nur Kopie"
-    
+
     # ausleihbar / keine Fernleihe
     c:
         presentation:
@@ -215,7 +215,7 @@
             is: unavailable
 
     # Standardwert, falls kein Indikator gesetzt
-    default: u 
+    default: u
 
     # bestellt, Verlust, keine Angabe, unbekanter Indikator
     "":
@@ -229,7 +229,7 @@
             is: unavailable
 
 "opac-de-hil2":
-   
+
     # verkürzt ausleihbar / Fernleihe
     b:
         presentation:
@@ -261,7 +261,7 @@
         interloan:
             is: available
             limitation: "nur Kopie"
-    
+
     # ausleihbar / keine Fernleihe
     c:
         presentation:
@@ -325,7 +325,7 @@
             is: unavailable
 
     # Standardwert, falls kein Indikator gesetzt
-    default: u 
+    default: u
 
     # Unbekannter Indikator
     "":
@@ -340,7 +340,7 @@
 
 # UB Magdeburg
 "opac-de-ma9":
-    
+
     # Präsenzexemplar, nicht ausleihbar
     c:
         presentation:
@@ -362,7 +362,7 @@
 # UB Ilmenau
 "opac-de-ilm1":
     # Standardwert, falls kein Ausleihindikator angegeben
-    default: g 
+    default: g
 
     # mit Zustimmung ausleihbar / Fernleihe nur Kopie / Handapparate und ZS-Einzelbaende
     s:
@@ -372,8 +372,8 @@
             is: unavailable
         interloan:
             is: available
-            limitation: "nur Kopie"#
-            
+            limitation: "nur Kopie"
+
     # Lesesaalausleihe / nur Kopie in die Fernleihe
     f:
         presentation:
@@ -386,7 +386,7 @@
 
 # UB Potsdam
 "opac-de-517":
-    
+
     # Standardwert, falls kein Indikator angegeben
     default: u
 
@@ -499,7 +499,7 @@
 "opac-de-27":
     # Standardwert, falls kein Indikator angegeben
     default: u
-    
+
     a:
         message: "Im Buchhandel bestellt. Noch nicht verfügbar."
         presentation:
@@ -511,7 +511,7 @@
             is: unavailable
         openaccess:
             is: unavailable
-     
+
     g:
         message: " Original nicht benutzbar "
         presentation:
@@ -522,7 +522,7 @@
             is: unavailable
         openaccess:
             is: unavailable
-     
+
     z:
         message: "vermisst"
         presentation:
@@ -552,11 +552,11 @@
             limitation: "vermisst"
         loan:
             is: unavailable
-            limitation: "vermisst"            
+            limitation: "vermisst"
         interloan:
             is: unavailable
         openaccess:
-            is: unavailable    
+            is: unavailable
 
 # FH Schmalkalden
 "opac-de-shm2":
@@ -601,6 +601,19 @@
             is: unavailable
         interloan:
             is: unavailable
+            
+     # Lesesaalausleihe / nur Kopie in die Fernleihe
+    f:
+        message: "f"
+        presentation:
+            is: available
+        loan:
+            is: unavailable
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+            
     # Gesperrt (Giftschrank, Sonderstandorte, Dienstexemplare etc.)
     g:
         message: "g"
@@ -628,10 +641,23 @@
             is: available
         loan:
             is: available
-            limitation: "mit Zustimmung"
         interloan:
             is: available
             limitation: "nur Kopie"
+
+# UB der HSU Hamburg
+"opac-de-705":
+
+    # Handapparat, nicht ausleihbar
+    c:
+        message: "Handapparat, nicht ausleihbar"
+        presentation:
+            is: available
+            limitation: "mit Zustimmung"
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
 
 # KLU (DE-H376)
 "opac-de-h376":
@@ -645,6 +671,16 @@
             is: available
             limitation: "nur Kopie"
 
+    # Kurzausleihe
+    i:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "short loan"
+        interloan:
+            is: unavailable
+
     # Mit Zustimmung ausleihbar / Fernleihe nur Kopie
     f:
         presentation:
@@ -656,19 +692,9 @@
             is: available
             limitation: "nur Kopie"
 
-# OPAC UB-WE (DE-WIM2)
- "opac-de-wim2":
-    default: u 
+# OPAC UB-Weimar (DE-Wim2)
+"opac-de-wim2":
 
-    # ausleihbar/Fernleihe
-    u:
-        presentation:
-            is: available
-        loan:
-            is: available
-        interloan:
-            is: available
-    
     # verkürzt ausleihbar / Fernleihe
     b:
         presentation:
@@ -700,7 +726,7 @@
             limitation: "Dauerleihe Forschungsapparat"
         interloan:
             is: unavailable
-    
+
     # ausleihbar / keine Fernleihe
     c:
         presentation:
@@ -718,15 +744,6 @@
         loan:
             is: unavailable
             limitation: "Nur in der Bibliothek zu nutzen - Ausleihe in den Lesesaal"
-        interloan:
-            is: unavailable
-
-    # für Ausleihe gesperrt / keine Fernleihe
-    g:
-        presentation:
-            is: available
-        loan:
-            is: unavailable
         interloan:
             is: unavailable
 
@@ -751,18 +768,6 @@
         interloan:
             is: unavailable
 
-    # bestellt
-    a:
-        presentation:
-            is: unavailable
-            expected: unknown
-        loan:
-            is: unavailable
-        interloan:
-            is: unavailable
-        openaccess:
-            is: unavailable
-
     # bestellt, Verlust, keine Angabe, unbekanter Indikator
     "":
         presentation:
@@ -773,6 +778,131 @@
         interloan:
             is: unavailable
         openaccess:
+            is: unavailable
+
+
+# Jade HS OL (DE-897)
+"opac-de-897":
+
+    # verkuerzt ausleihbar, Fernleihe nur Kopie, Semesterapparate
+    s:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "verkürzte Leihfrist (8 Tage)"
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+    # Kurzausleihe, keine Fernleihe, Handbuecher, Praesenzexemplare, Examensarbeiten
+    i:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Präsenzbestand - Kurzausleihe möglich"
+        interloan:
+            is: unavailable
+
+    # nicht ausleihbar, keine Fernleihe, Bestellungen
+    a:
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+    # nicht ausleihbar, keine Fernleihe, Verlust
+    z:
+        presentation:
+            is: unavailable
+        loan:
+            is: unavailable
+        interloan:
+            is: unavailable
+
+# Erfurt UB (DE-547)
+"opac-de-547":
+
+     # Lehrbuchsammlung
+     c:
+         presentation:
+             is: available
+         loan:
+             is: available
+             limitation: "Ausleihbar nur für Angehörige der Universität Erfurt"
+         interloan:
+             is: unavailable
+
+     d:
+         presentation:
+             is: available
+         loan:
+             is: available
+             limitation: "Nur für den Lesesaal"
+         interloan:
+             is: available
+             limitation: "Fernleihbeschränkungen möglich"
+
+     f:
+         presentation:
+             is: available
+         loan:
+             is: available
+             limitation: "Nur für den Sonderlesesaal"
+         interloan:
+             is: available
+             limitation: "nur Kopie"
+
+     s:
+         presentation:
+             is: available
+         loan:
+             is: available
+             limitation: "Nur für den Lesesaal"
+         interloan:
+             is: available
+             limitation: "nur Kopie"
+
+# Rostock UB (DE-28)
+"opac-de-28":
+
+    # Default	: mit Zustimmung ausleihbar / Fernleihe
+    # UBR		: Benutzung in den Bibliotheksräumen
+    d:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Benutzung in den Bibliotheksräumen"
+        interloan:
+            is: available
+            limitation: "Fernleihbeschränkungen möglich"
+
+
+    # Default	: mit Zustimmung ausleihbar / Fernleihe nur Kopie
+    # UBR		: Benutzung nur in den Bibliotheksräumen
+    s:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Benutzung nur in den Bibliotheksräumen"
+        interloan:
+            is: available
+            limitation: "nur Kopie"
+
+    # Default	: Lesesaalausleihe / keine Fernleihe
+    # UBR		: loan.available / Benutzung nur in den Bibliotheksräumen
+    i:
+        presentation:
+            is: available
+        loan:
+            is: available
+            limitation: "Benutzung nur in den Bibliotheksräumen"
+        interloan:
             is: unavailable
 
 # Jade Hochschule Wilhelmshaven

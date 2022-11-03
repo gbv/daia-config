@@ -1,8 +1,89 @@
 sst,department,storage
-FH,@,Freihandbereich
-FGSE-FH,@,Freihandbereich 1. Obergeschoss
-ZS-FH/1.OG,@,Zeitschrift im Freihandbereich 1. Obergeschoss
-FGSE-Magazin,@,Magazin
+Ausleihe,@,Ausleihtheke
+Ausleihtheke,@,Ausleihtheke
+BfG,@,BfG
+CD-ROM-Server,@,CD-ROM-Server
+DaF,@,DaF
+Deutsch/Methodik,@,Deutsch/Methodik
+Deutsch-Methodik,@,Deutsch/Methodik
+DM(.*),@,Persönliche Dauerleihe (DM$1)
+FGSE,@,Freihand
+FGSE-FH,@,Freihand
+FGSE-INF,@,Freihand-Präsenz
+FGSE-Inf\.,@,Freihand-Präsenz
+FGSE-Information,@,Freihand-Präsenz
+FGSE-LS,@,Freihand-Präsenz
+FGSE-Magazin,@,FGSE-Magazin
+FGSE-Präsenz,@,Freihand-Präsenz
+FGSE-Präsenzbestand,@,Freihand-Präsenz
+FGSE-Z-Magazin,@,Magazin
+FGSE-(.*),@,FGSE $1
+FH,@,Freihand
+FH-Präsenz,@,Freihand-Präsenz
+FIN-Dekanat,@,FIN-Dekanat
+FMB-Dekanat,@,FMB-Dekanat
+FNW-Dekanat,@,FNW-Dekanat
+FWW,@,FWW
+FWW(.*),@,FWW$1
+GK(.*),@,Persönliche Dauerleihe (GK$1)
+GPR,@,GPR
+HB Germ\./Did\.,@,HB Germ./Did.
+IAUT,@,IAUT
+ICH,@,ICH
+IEW,@,IEW
+IFAT,@,IFAT
+IGER,@,IGER
+IGER-1,@,IGER-1
+IGER-2,@,IGER-2
+IGER-3,@,IGER-3
+IIKT,@,IIKT
+ILM,@,ILM
+IMS,@,IMS
+IMS-IMAT,@,IMS-IMAT
+IMUS-1,@,IMUS-1
+IMUS-2,@,IMUS-2
+Information/1\.OG,@,Freihand-Präsenz
+Information/2\.OG,@,Information 2.OG
+Information/3\.OG,@,Information 3.OG
+Information/EG,@,Information EG
+Information/PIZ,@,Information PIZ
+Inst\. f\. Weiterbildung,@,Inst. f. Weiterbildung
+IPSY-TEST,@,IPSY-TEST
+ISOZ,@,ISOZ
+IWF,@,IWF
+JP(.*),@,Persönliche Dauerleihe (JP$1)
+K,@,K
+K (.*),@,K $1
+K-R,@,K-R
+LS,@,Freihand-Präsenz
 Magazin,@,Magazin
-eBook Springer,@,online
-.*,@,
+Magazin 2,@,Außenmagazin
+Magazin 2/(.*),@,Außenmagazin $1
+Magazin A3,@,Magazin
+Magazin-A1,@,Magazin
+MKM,@,MKM
+Netz,@,Netz
+PIZ,@,Information PIZ
+PR-Schwerbeh\.-vertr\.,@,PR-Schwerbeh.-vertr.
+PRUNI,@,PR Uni
+PSB,@,PSB
+R,@,R
+R-(.*),@,R-$1
+RZ(.*),@,Persönliche Dauerleihe (RZ$1)
+SB-FH,@,Sammlung Bonar EG
+SBV,@,SBV
+SF-FH,@,Sammlung Freudenthal 2.OG PIZ
+SH-FH,@,Sammlung Heckmann 2.OG PIZ
+SPOZ,@,SPOZ
+SPRZ,@,SPRZ
+SPRZ-Mediothek,@,SPRZ-Mediothek
+TTZ,@,TTZ
+URZ,@,URZ
+URZ-Moodle-Server,@,URZ-Moodle-Server
+ZS-FH/1\.OG,@,Zeitschriften 1.OG
+ZS-FH/2\.OG,@,Zeitschriften 2.OG
+ZS-FH/2\.OG/PIZ,@,Zeitschriften 2.OG PIZ
+ZS-FH/3\.OG,@,Zeitschriften 3.OG
+ZS-FH/3\.OG/PIZ/DIN-Ebene,@,Zeitschriften 3.OG PIZ
+ZS-FH/EG,@,Zeitschriften EG
+ZS-FH/PIZ,@,Zeitschriften 2.OG PIZ
