@@ -1,5 +1,9 @@
-sst,department,storage
+sst, department, storage
+ha100,@,Labor für Arbeitssicherheit/Arbeitsmedizin
 ha101,@,HA IAPG
+ha102,@,HA Robbers / Lesesaal/Regal 10
+ha103,@,HA Pollok / Lesesaal/Regal 10
+ha104,@,HA Grunwald ‚Konstruieren‘ / Lesesaal/Regal 10
 ha137,@,HA Büro Litwitz / Bibliothek
 ha151,@,HA Büro Fr. Voßmann / Bauwesen
 ha162,@,HA Büro Frau Petrarca / TGM
@@ -8,7 +12,7 @@ ha185,@,HA Büro Thiessen / Architektur
 ha193,@,HA Prüfungsamt
 ha214,@,HA Dekanat Geoinformation
 ha219,@,HA Photogrammetrie
-ha228,@,HA Institu für Hörtechnik und Audiologie
+ha228,@,HA Institut für Hörtechnik und Audiologie
 ha234,@,HA Büro Weßels / Bauwesen
 ha247,@,HA Büro Diemand / Bauwesen
 ha296,@,HA Büro W. Janßen / Bauwesen
@@ -17,7 +21,7 @@ ha328,@,HA Büro Brinkhoff / Geoinformation
 ha344,@,HA Büro Gerdes / Bibliothek
 ha373,@,HA Büro Lorkowski / Geoinformation
 ha383,@,HA Baustoffprüflabor
-ha392,@,HA Labor für Schweiß- und Prüftechnik
+ha392,@,HA Labor für Schweiß- und Prüftechniker
 ha411,@,HA ZfW
 ha414,@,HA Büro Wert / Architektur
 ha496,@,HA Gleichstellungsbüro
@@ -40,12 +44,18 @@ ha786,@,HA Büro Westwood / Presse & Kommunikation
 ha789,@,HA Labor für Straßenbau
 ha854,@,HA Büro Palme / Bauwesen
 ha888,@,HA Büro Franz / TGM
-ha912,@, HA Technologie & Transfer
+ha912,@,HA Technologie & Transfer
 ha939,@,HA Labor für Bauphysik
 ha943,@,HA Büro Weitkämper / Geoinformation
 ha979,@,HA Büro Seybold / TGM
 ha986,@,HA Büro Golombiewski / Bauwesen
 mag,@,Magazin
+sa271,@,SA Frau Dr. Becker / Lesesaal/Regal 10
+sa473,@,SA Herr Dr. Schramm / Lesesaal/Regal 10
 sa642,@,SA Plog / Bibliothek Regal 10
 sa807,@,SA Energiewende / Bibliothek Regal 10
 sa828,@,SA Koppelin / Bibliothek Regal 10
+sa829,@,SA Herr Pollock / Bibliothek Regal 10
+sa830,@,SA Herr Schmitt / Bibliothek Regal 10
+sa831,@,SA Herr Robbers / Bibliothek Regal 10
+sa832,@,SA Bargholz/Oevermann: Entwurf u. Detail / Bibliothek Regal 10

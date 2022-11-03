@@ -1,7 +1,10 @@
 sst,department,storage
 ausleihtheke,@,Ausleihtheke
 "bibliothek, abteilung ausbildung",@,"Bibliothek, Abteilung Ausbildung"
+"bibliothek, abteilung Benutzungsleitung",@,"Bibliothek, Abteilung Benutzungsleitung"
+"bibliothek, abteilung bibliotheksit",@,"Bibliothek, Abteilung BibliotheksIT"
 "bibliothek, abteilung erwerbung",@,"Bibliothek, Abteilung Erwerbung"
+"bibliothek, abteilung fernleihe",@,"Bibliothek, Abteilung Fernleihe"
 "bibliothek, abteilung katalogisierung",@,"Bibliothek, Abteilung Katalogisierung"
 "bibliothek, abteilung leitung",@,"Bibliothek, Abteilung Leitung"
 "bibliothek, abteilung lizenzadministration",@,"Bibliothek, Abteilung Lizenzadministration"
@@ -10,7 +13,6 @@ erste-hilfe-kasten,@,Erste-Hilfe-Kasten
 fachbereich ingenieurwissenschaften,@,Fachbereich Ingenieurwissenschaften
 handapparat,@,Handapparat
 im netz der hochschule,@,Im Netz der Hochschule
-labor für cad cam,@,Labor für CAD/CAM
 labor für chemie,@,Labor für Chemie
 labor für den entwurf integrierter schaltungen,@,Labor für den Entwurf integrierter Schaltungen
 labor für feinwerkkonstruktion,@,Labor für Feinwerkkonstruktion
