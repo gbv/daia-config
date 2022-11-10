@@ -4,7 +4,6 @@ ha101,@,HA IAPG
 ha102,@,HA Robbers / Lesesaal/Regal 10
 ha103,@,HA Pollok / Lesesaal/Regal 10
 ha104,@,HA Grunwald ‚Konstruieren‘ / Lesesaal/Regal 10
-ha137,@,HA Büro Litwitz / Bibliothek
 ha151,@,HA Büro Fr. Voßmann / Bauwesen
 ha162,@,HA Büro Frau Petrarca / TGM
 ha164,@,HA Information / Bibliothek
@@ -18,10 +17,9 @@ ha247,@,HA Büro Diemand / Bauwesen
 ha296,@,HA Büro W. Janßen / Bauwesen
 ha297,@,HA Metallbauwerkstatt
 ha328,@,HA Büro Brinkhoff / Geoinformation
-ha344,@,HA Büro Gerdes / Bibliothek
-ha373,@,HA Büro Lorkowski / Geoinformation
 ha383,@,HA Baustoffprüflabor
-ha392,@,HA Labor für Schweiß- und Prüftechniker
+ha392,@,HA Labor für Schweiß- und Prüftechnik
+ha400,@,HA Poststelle
 ha411,@,HA ZfW
 ha414,@,HA Büro Wert / Architektur
 ha496,@,HA Gleichstellungsbüro
@@ -36,7 +34,6 @@ ha635,@,HA Labor für Bodenmechanik
 ha637,@,HA FM/IW
 ha645,@,HA Büro Lorenz / Bauwesen
 ha733,@,HA Büro für Bauchemie
-ha764,@,HA Bibliotheksleitung
 ha766,@,HA Physiklabor
 ha779,@,HA Büro Plotz / TGM
 ha783,@,HA Büro Pätzold / Bauwesen
@@ -59,3 +56,5 @@ sa829,@,SA Herr Pollock / Bibliothek Regal 10
 sa830,@,SA Herr Schmitt / Bibliothek Regal 10
 sa831,@,SA Herr Robbers / Bibliothek Regal 10
 sa832,@,SA Bargholz/Oevermann: Entwurf u. Detail / Bibliothek Regal 10
+sa833,@,SA Prof. Dr. Schubert / Bibliothek Regal 10
+sa834,@,SA Prof. Kaiser: Konstruieren 1. Semester / Bibliothek Regal 10
