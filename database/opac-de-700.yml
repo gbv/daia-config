@@ -1,0 +1,6 @@
+# DAIA-Konfiguration für die universitätsbibliothek Osnabrück (ISIL DE-700)
+
+extension:
+
+    # Exemplarbezogenes (Katalogisierungs)datum in 208@$a (Pica3 70XX) immer als Limitation ausliefern
+    limitation_from: 208@/..$a
