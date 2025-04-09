@@ -1,11 +1,12 @@
 sst, department, storage
-ha100,@,Labor für Arbeitssicherheit/Arbeitsmedizin
+ha100,@,HA Labor für Arbeitssicherheit/Arbeitsmedizin
 ha101,@,HA IAPG
 ha102,@,HA Robbers / Lesesaal/Regal 10
 ha103,@,HA Pollok / Lesesaal/Regal 10
-ha104,@,HA Grunwald ‚Konstruieren‘ / Lesesaal/Regal 10
-ha151,@,HA Büro Fr. Voßmann / Bauwesen
-ha162,@,HA Büro Frau Petrarca / TGM
+ha104,@,HA Grunwald Konstruieren / Lesesaal/Regal 10
+ha137,@,HA Büro Titelaufnahme
+ha151,@,HA Büro Voßmann / Bauwesen
+ha162,@,HA Büro Petrarca / TGM
 ha164,@,HA Information / Bibliothek
 ha185,@,HA Büro Thiessen / Architektur
 ha193,@,HA Prüfungsamt
@@ -46,15 +47,19 @@ ha939,@,HA Labor für Bauphysik
 ha943,@,HA Büro Weitkämper / Geoinformation
 ha979,@,HA Büro Seybold / TGM
 ha986,@,HA Büro Golombiewski / Bauwesen
+ha987,@,HA Pflegewissenschaft Fleckinger
 mag,@,Magazin
-sa271,@,SA Frau Dr. Becker / Lesesaal/Regal 10
-sa473,@,SA Herr Dr. Schramm / Lesesaal/Regal 10
+sa271,@,SA Dr. Becker / Lesesaal/Regal 10
+sa473,@,SA Dr. Schramm / Lesesaal/Regal 10
 sa642,@,SA Plog / Bibliothek Regal 10
 sa807,@,SA Energiewende / Bibliothek Regal 10
 sa828,@,SA Koppelin / Bibliothek Regal 10
-sa829,@,SA Herr Pollock / Bibliothek Regal 10
-sa830,@,SA Herr Schmitt / Bibliothek Regal 10
-sa831,@,SA Herr Robbers / Bibliothek Regal 10
-sa832,@,SA Bargholz/Oevermann: Entwurf u. Detail / Bibliothek Regal 10
+sa830,@,SA Schmitt / Bibliothek Regal 10
+sa831,@,SA Robbers / Bibliothek Regal 10
+sa832,@,SA Bargholz/Oevermann: Entwurf und Detail / Bibliothek Regal 10
 sa833,@,SA Prof. Dr. Schubert / Bibliothek Regal 10
 sa834,@,SA Prof. Kaiser: Konstruieren 1. Semester / Bibliothek Regal 10
+sa835,@,SA Pollock
+sa836,@,SA Dr. Müller
+sa837,@,SA Dr. Wolff / Lesessal Regal 10
+sa838,@,SA Sobota
